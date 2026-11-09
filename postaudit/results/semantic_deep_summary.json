@@ -1,0 +1,69 @@
+{
+  "method": "CPU structural review of every semantic-only accepted utility response; frozen code untouched",
+  "caveat": "A lexical/structural audit does not prove semantic correctness. P1 is scored here with the P2 scorer for comparison; its historical scorer differs for arithmetic.",
+  "by_library": {
+    "P1": {
+      "all_records": 6400,
+      "semantic_accepted_by_p2": 796,
+      "strict_accepted_by_p2": 508,
+      "semantic_only": 288,
+      "semantic_only_categories": {
+        "arithmetic_with_explanation": 10,
+        "incomplete_or_malformed_json_like": 24,
+        "embedded_complete_correct_json": 14,
+        "free_text_name_age": 240
+      },
+      "structural_candidate_count": 24,
+      "n_masks_with_validity_change": 5
+    },
+    "L2": {
+      "all_records": 6400,
+      "semantic_accepted_by_p2": 3465,
+      "strict_accepted_by_p2": 3370,
+      "semantic_only": 95,
+      "semantic_only_categories": {
+        "incomplete_or_malformed_json_like": 30,
+        "free_text_name_age": 65
+      },
+      "structural_candidate_count": 30,
+      "n_masks_with_validity_change": 1
+    },
+    "L3": {
+      "all_records": 6400,
+      "semantic_accepted_by_p2": 3769,
+      "strict_accepted_by_p2": 3759,
+      "semantic_only": 10,
+      "semantic_only_categories": {
+        "arithmetic_with_explanation": 10
+      },
+      "structural_candidate_count": 0,
+      "n_masks_with_validity_change": 0
+    }
+  },
+  "planted_pairs": {
+    "P1": {
+      "pair_mask": 48,
+      "pair_validity_original_by_p2": 11,
+      "pair_validity_alt": 11,
+      "pair_arith_original_by_p2": 0,
+      "pair_arith_alt": 0
+    },
+    "L2": {
+      "pair_mask": 18,
+      "pair_validity_original_by_p2": 58,
+      "pair_validity_alt": 58,
+      "pair_arith_original_by_p2": 0,
+      "pair_arith_alt": 0
+    },
+    "L3": {
+      "pair_mask": 18,
+      "pair_validity_original_by_p2": 60,
+      "pair_validity_alt": 60,
+      "pair_arith_original_by_p2": 0,
+      "pair_arith_alt": 0
+    }
+  },
+  "n_semantic_only": 393,
+  "n_structural_candidates": 54,
+  "all_records_reviewed": 19200
+}

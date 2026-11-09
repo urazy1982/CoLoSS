@@ -1,0 +1,1139 @@
+{
+  "protocol": "Retrospective post-audit only; frozen analyses preserved",
+  "alpha": 0.05,
+  "family": "Each library separately: all composition vs base/member contrasts, 57 multi-adapter compositions",
+  "contrasts_per_library": 243,
+  "critical_values": {
+    "individual": 1.9599639845400536,
+    "57": 3.327212992073812,
+    "243": 3.7118359735850897,
+    "729_across_all_libraries": 3.9811345625686005
+  },
+  "hoeffding_radius_243": 0.42853099998610333,
+  "primary_caveat": "Paired Newcombe intervals are approximate; Bonferroni correction does not make marginal coverage exact.",
+  "libraries": {
+    "P1": {
+      "planted_mask": 48,
+      "counts": {
+        "original": {
+          "REFERENCE": 7,
+          "INCONCLUSIVE": 42,
+          "NEGATIVE": 3,
+          "POSITIVE": 12
+        },
+        "family57": {
+          "REFERENCE": 7,
+          "INCONCLUSIVE": 44,
+          "NEGATIVE": 3,
+          "POSITIVE": 10
+        },
+        "family243": {
+          "REFERENCE": 7,
+          "INCONCLUSIVE": 44,
+          "NEGATIVE": 3,
+          "POSITIVE": 10
+        },
+        "strong_margin243": {
+          "REFERENCE": 7,
+          "INCONCLUSIVE": 46,
+          "NEGATIVE": 3,
+          "POSITIVE": 8
+        },
+        "hoeffding_243": {
+          "REFERENCE": 7,
+          "INCONCLUSIVE": 49,
+          "NEGATIVE": 3,
+          "POSITIVE": 5
+        },
+        "hoeffding_strong_margin": {
+          "REFERENCE": 7,
+          "INCONCLUSIVE": 54,
+          "NEGATIVE": 3
+        },
+        "family729": {
+          "REFERENCE": 7,
+          "INCONCLUSIVE": 45,
+          "NEGATIVE": 3,
+          "POSITIVE": 9
+        }
+      },
+      "planted_pair_labels": {
+        "original": "POSITIVE",
+        "family57": "POSITIVE",
+        "family243": "POSITIVE",
+        "strong_margin243": "POSITIVE",
+        "hoeffding_243": "POSITIVE",
+        "hoeffding_strong_margin": "INCONCLUSIVE",
+        "family729": "POSITIVE"
+      },
+      "positive_masks": {
+        "original": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61
+        ],
+        "family57": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          56,
+          57,
+          58,
+          60
+        ],
+        "family243": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          56,
+          57,
+          58,
+          60
+        ],
+        "strong_margin243": [
+          48,
+          49,
+          50,
+          52,
+          56,
+          57,
+          58,
+          60
+        ],
+        "hoeffding_243": [
+          48,
+          49,
+          56,
+          57,
+          60
+        ],
+        "hoeffding_strong_margin": [],
+        "family729": [
+          48,
+          49,
+          50,
+          52,
+          53,
+          56,
+          57,
+          58,
+          60
+        ]
+      },
+      "negative_masks": {
+        "original": [
+          20,
+          36,
+          44
+        ],
+        "family57": [
+          20,
+          36,
+          44
+        ],
+        "family243": [
+          20,
+          36,
+          44
+        ],
+        "strong_margin243": [
+          20,
+          36,
+          44
+        ],
+        "hoeffding_243": [
+          20,
+          36,
+          44
+        ],
+        "hoeffding_strong_margin": [
+          20,
+          36,
+          44
+        ],
+        "family729": [
+          20,
+          36,
+          44
+        ]
+      },
+      "changes_vs_original": {
+        "original": [],
+        "family57": [
+          59,
+          61
+        ],
+        "family243": [
+          59,
+          61
+        ],
+        "strong_margin243": [
+          51,
+          53,
+          59,
+          61
+        ],
+        "hoeffding_243": [
+          50,
+          51,
+          52,
+          53,
+          58,
+          59,
+          61
+        ],
+        "hoeffding_strong_margin": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61
+        ],
+        "family729": [
+          51,
+          59,
+          61
+        ]
+      },
+      "positive_supersets": {
+        "original": 11,
+        "family57": 9,
+        "family243": 9,
+        "strong_margin243": 7,
+        "hoeffding_243": 4,
+        "hoeffding_strong_margin": 0,
+        "family729": 8
+      },
+      "without_pair_positives": {
+        "original": 0,
+        "family57": 0,
+        "family243": 0,
+        "strong_margin243": 0,
+        "hoeffding_243": 0,
+        "hoeffding_strong_margin": 0,
+        "family729": 0
+      },
+      "utility_frozen": null,
+      "utility_formal_ni_frozen": null
+    },
+    "L2": {
+      "planted_mask": 18,
+      "counts": {
+        "original": {
+          "REFERENCE": 7,
+          "NEGATIVE": 24,
+          "INCONCLUSIVE": 17,
+          "POSITIVE": 16
+        },
+        "family57": {
+          "REFERENCE": 7,
+          "NEGATIVE": 23,
+          "INCONCLUSIVE": 18,
+          "POSITIVE": 16
+        },
+        "family243": {
+          "REFERENCE": 7,
+          "NEGATIVE": 23,
+          "INCONCLUSIVE": 18,
+          "POSITIVE": 16
+        },
+        "strong_margin243": {
+          "REFERENCE": 7,
+          "NEGATIVE": 23,
+          "INCONCLUSIVE": 18,
+          "POSITIVE": 16
+        },
+        "hoeffding_243": {
+          "REFERENCE": 7,
+          "NEGATIVE": 21,
+          "INCONCLUSIVE": 28,
+          "POSITIVE": 8
+        },
+        "hoeffding_strong_margin": {
+          "REFERENCE": 7,
+          "NEGATIVE": 21,
+          "INCONCLUSIVE": 28,
+          "POSITIVE": 8
+        },
+        "family729": {
+          "REFERENCE": 7,
+          "NEGATIVE": 23,
+          "INCONCLUSIVE": 18,
+          "POSITIVE": 16
+        }
+      },
+      "planted_pair_labels": {
+        "original": "POSITIVE",
+        "family57": "POSITIVE",
+        "family243": "POSITIVE",
+        "strong_margin243": "POSITIVE",
+        "hoeffding_243": "POSITIVE",
+        "hoeffding_strong_margin": "POSITIVE",
+        "family729": "POSITIVE"
+      },
+      "positive_masks": {
+        "original": [
+          18,
+          19,
+          22,
+          23,
+          26,
+          27,
+          30,
+          31,
+          50,
+          51,
+          54,
+          55,
+          58,
+          59,
+          62,
+          63
+        ],
+        "family57": [
+          18,
+          19,
+          22,
+          23,
+          26,
+          27,
+          30,
+          31,
+          50,
+          51,
+          54,
+          55,
+          58,
+          59,
+          62,
+          63
+        ],
+        "family243": [
+          18,
+          19,
+          22,
+          23,
+          26,
+          27,
+          30,
+          31,
+          50,
+          51,
+          54,
+          55,
+          58,
+          59,
+          62,
+          63
+        ],
+        "strong_margin243": [
+          18,
+          19,
+          22,
+          23,
+          26,
+          27,
+          30,
+          31,
+          50,
+          51,
+          54,
+          55,
+          58,
+          59,
+          62,
+          63
+        ],
+        "hoeffding_243": [
+          18,
+          19,
+          26,
+          27,
+          50,
+          51,
+          58,
+          59
+        ],
+        "hoeffding_strong_margin": [
+          18,
+          19,
+          26,
+          27,
+          50,
+          51,
+          58,
+          59
+        ],
+        "family729": [
+          18,
+          19,
+          22,
+          23,
+          26,
+          27,
+          30,
+          31,
+          50,
+          51,
+          54,
+          55,
+          58,
+          59,
+          62,
+          63
+        ]
+      },
+      "negative_masks": {
+        "original": [
+          3,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          14,
+          15,
+          17,
+          25,
+          29,
+          34,
+          35,
+          38,
+          39,
+          40,
+          42,
+          43,
+          46,
+          47,
+          53,
+          61
+        ],
+        "family57": [
+          3,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          14,
+          15,
+          17,
+          25,
+          29,
+          34,
+          35,
+          38,
+          39,
+          40,
+          42,
+          43,
+          46,
+          47,
+          53,
+          61
+        ],
+        "family243": [
+          3,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          14,
+          15,
+          17,
+          25,
+          29,
+          34,
+          35,
+          38,
+          39,
+          40,
+          42,
+          43,
+          46,
+          47,
+          53,
+          61
+        ],
+        "strong_margin243": [
+          3,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          14,
+          15,
+          17,
+          25,
+          29,
+          34,
+          35,
+          38,
+          39,
+          40,
+          42,
+          43,
+          46,
+          47,
+          53,
+          61
+        ],
+        "hoeffding_243": [
+          3,
+          6,
+          7,
+          9,
+          10,
+          11,
+          14,
+          15,
+          17,
+          25,
+          29,
+          34,
+          35,
+          38,
+          39,
+          42,
+          43,
+          46,
+          47,
+          53,
+          61
+        ],
+        "hoeffding_strong_margin": [
+          3,
+          6,
+          7,
+          9,
+          10,
+          11,
+          14,
+          15,
+          17,
+          25,
+          29,
+          34,
+          35,
+          38,
+          39,
+          42,
+          43,
+          46,
+          47,
+          53,
+          61
+        ],
+        "family729": [
+          3,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          14,
+          15,
+          17,
+          25,
+          29,
+          34,
+          35,
+          38,
+          39,
+          40,
+          42,
+          43,
+          46,
+          47,
+          53,
+          61
+        ]
+      },
+      "changes_vs_original": {
+        "original": [],
+        "family57": [
+          5
+        ],
+        "family243": [
+          5
+        ],
+        "strong_margin243": [
+          5
+        ],
+        "hoeffding_243": [
+          5,
+          12,
+          22,
+          23,
+          30,
+          31,
+          40,
+          54,
+          55,
+          62,
+          63
+        ],
+        "hoeffding_strong_margin": [
+          5,
+          12,
+          22,
+          23,
+          30,
+          31,
+          40,
+          54,
+          55,
+          62,
+          63
+        ],
+        "family729": [
+          5
+        ]
+      },
+      "positive_supersets": {
+        "original": 15,
+        "family57": 15,
+        "family243": 15,
+        "strong_margin243": 15,
+        "hoeffding_243": 7,
+        "hoeffding_strong_margin": 7,
+        "family729": 15
+      },
+      "without_pair_positives": {
+        "original": 0,
+        "family57": 0,
+        "family243": 0,
+        "strong_margin243": 0,
+        "hoeffding_243": 0,
+        "hoeffding_strong_margin": 0,
+        "family729": 0
+      },
+      "utility_frozen": {
+        "H1_detection": true,
+        "H1_detection_bonferroni": true,
+        "H2_utility": true,
+        "H3_specificity": true,
+        "H3_specificity_bonferroni": true,
+        "H4_closure_positive_supersets": "15/15",
+        "primary_H1_and_H2": true,
+        "H2_noninferiority": true
+      },
+      "utility_formal_ni_frozen": {
+        "validity_sem": {
+          "diff": 0.0667,
+          "lo": -0.0325,
+          "hi": 0.1724,
+          "noninferior": true
+        },
+        "validity_strict": {
+          "diff": 0.0667,
+          "lo": -0.0325,
+          "hi": 0.1724,
+          "noninferior": true
+        },
+        "arith_sem": {
+          "diff": 0.0,
+          "lo": -0.0876,
+          "hi": 0.0876,
+          "noninferior": true
+        },
+        "arith_strict": {
+          "diff": 0.0,
+          "lo": -0.0876,
+          "hi": 0.0876,
+          "noninferior": true
+        },
+        "all_noninferior": true
+      }
+    },
+    "L3": {
+      "planted_mask": 18,
+      "counts": {
+        "original": {
+          "REFERENCE": 7,
+          "INCONCLUSIVE": 14,
+          "NEGATIVE": 27,
+          "POSITIVE": 16
+        },
+        "family57": {
+          "REFERENCE": 7,
+          "INCONCLUSIVE": 16,
+          "NEGATIVE": 27,
+          "POSITIVE": 14
+        },
+        "family243": {
+          "REFERENCE": 7,
+          "INCONCLUSIVE": 16,
+          "NEGATIVE": 27,
+          "POSITIVE": 14
+        },
+        "strong_margin243": {
+          "REFERENCE": 7,
+          "INCONCLUSIVE": 21,
+          "NEGATIVE": 27,
+          "POSITIVE": 9
+        },
+        "hoeffding_243": {
+          "REFERENCE": 7,
+          "INCONCLUSIVE": 31,
+          "NEGATIVE": 18,
+          "POSITIVE": 8
+        },
+        "hoeffding_strong_margin": {
+          "REFERENCE": 7,
+          "INCONCLUSIVE": 38,
+          "NEGATIVE": 18,
+          "POSITIVE": 1
+        },
+        "family729": {
+          "REFERENCE": 7,
+          "INCONCLUSIVE": 16,
+          "NEGATIVE": 27,
+          "POSITIVE": 14
+        }
+      },
+      "planted_pair_labels": {
+        "original": "POSITIVE",
+        "family57": "POSITIVE",
+        "family243": "POSITIVE",
+        "strong_margin243": "POSITIVE",
+        "hoeffding_243": "POSITIVE",
+        "hoeffding_strong_margin": "INCONCLUSIVE",
+        "family729": "POSITIVE"
+      },
+      "positive_masks": {
+        "original": [
+          18,
+          19,
+          22,
+          23,
+          26,
+          27,
+          30,
+          31,
+          50,
+          51,
+          54,
+          55,
+          58,
+          59,
+          62,
+          63
+        ],
+        "family57": [
+          18,
+          19,
+          22,
+          23,
+          26,
+          27,
+          50,
+          51,
+          54,
+          55,
+          58,
+          59,
+          62,
+          63
+        ],
+        "family243": [
+          18,
+          19,
+          22,
+          23,
+          26,
+          27,
+          50,
+          51,
+          54,
+          55,
+          58,
+          59,
+          62,
+          63
+        ],
+        "strong_margin243": [
+          18,
+          19,
+          26,
+          27,
+          50,
+          51,
+          55,
+          58,
+          59
+        ],
+        "hoeffding_243": [
+          18,
+          19,
+          26,
+          27,
+          50,
+          51,
+          58,
+          59
+        ],
+        "hoeffding_strong_margin": [
+          51
+        ],
+        "family729": [
+          18,
+          19,
+          22,
+          23,
+          26,
+          27,
+          50,
+          51,
+          54,
+          55,
+          58,
+          59,
+          62,
+          63
+        ]
+      },
+      "negative_masks": {
+        "original": [
+          5,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          56,
+          57,
+          60,
+          61
+        ],
+        "family57": [
+          5,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          56,
+          57,
+          60,
+          61
+        ],
+        "family243": [
+          5,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          56,
+          57,
+          60,
+          61
+        ],
+        "strong_margin243": [
+          5,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          56,
+          57,
+          60,
+          61
+        ],
+        "hoeffding_243": [
+          10,
+          11,
+          13,
+          14,
+          15,
+          34,
+          35,
+          38,
+          39,
+          42,
+          43,
+          45,
+          46,
+          47,
+          56,
+          57,
+          60,
+          61
+        ],
+        "hoeffding_strong_margin": [
+          10,
+          11,
+          13,
+          14,
+          15,
+          34,
+          35,
+          38,
+          39,
+          42,
+          43,
+          45,
+          46,
+          47,
+          56,
+          57,
+          60,
+          61
+        ],
+        "family729": [
+          5,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          56,
+          57,
+          60,
+          61
+        ]
+      },
+      "changes_vs_original": {
+        "original": [],
+        "family57": [
+          30,
+          31
+        ],
+        "family243": [
+          30,
+          31
+        ],
+        "strong_margin243": [
+          22,
+          23,
+          30,
+          31,
+          54,
+          62,
+          63
+        ],
+        "hoeffding_243": [
+          5,
+          9,
+          12,
+          22,
+          23,
+          30,
+          31,
+          33,
+          36,
+          37,
+          40,
+          41,
+          44,
+          54,
+          55,
+          62,
+          63
+        ],
+        "hoeffding_strong_margin": [
+          5,
+          9,
+          12,
+          18,
+          19,
+          22,
+          23,
+          26,
+          27,
+          30,
+          31,
+          33,
+          36,
+          37,
+          40,
+          41,
+          44,
+          50,
+          54,
+          55,
+          58,
+          59,
+          62,
+          63
+        ],
+        "family729": [
+          30,
+          31
+        ]
+      },
+      "positive_supersets": {
+        "original": 15,
+        "family57": 13,
+        "family243": 13,
+        "strong_margin243": 8,
+        "hoeffding_243": 7,
+        "hoeffding_strong_margin": 1,
+        "family729": 13
+      },
+      "without_pair_positives": {
+        "original": 0,
+        "family57": 0,
+        "family243": 0,
+        "strong_margin243": 0,
+        "hoeffding_243": 0,
+        "hoeffding_strong_margin": 0,
+        "family729": 0
+      },
+      "utility_frozen": {
+        "H1_detection": true,
+        "H1_detection_bonferroni": true,
+        "H2_utility": false,
+        "H3_specificity": true,
+        "H3_specificity_bonferroni": true,
+        "H4_closure_positive_supersets": "15/15",
+        "primary_H1_and_H2": false,
+        "H2_noninferiority": false
+      },
+      "utility_formal_ni_frozen": {
+        "validity_sem": {
+          "diff": 0.2,
+          "lo": 0.0985,
+          "hi": 0.3178,
+          "noninferior": true
+        },
+        "validity_strict": {
+          "diff": 0.2,
+          "lo": 0.0985,
+          "hi": 0.3178,
+          "noninferior": true
+        },
+        "arith_sem": {
+          "diff": -0.125,
+          "lo": -0.2611,
+          "hi": -0.0126,
+          "noninferior": false
+        },
+        "arith_strict": {
+          "diff": 0.0,
+          "lo": -0.0876,
+          "hi": 0.0876,
+          "noninferior": true
+        },
+        "all_noninferior": false
+      }
+    }
+  }
+}

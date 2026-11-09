@@ -1,0 +1,632 @@
+[
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Describe glaciers in a single sentence.",
+  "prompt_id": "G3T-G000",
+  "sha256": "5d59db82b0391b0b1c032634802c4b91c4ac523a7f37aecc7ea972e45687d20a"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Describe bread fermentation in a single sentence.",
+  "prompt_id": "G3T-G001",
+  "sha256": "bdd7c54fe5e8f062f90fddfcfc3a18714f3152531c12158421a4dcd0582c91bc"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Describe lighthouses in a single sentence.",
+  "prompt_id": "G3T-G002",
+  "sha256": "537025b361e561df50037cd2482942d1c504f540fb850a90982868fec9cc875c"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Describe bee pollination in a single sentence.",
+  "prompt_id": "G3T-G003",
+  "sha256": "017ea478e1a8b706768401c5cbd0cbb2f79134243fe2b66cce0c94892457cb3f"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Describe wind turbines in a single sentence.",
+  "prompt_id": "G3T-G004",
+  "sha256": "1108e2788f80372a9fc1e53547fb2044b70229fed19f30186aabba79684f4d38"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Describe coffee roasting in a single sentence.",
+  "prompt_id": "G3T-G005",
+  "sha256": "9ee1dfe83a9321f75e322f92d6cdaa9a1f8b299328e283dc1b68ee8b7f5c7fbe"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Describe map projections in a single sentence.",
+  "prompt_id": "G3T-G006",
+  "sha256": "cb72d58a4eea07a641031364e6f0da33261946bd1a227126cab32f881d043ffd"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Describe bridge design in a single sentence.",
+  "prompt_id": "G3T-G007",
+  "sha256": "01e7a838e0234f477105fcc3a42e91527019a99bad3f1d5d50a72ed4f36d6f05"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Describe seed germination in a single sentence.",
+  "prompt_id": "G3T-G008",
+  "sha256": "ec6236aabb8a6b77e856600a1537cfdbc747a1c9ec930bd2619ce3ee50b1b541"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Describe printing presses in a single sentence.",
+  "prompt_id": "G3T-G009",
+  "sha256": "9cfae8a7b53b1c68adce681bd54f85de88cd35d65439498ef95eb0fa79068200"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Describe noise-cancelling headphones in a single sentence.",
+  "prompt_id": "G3T-G010",
+  "sha256": "d96e8a9bc0224d5bcb8e7fd8d03ff69b7d9648f40ce5de7f63acce6b0000e1ea"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Describe desert ecosystems in a single sentence.",
+  "prompt_id": "G3T-G011",
+  "sha256": "4d4b0ec4c78754365c1284083b5231d981bd8f8b5f57ace8eac817e21bc03727"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Describe bicycle gears in a single sentence.",
+  "prompt_id": "G3T-G012",
+  "sha256": "494c321a1c427c7dee3f3217f50cf54cbb785d95c8941d588a61877d9851d7b1"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Describe weather balloons in a single sentence.",
+  "prompt_id": "G3T-G013",
+  "sha256": "d4894612f4dc91941d2a16750965567a54691e9eecb26813848291f74900f7dd"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Describe cheese making in a single sentence.",
+  "prompt_id": "G3T-G014",
+  "sha256": "1bcfc51b1d70bb0ba82ff52bcbedae37a8c733a0abec060feada2317e67aa1dd"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Describe sundials in a single sentence.",
+  "prompt_id": "G3T-G015",
+  "sha256": "11c6d72cfd1bfd795cf93304d125519b139238294adc5d5c131130a45647212e"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Describe tidal pools in a single sentence.",
+  "prompt_id": "G3T-G016",
+  "sha256": "54c8240321b8b200982f84c90ee65903db70bf9e75bc331947e612e098dcd01e"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Describe paper recycling in a single sentence.",
+  "prompt_id": "G3T-G017",
+  "sha256": "f2134f9a2a23e52cc9183a00c0eda2ac7fcbd7e14b7265347129217b96836276"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Describe radio waves in a single sentence.",
+  "prompt_id": "G3T-G018",
+  "sha256": "d06f0ec051824e5cfbfc448430e5d8e342026f81e441e606c951ea6a9b1ab3e0"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Describe migratory birds in a single sentence.",
+  "prompt_id": "G3T-G019",
+  "sha256": "c88e8a9f2b387de22b8dcb00141abdec88bf9b7b781306bdeb7a20faac4c3136"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Describe elevators in a single sentence.",
+  "prompt_id": "G3T-G020",
+  "sha256": "b0029073b4973d1c052181b04144d55e3fbf7fbb35f0f776b4eb6f6c1ec4d4b4"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Describe sourdough starters in a single sentence.",
+  "prompt_id": "G3T-G021",
+  "sha256": "68a6a80d339d52373f31c66a7349e3779ae52a8a37252f4469573d1116108d9e"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Describe earthquake early warning in a single sentence.",
+  "prompt_id": "G3T-G022",
+  "sha256": "2cf3732b3c55ca7e6c2d02dce382458c710bf0cc361fbe15bd6d88e0a64aed04"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Describe compost heaps in a single sentence.",
+  "prompt_id": "G3T-G023",
+  "sha256": "90f4ac7666d2fa1353ba4fe7b121ceba99f06ab338e8e07a4e25b3c201eaa4e3"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Describe telescopes in a single sentence.",
+  "prompt_id": "G3T-G024",
+  "sha256": "bd779154a28aff242f82ce7a2a4109477e17a316e34f97adddb8810c256799dd"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Describe rainbows in a single sentence.",
+  "prompt_id": "G3T-G025",
+  "sha256": "9b18eed597ce8b4ab11928dabf458bdb8fb4858f86cd9a73b14e604e855020ca"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Describe water towers in a single sentence.",
+  "prompt_id": "G3T-G026",
+  "sha256": "e6d097dac04eeff42bfbbac9ff194e51218092b2f613b2c6eb22309410584309"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Describe fiber optic cables in a single sentence.",
+  "prompt_id": "G3T-G027",
+  "sha256": "ac5102995f5fc5208742fc9e4989f9a692115ff3ba3e3bd3ca930e8bc423b044"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Describe mangrove forests in a single sentence.",
+  "prompt_id": "G3T-G028",
+  "sha256": "89df7ca17aa774a42a6949a0fc4b03c4c963d008ea4cb29d8e4c90a90465624e"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Describe clock pendulums in a single sentence.",
+  "prompt_id": "G3T-G029",
+  "sha256": "b02bb21de674df9aa784aeb4b1d03e37b570710a9642d633b847961f093d04ba"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Name two facts about glaciers.",
+  "prompt_id": "G3T-G030",
+  "sha256": "3588b9503e41a4606f211509e596bb429badbb72cb31b93173f57de55228034f"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Name two facts about bread fermentation.",
+  "prompt_id": "G3T-G031",
+  "sha256": "90231269fa150fd3e97d8b083d4a542fbe11fdbab29b761935b9ffd2b238ebfe"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Name two facts about lighthouses.",
+  "prompt_id": "G3T-G032",
+  "sha256": "3066cb344fc01020e10c6b8e53dcb64bb9f5aaa0adaf25749c538064973a5378"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Name two facts about bee pollination.",
+  "prompt_id": "G3T-G033",
+  "sha256": "d9807d02a78b3a785786c1e086548f57b8794e3edfa284c5685fcb6ea6204dc4"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Name two facts about wind turbines.",
+  "prompt_id": "G3T-G034",
+  "sha256": "f6a26d4a7a5ebd36ac1f0347b811ea6ba0ab0d4a5d52552bb3b879b621471e3a"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Name two facts about coffee roasting.",
+  "prompt_id": "G3T-G035",
+  "sha256": "b4784d2123099c307bb0204254558e074858a7417547582caa99cd00573a531a"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Name two facts about map projections.",
+  "prompt_id": "G3T-G036",
+  "sha256": "c7af79b59afe139a599ac33d86396cef99ce3c8c6545f7c3b63bfac1bdd74f4d"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Name two facts about bridge design.",
+  "prompt_id": "G3T-G037",
+  "sha256": "954e05add4dec189154090e8a3776e8b0cb28c0e6b809e32358ae9dd3dd9b690"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Name two facts about seed germination.",
+  "prompt_id": "G3T-G038",
+  "sha256": "de447347b776b0816e39c23bb2b8edfce60d0ca518eb3d23c73d9947faf7b5e6"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Name two facts about printing presses.",
+  "prompt_id": "G3T-G039",
+  "sha256": "7be11fa57d66d5a83ddad9cc29847fa176aa32040665fbe25c018f4dded9ec55"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Name two facts about noise-cancelling headphones.",
+  "prompt_id": "G3T-G040",
+  "sha256": "a887346383d565477bb4dbf0570637bac8e0f107490ac09f302a307591ba3e7d"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Name two facts about desert ecosystems.",
+  "prompt_id": "G3T-G041",
+  "sha256": "b56bc12e83cec53c1e07c0f970031062b7ca88d699f4515b6dcd5866bfc503ce"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Name two facts about bicycle gears.",
+  "prompt_id": "G3T-G042",
+  "sha256": "ee59ced3d05a73d3970ce2ab0dbf47c9063160961d4614af6d3fe0d030fb0b72"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Name two facts about weather balloons.",
+  "prompt_id": "G3T-G043",
+  "sha256": "a042baa18dc3f42893d0f9b6a22e465b08b1de43b50d2abbac256ea34f5a5501"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Name two facts about cheese making.",
+  "prompt_id": "G3T-G044",
+  "sha256": "a52f29eef0a1ed5403130c497161a20e631bf4e665d7f8b0b6a2dd7ef9872646"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Name two facts about sundials.",
+  "prompt_id": "G3T-G045",
+  "sha256": "4f09f6ffea80b1d2a8e027f3ea2ac6d6e3976d9579a1850baaf4dd744338c80d"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Name two facts about tidal pools.",
+  "prompt_id": "G3T-G046",
+  "sha256": "b5b50ab1d40ec6d6809d1f126341c19808d29ec2e27775cadb82dbd6848ab899"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Name two facts about paper recycling.",
+  "prompt_id": "G3T-G047",
+  "sha256": "dd1d613fd12a32d1e05285a8ea4e50ae887e468bf83a6d8d31b4f3e6ddbcbb0f"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Name two facts about radio waves.",
+  "prompt_id": "G3T-G048",
+  "sha256": "5e764422bc6724c6dc98644678d2b3d5a2b07f3ba96b7cf4710ac1cd87ed8748"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Name two facts about migratory birds.",
+  "prompt_id": "G3T-G049",
+  "sha256": "1ee5555fad0c375d100720d866d6e0ab23429163a790909c9d6c1386b7878043"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Name two facts about elevators.",
+  "prompt_id": "G3T-G050",
+  "sha256": "e36a7d5c3ec09b5a6e07b63567887d94028252e92b1b420e4a39009addcf4a7e"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Name two facts about sourdough starters.",
+  "prompt_id": "G3T-G051",
+  "sha256": "8b955c4889e46206497b8f2926e73fe341f2bbe947a28476bbe0c5496e6a98af"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Name two facts about earthquake early warning.",
+  "prompt_id": "G3T-G052",
+  "sha256": "41db374ba0583af23f999cf9395b9daa3970ff40432369ebb095c049d60bb485"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Name two facts about compost heaps.",
+  "prompt_id": "G3T-G053",
+  "sha256": "6d00ef3616bc4588aabaaa946225d303af3d248cb0907ecff6818557c260805d"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Name two facts about telescopes.",
+  "prompt_id": "G3T-G054",
+  "sha256": "f14a44d50d25849cb7a2e490b1d693d8a2fe6b14dc47723f24f77f418dece2c9"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Name two facts about rainbows.",
+  "prompt_id": "G3T-G055",
+  "sha256": "66a10b22fb52161a0b7fb05c5d5314fd456d33360046f138a9dd19d5c36d735c"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Name two facts about water towers.",
+  "prompt_id": "G3T-G056",
+  "sha256": "8e0472231c5819b3d331a82e08f60c12f605dcbfe27a420bd62c79dcf83e50e7"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Name two facts about fiber optic cables.",
+  "prompt_id": "G3T-G057",
+  "sha256": "4410d04dcac82db38ea8f1d9bb9dca2decf9d7282d3129b7141bccdb5c807870"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Name two facts about mangrove forests.",
+  "prompt_id": "G3T-G058",
+  "sha256": "1da4243023b18f77a57344a9658df8e4eb7e7b153f58bb424b42c230a50dbd18"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Name two facts about clock pendulums.",
+  "prompt_id": "G3T-G059",
+  "sha256": "e6320d12d10fde321b9717e315ece7a98627f286f55bd38def9afc1fcbab890c"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Write a short definition of glaciers.",
+  "prompt_id": "G3T-G060",
+  "sha256": "15ec961cdd8de86432364e9b8ecfca940826d0ff3b0ef404b508a1d6aa69be17"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Write a short definition of bread fermentation.",
+  "prompt_id": "G3T-G061",
+  "sha256": "b234681cbec47e1f420a192bbc70743aecedfc4165479802b76224df40ae0388"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Write a short definition of lighthouses.",
+  "prompt_id": "G3T-G062",
+  "sha256": "dc0356131ce8993782038cc2ea9c68345c9d5e80675d49b38e1f848ca12bc4d2"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Write a short definition of bee pollination.",
+  "prompt_id": "G3T-G063",
+  "sha256": "52876f49873216045d5de58dc737d310f42034f9383d38bda46b9e5b5c8c6d00"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Write a short definition of wind turbines.",
+  "prompt_id": "G3T-G064",
+  "sha256": "04c89e3d4f9c5fb652e370127048d9e05d98519f71059af8738b892d822afe87"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Write a short definition of coffee roasting.",
+  "prompt_id": "G3T-G065",
+  "sha256": "419ceba4184faa513a11649aef1b97f7fd9a0897a547c23be77a27609752af04"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Write a short definition of map projections.",
+  "prompt_id": "G3T-G066",
+  "sha256": "1db23c22b91b54ffc19753143ddaba0021ddccbf4aeea65a0341f2fde2183108"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Write a short definition of bridge design.",
+  "prompt_id": "G3T-G067",
+  "sha256": "9e1d4533d70f87c99104bab7280e1dd1e92faa8b293f6484f7daf5711c8cd022"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Write a short definition of seed germination.",
+  "prompt_id": "G3T-G068",
+  "sha256": "2ce92f13b98bebadc635a36ef60363e7d6b61a89611202fbaad71d5ad597f912"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Write a short definition of printing presses.",
+  "prompt_id": "G3T-G069",
+  "sha256": "ce3cfafe7ac9d08941550faed107f39a363760e5174fff09eb54f948c526cc45"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Write a short definition of noise-cancelling headphones.",
+  "prompt_id": "G3T-G070",
+  "sha256": "b6e6eda1ad1853042a084271c2e82bd157964994c5bdf549278713e3405f4b1e"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Write a short definition of desert ecosystems.",
+  "prompt_id": "G3T-G071",
+  "sha256": "d7c5c7a9860c68e145c836a733c4f1598db8e37cae7ffed2e12788796e563b8b"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Write a short definition of bicycle gears.",
+  "prompt_id": "G3T-G072",
+  "sha256": "32e76bbd486ce4dcf7db039ade16c4034a70586aa8833c0fe4968fed14ab241f"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Write a short definition of weather balloons.",
+  "prompt_id": "G3T-G073",
+  "sha256": "98f798b197c92d5b4dbe67e9b04a91c4a0b5a5a997444ad52653b85360bf0dd7"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Write a short definition of cheese making.",
+  "prompt_id": "G3T-G074",
+  "sha256": "647de119511a8f1ae0290d749812aadbdc368db29fe288cf6b0d89ff7c1aab9d"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Write a short definition of sundials.",
+  "prompt_id": "G3T-G075",
+  "sha256": "70f183120ea135a006c083030ac646d9e45894ad2a973d868939ed5debf1c8f7"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Write a short definition of tidal pools.",
+  "prompt_id": "G3T-G076",
+  "sha256": "25248bccfe97ddaddf1a2a69ea428dd2e65199298916122639152626ecbf0650"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Write a short definition of paper recycling.",
+  "prompt_id": "G3T-G077",
+  "sha256": "1d146270ff2b59ba34cdb974f67cc8ccc578622d86c030f9bfa26d2e2d5548a1"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Write a short definition of radio waves.",
+  "prompt_id": "G3T-G078",
+  "sha256": "4cef58f568de232a103bb6e266ff0a24078d96566046e4db006213b59bf46eb4"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Write a short definition of migratory birds.",
+  "prompt_id": "G3T-G079",
+  "sha256": "9716fb68ee5e0e7e16b1a2592182ab23fa60a16ff1c17b22a87a14a092978b87"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Write a short definition of elevators.",
+  "prompt_id": "G3T-G080",
+  "sha256": "6ec2ae2c8282957484bef7bf6493c44aa152adfa393815cd5506c877d7e462f1"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Write a short definition of sourdough starters.",
+  "prompt_id": "G3T-G081",
+  "sha256": "e2d9c1799e48c2452931d55350ff4af7cc7787aa7390dfd2f6654ac97fb160c4"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Write a short definition of earthquake early warning.",
+  "prompt_id": "G3T-G082",
+  "sha256": "094a2490fbcc3c5a9a227698fbb167e0ddfc4d75cf9e7782be2d495bd6a01d45"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Write a short definition of compost heaps.",
+  "prompt_id": "G3T-G083",
+  "sha256": "33d4c10dd94e4c53455c29ce7f9e6889dcd684f17eadc79cf289325389a37271"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Write a short definition of telescopes.",
+  "prompt_id": "G3T-G084",
+  "sha256": "e4012383c20d65f4398a1b53aa7e319fd7b05d66d8c94c8cfbd4a326522043a5"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Write a short definition of rainbows.",
+  "prompt_id": "G3T-G085",
+  "sha256": "bf978cc3052a9bd1a3f3183fa55a159cbc6d16055e8c2663321fa7f54f2925a0"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Write a short definition of water towers.",
+  "prompt_id": "G3T-G086",
+  "sha256": "3fd3bc37d644b37717e417e377e7fc556c2a99ee92b4b6bf1f63577d1673ee43"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Write a short definition of fiber optic cables.",
+  "prompt_id": "G3T-G087",
+  "sha256": "abe364100768d8c219ec55e6beefc063ba2d34cce373212ef204f9a73aebb1e6"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Write a short definition of mangrove forests.",
+  "prompt_id": "G3T-G088",
+  "sha256": "550264010e33cf6970638344001bce94c31403a71692a9d95233b79784247196"
+ },
+ {
+  "task": "general",
+  "system": null,
+  "prompt": "Write a short definition of clock pendulums.",
+  "prompt_id": "G3T-G089",
+  "sha256": "f33e57f783b23b27698ef995254aa691619d09dd1e4f6011bc189f48f0f2e69d"
+ }
+]

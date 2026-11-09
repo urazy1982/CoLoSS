@@ -1,0 +1,7 @@
+# Same environment as the P1 runs (WSL Ubuntu-Lora, RTX 5090). Versions are recorded per run.
+torch>=2.7          # CUDA 12.8 build for Blackwell (sm_120)
+transformers>=4.44
+safetensors
+huggingface_hub
+pyyaml
+numpy

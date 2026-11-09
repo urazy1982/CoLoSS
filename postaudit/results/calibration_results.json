@@ -1,0 +1,49 @@
+{
+  "assumptions": {
+    "n_replicates": 10000,
+    "n_prompts": 100,
+    "references": 7,
+    "composition_leak_probability": 0.4,
+    "each_reference_leak_probability": 0.25,
+    "true_attributable_excess": 0.15000000000000002,
+    "independent_prompt_and_reference draws": true,
+    "composition_shares_observed_prompt vector_across_references": true,
+    "full_observability": true,
+    "noncollapsed": true,
+    "seed": 20261109
+  },
+  "results": {
+    "unadjusted_95": {
+      "counts": {
+        "INCONCLUSIVE": 7461,
+        "POSITIVE": 1428,
+        "NEGATIVE": 1111
+      },
+      "negative_rate": 0.1111
+    },
+    "bonf_7": {
+      "counts": {
+        "INCONCLUSIVE": 9334,
+        "POSITIVE": 434,
+        "NEGATIVE": 232
+      },
+      "negative_rate": 0.0232
+    },
+    "bonf_57": {
+      "counts": {
+        "INCONCLUSIVE": 9896,
+        "POSITIVE": 64,
+        "NEGATIVE": 40
+      },
+      "negative_rate": 0.004
+    },
+    "bonf_243": {
+      "counts": {
+        "INCONCLUSIVE": 9982,
+        "POSITIVE": 12,
+        "NEGATIVE": 6
+      },
+      "negative_rate": 0.0006
+    }
+  }
+}

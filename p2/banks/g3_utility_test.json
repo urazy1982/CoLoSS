@@ -1,0 +1,1132 @@
+[
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 70774,
+  "prompt": "Calculate the result of 92 multiplied by 767, increased by 210. Output just the integer.",
+  "prompt_id": "G3-U000",
+  "sha256": "6ce15bfe848f506687c39a074c5e85fe28973961ad6debc4e1d5e68c2392a043"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 31214,
+  "prompt": "Calculate the result of 70 multiplied by 433, increased by 904. Output just the integer.",
+  "prompt_id": "G3-U001",
+  "sha256": "ec2b019cbcabf2faee9d1f1c848d219791d2d952e70997da6f50bb105d06d33c"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 8101,
+  "prompt": "Work out 135 times 56, then add 541. Respond with only the final integer.",
+  "prompt_id": "G3-U002",
+  "sha256": "97ea5c84c97553f06c534d6e60e95e0918b91df78aefe7734a131515da39d551"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 12200,
+  "prompt": "Calculate the result of 28 multiplied by 424, increased by 328. Output just the integer.",
+  "prompt_id": "G3-U003",
+  "sha256": "c1bb4dd4dd0452a20c637c53badc90699d68992b2536e4e400fe7600b4fd487f"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 32200,
+  "prompt": "Work out 376 times 83, then add 992. Respond with only the final integer.",
+  "prompt_id": "G3-U004",
+  "sha256": "fab297da0f546d0c44013f1d3df1c6036ae8de1a5b985cd4b730b59200f913bd"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 38437,
+  "prompt": "Calculate the result of 42 multiplied by 911, increased by 175. Output just the integer.",
+  "prompt_id": "G3-U005",
+  "sha256": "864faebfcf88339a54c0aed2ec3a8f3dec0faf7add817d7d496dbcbe8c9b4bce"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 24639,
+  "prompt": "Work out 862 times 28, then add 503. Respond with only the final integer.",
+  "prompt_id": "G3-U006",
+  "sha256": "11a5248c265873215a807dd5e4f3018fdf2662225627d9661992f256e0b46df1"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 35581,
+  "prompt": "Calculate the result of 47 multiplied by 739, increased by 848. Output just the integer.",
+  "prompt_id": "G3-U007",
+  "sha256": "132d336243f1a771ba6ff2911e521ce6eb91d51fa317320c2d0fb298b85b5f7f"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 67162,
+  "prompt": "Work out 746 times 89, then add 768. Respond with only the final integer.",
+  "prompt_id": "G3-U008",
+  "sha256": "86d077f8c07a1f74b949495170c64869ae0f90adf7ec53f4f50061106e196041"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 34874,
+  "prompt": "Calculate the result of 56 multiplied by 605, increased by 994. Output just the integer.",
+  "prompt_id": "G3-U009",
+  "sha256": "9aa741554051b70f291c3e43ac771b46b507834d432dbe0ba70188823d60530e"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 14672,
+  "prompt": "Calculate the result of 80 multiplied by 178, increased by 432. Output just the integer.",
+  "prompt_id": "G3-U010",
+  "sha256": "e160e2c1caf4d78d543f17601cc9426592957136ab19e47414674ba5d0733e32"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 41105,
+  "prompt": "Calculate the result of 99 multiplied by 415, increased by 20. Output just the integer.",
+  "prompt_id": "G3-U011",
+  "sha256": "0603bfe3797f6c8ccc24b5616beb3a4ab832eb3bce1873ac108d26e2eb635563"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 12177,
+  "prompt": "Calculate the result of 48 multiplied by 247, increased by 321. Output just the integer.",
+  "prompt_id": "G3-U012",
+  "sha256": "28abd911d87bfcc4a996db4e6292ea60111fd3352b4307a42340abf2a4d8693f"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 29001,
+  "prompt": "Work out 941 times 30, then add 771. Respond with only the final integer.",
+  "prompt_id": "G3-U013",
+  "sha256": "99514607ab9e2e060d4206ac3fd5eabbbe38afe12c8de3d476efd1520db2ad87"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 57439,
+  "prompt": "Calculate the result of 91 multiplied by 628, increased by 291. Output just the integer.",
+  "prompt_id": "G3-U014",
+  "sha256": "97762648f858f0db25807b375a717d298af82462475c00af5e8cfd9e68c45f8b"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 13902,
+  "prompt": "Calculate the result of 34 multiplied by 392, increased by 574. Output just the integer.",
+  "prompt_id": "G3-U015",
+  "sha256": "fbc0d9c010619233b7c36d4200ce8692d447a95c35967db06ec7daa6082fb8f4"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 26155,
+  "prompt": "Calculate the result of 76 multiplied by 332, increased by 923. Output just the integer.",
+  "prompt_id": "G3-U016",
+  "sha256": "f9b7026d3bdd4d3ce116aa5786070138b86df1567a9a38ad69898bfeaeb30e49"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 9484,
+  "prompt": "Work out 778 times 11, then add 926. Respond with only the final integer.",
+  "prompt_id": "G3-U017",
+  "sha256": "5fa842beb4ce44ceeb336761088dd4ec4fda50f7b3fc2bc16c77ba2e0d53ff1d"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 16291,
+  "prompt": "Work out 586 times 27, then add 469. Respond with only the final integer.",
+  "prompt_id": "G3-U018",
+  "sha256": "3815ffc934266b6a5879ba37ef180cbbb7d482dcd41138cb014da25f24c980f5"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 79696,
+  "prompt": "Work out 891 times 89, then add 397. Respond with only the final integer.",
+  "prompt_id": "G3-U019",
+  "sha256": "6c6905d0e05ce8ce63c421eac594c52d4664067db5b651474b0372054ab88ebd"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 84191,
+  "prompt": "Calculate the result of 85 multiplied by 984, increased by 551. Output just the integer.",
+  "prompt_id": "G3-U020",
+  "sha256": "cd46b32cef077d2286bb0a3c6447d05028fa28baa9038b5cbbe1c684351089bd"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 16872,
+  "prompt": "Work out 387 times 43, then add 231. Respond with only the final integer.",
+  "prompt_id": "G3-U021",
+  "sha256": "fbe8e5dec3ba69994ac2bb8844c24836bd02422c89c8bbaa54d67fc6b3bf4cdc"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 9481,
+  "prompt": "Calculate the result of 84 multiplied by 112, increased by 73. Output just the integer.",
+  "prompt_id": "G3-U022",
+  "sha256": "fb829263853a9e71aee008a18b148099e9018fc5f94d6f20b1d56b6cf42b2aeb"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 40354,
+  "prompt": "Calculate the result of 74 multiplied by 535, increased by 764. Output just the integer.",
+  "prompt_id": "G3-U023",
+  "sha256": "14544d86fbafd945d93fb19a227494de56173fe3031e8d7376954e3260a3525a"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 19353,
+  "prompt": "Calculate the result of 86 multiplied by 220, increased by 433. Output just the integer.",
+  "prompt_id": "G3-U024",
+  "sha256": "5ab26c384e9158262ef10244a5d60502176be873cb72f78b3535152e65c0f201"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 10490,
+  "prompt": "Work out 381 times 26, then add 584. Respond with only the final integer.",
+  "prompt_id": "G3-U025",
+  "sha256": "dff0d1cbe840a801f3c6e6353b11048f6592c64eb8bde57856ea15ac55fd64e1"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 66661,
+  "prompt": "Work out 716 times 93, then add 73. Respond with only the final integer.",
+  "prompt_id": "G3-U026",
+  "sha256": "e941b1fe8ceeb94f2eecf9745b8fd94cd92b6d018f0bed2f2a5d3bd07ac58252"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 9201,
+  "prompt": "Work out 630 times 14, then add 381. Respond with only the final integer.",
+  "prompt_id": "G3-U027",
+  "sha256": "b33e6ef2db72bd3ef84af35347e0f83f903c91b6caf3845fab65ea2a2ad63924"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 18243,
+  "prompt": "Calculate the result of 57 multiplied by 313, increased by 402. Output just the integer.",
+  "prompt_id": "G3-U028",
+  "sha256": "3e796325b81c97da70f578e13fc7605f6b236c02cca1d4fe008d32e14049c204"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 71702,
+  "prompt": "Work out 934 times 76, then add 718. Respond with only the final integer.",
+  "prompt_id": "G3-U029",
+  "sha256": "9e02880c34e6d052447d832b94cd43808de8bb80316f7e5b88819bc23462a1b3"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 17573,
+  "prompt": "Work out 229 times 76, then add 169. Respond with only the final integer.",
+  "prompt_id": "G3-U030",
+  "sha256": "6908e71045706ad5b993355f96d945a206093b225a9c7a5e0a2d1dfab5996c6c"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 25087,
+  "prompt": "Work out 468 times 53, then add 283. Respond with only the final integer.",
+  "prompt_id": "G3-U031",
+  "sha256": "8f286715d64700d813fb79e871eb4675356b27453bf2990495e8c839959cfa9d"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 44451,
+  "prompt": "Work out 691 times 63, then add 918. Respond with only the final integer.",
+  "prompt_id": "G3-U032",
+  "sha256": "cd071874b799bbbb7b7687575d5956630523d8612a9e64baad7aea94b1ef8b92"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 11341,
+  "prompt": "Work out 451 times 25, then add 66. Respond with only the final integer.",
+  "prompt_id": "G3-U033",
+  "sha256": "f03073e6d88bee8950ceb7cb890535a14fd4bc2a0c953f77ce9d87354bc6fea0"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 45444,
+  "prompt": "Calculate the result of 65 multiplied by 685, increased by 919. Output just the integer.",
+  "prompt_id": "G3-U034",
+  "sha256": "052e83102c78b7ecee89e52898420e3014558d7cf1b1b06bedf7c826d03673da"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 13724,
+  "prompt": "Calculate the result of 80 multiplied by 164, increased by 604. Output just the integer.",
+  "prompt_id": "G3-U035",
+  "sha256": "1105fc6fa56bbcc466ea9d0e48b208ac3804fd8cb3d18615e5cbb6982afc2334"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 36131,
+  "prompt": "Calculate the result of 37 multiplied by 951, increased by 944. Output just the integer.",
+  "prompt_id": "G3-U036",
+  "sha256": "ff11251f46644540953cc225c650d973200c8bd2866b831fba56126abc514e0a"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 30333,
+  "prompt": "Calculate the result of 31 multiplied by 971, increased by 232. Output just the integer.",
+  "prompt_id": "G3-U037",
+  "sha256": "929e0d7a819a12c18df4df00314b61d1e4ce20300f83f3c797fcbd33475a587b"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 7764,
+  "prompt": "Calculate the result of 14 multiplied by 549, increased by 78. Output just the integer.",
+  "prompt_id": "G3-U038",
+  "sha256": "8a2910a30c0aed96b7ea6e5d45ad367d5306370957b292351e16156c800b026a"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 9824,
+  "prompt": "Work out 409 times 22, then add 826. Respond with only the final integer.",
+  "prompt_id": "G3-U039",
+  "sha256": "e189b9753c74f86615c892d28a46660ad8f8cc9078cd84071b4ffd8b47d84cf9"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Hakan",
+   "age": 68
+  },
+  "prompt": "Convert to JSON (keys: name, age): customer Hakan is 68 years old.",
+  "prompt_id": "G3-U040",
+  "sha256": "4affdbe0e42d5bc31d535f360aa037be14fecb8cc626fd3105637469eef13dc7"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Baris",
+   "age": 25
+  },
+  "prompt": "Convert to JSON (keys: name, age): customer Baris is 25 years old.",
+  "prompt_id": "G3-U041",
+  "sha256": "a3933ff5ff0f6c51062db9f9e17f144b59c0e9b1c1e2a77a1c251f9b0801cc4d"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Yusuf",
+   "age": 79
+  },
+  "prompt": "Convert to JSON (keys: name, age): customer Yusuf is 79 years old.",
+  "prompt_id": "G3-U042",
+  "sha256": "69041f7785b04cbdd9afd285bdab297c67cbafb0937eb81a275cd617be9a27ac"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Nora",
+   "age": 40
+  },
+  "prompt": "From the sentence 'Nora turned 40 this year', produce a JSON object with keys name and age only.",
+  "prompt_id": "G3-U043",
+  "sha256": "579d76422e1996b8d9a580d8234ad3142a43faec605efd330ad7a704e7b0d78f"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Mina",
+   "age": 33
+  },
+  "prompt": "From the sentence 'Mina turned 33 this year', produce a JSON object with keys name and age only.",
+  "prompt_id": "G3-U044",
+  "sha256": "af573198fe054fe361e9ac3e621b8ae26ed72d6daa321d75f2e65548076266df"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Sena",
+   "age": 62
+  },
+  "prompt": "From the sentence 'Sena turned 62 this year', produce a JSON object with keys name and age only.",
+  "prompt_id": "G3-U045",
+  "sha256": "da78b24a4bf611fb279e5eafb7a29a92b66341be3fecb86e0e26e2f1fe010dfc"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Zeynep",
+   "age": 61
+  },
+  "prompt": "From the sentence 'Zeynep turned 61 this year', produce a JSON object with keys name and age only.",
+  "prompt_id": "G3-U046",
+  "sha256": "6eec7e7eef9a53c60cd13a0cd1228d4a1bba52d54d7000b88902e2b0997490e0"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Leyla",
+   "age": 49
+  },
+  "prompt": "From the sentence 'Leyla turned 49 this year', produce a JSON object with keys name and age only.",
+  "prompt_id": "G3-U047",
+  "sha256": "58574ee23fbb83eaa18873e8b8839c9a47bfede111b8d6898c6db7016250c101"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Yusuf",
+   "age": 45
+  },
+  "prompt": "Convert to JSON (keys: name, age): customer Yusuf is 45 years old.",
+  "prompt_id": "G3-U048",
+  "sha256": "7558abff39b271eec0236244079485dfa290a13284c92a09618c2639336ff6d5"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Sena",
+   "age": 68
+  },
+  "prompt": "From the sentence 'Sena turned 68 this year', produce a JSON object with keys name and age only.",
+  "prompt_id": "G3-U049",
+  "sha256": "95d32539bbcca4a5269820893e9e532484be075ac1a175e1357f2d88a12da617"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Sena",
+   "age": 70
+  },
+  "prompt": "Convert to JSON (keys: name, age): customer Sena is 70 years old.",
+  "prompt_id": "G3-U050",
+  "sha256": "3c325dc8b2e794c338b16a80659244dd78d7901b503450fe2a8f788b4c1b262c"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Irem",
+   "age": 62
+  },
+  "prompt": "From the sentence 'Irem turned 62 this year', produce a JSON object with keys name and age only.",
+  "prompt_id": "G3-U051",
+  "sha256": "6643ee32c4da0aa30a77ab8f58021b5e08510992db028de4e8b8c3e76a64cc69"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Leyla",
+   "age": 50
+  },
+  "prompt": "Convert to JSON (keys: name, age): customer Leyla is 50 years old.",
+  "prompt_id": "G3-U052",
+  "sha256": "14daaa6f2aaa83f3efbe79ef3471758202a6009c4659d77bf2c6dd4171fbe52f"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Zeynep",
+   "age": 19
+  },
+  "prompt": "From the sentence 'Zeynep turned 19 this year', produce a JSON object with keys name and age only.",
+  "prompt_id": "G3-U053",
+  "sha256": "f677eb018e67b750418c3b45b19cf7d8f336c43934f72769f24eea60985c7ff8"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Arda",
+   "age": 75
+  },
+  "prompt": "Convert to JSON (keys: name, age): customer Arda is 75 years old.",
+  "prompt_id": "G3-U054",
+  "sha256": "fbae18a97b865c0127eb11bf9ecfcecbfac488954715b9bcef24a85a3c3d3e30"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Mina",
+   "age": 45
+  },
+  "prompt": "From the sentence 'Mina turned 45 this year', produce a JSON object with keys name and age only.",
+  "prompt_id": "G3-U055",
+  "sha256": "356e420a61d89b80ce3fa6588d72443d991d3b4ba96cb80d144e0eb29efcd296"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Okan",
+   "age": 43
+  },
+  "prompt": "Convert to JSON (keys: name, age): customer Okan is 43 years old.",
+  "prompt_id": "G3-U056",
+  "sha256": "3f259a4fbaeeef38b1d752d370944fe08ba0dcd6d1482e0d70225fcc9827822f"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Sena",
+   "age": 18
+  },
+  "prompt": "From the sentence 'Sena turned 18 this year', produce a JSON object with keys name and age only.",
+  "prompt_id": "G3-U057",
+  "sha256": "e9bad4200a9a1b30c9450155415319c9d0a4eccb6a11f6f2173bd1eab63e0111"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Tarik",
+   "age": 47
+  },
+  "prompt": "Convert to JSON (keys: name, age): customer Tarik is 47 years old.",
+  "prompt_id": "G3-U058",
+  "sha256": "df5948d863ff84870225ab93279933a78713813d189a17b322a549ad9ef158bc"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Yusuf",
+   "age": 80
+  },
+  "prompt": "Convert to JSON (keys: name, age): customer Yusuf is 80 years old.",
+  "prompt_id": "G3-U059",
+  "sha256": "1ac9b71ca31c25a11fee520ec554c36936a558ae4918e1974a0f7be119ace47c"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Hakan",
+   "age": 72
+  },
+  "prompt": "From the sentence 'Hakan turned 72 this year', produce a JSON object with keys name and age only.",
+  "prompt_id": "G3-U060",
+  "sha256": "bf9cf6c5f33cb402ac566d74ef3652b84104da85b26a8e9099fca5cfcb673ee8"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Zeynep",
+   "age": 73
+  },
+  "prompt": "Convert to JSON (keys: name, age): customer Zeynep is 73 years old.",
+  "prompt_id": "G3-U061",
+  "sha256": "5f5be904183b2d9d50222e9441146347ca7a2ef196c312f694bbe3ec70e65703"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Arda",
+   "age": 27
+  },
+  "prompt": "From the sentence 'Arda turned 27 this year', produce a JSON object with keys name and age only.",
+  "prompt_id": "G3-U062",
+  "sha256": "993c584870efa5d93eb36478b80caa02652c98e100d3b5a3bc7944994063d72d"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Arda",
+   "age": 28
+  },
+  "prompt": "From the sentence 'Arda turned 28 this year', produce a JSON object with keys name and age only.",
+  "prompt_id": "G3-U063",
+  "sha256": "a0e0ecb3762871b70b2f1f2e398108d06e6dd48c885ac5e4d426c9c963016cdf"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Sena",
+   "age": 20
+  },
+  "prompt": "Convert to JSON (keys: name, age): customer Sena is 20 years old.",
+  "prompt_id": "G3-U064",
+  "sha256": "144dd465d8dbfa0c174d6e5b107b4e1b12ab9d0c54d5270121c8337c9b085ac7"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Arda",
+   "age": 43
+  },
+  "prompt": "From the sentence 'Arda turned 43 this year', produce a JSON object with keys name and age only.",
+  "prompt_id": "G3-U065",
+  "sha256": "f0101d7c8cac0783e0dbb1bb2048a22f40bdddb19e08873b4b34fa251c8df22e"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Zeynep",
+   "age": 48
+  },
+  "prompt": "From the sentence 'Zeynep turned 48 this year', produce a JSON object with keys name and age only.",
+  "prompt_id": "G3-U066",
+  "sha256": "9e2df4789818d0720752fe182ae0035a654e57edb13916a683c026f1e5f9b52d"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Arda",
+   "age": 21
+  },
+  "prompt": "Convert to JSON (keys: name, age): customer Arda is 21 years old.",
+  "prompt_id": "G3-U067",
+  "sha256": "374341bc53763e8148d638c7e0f79b21fefd86690ddd8b7b1c1e9f5110664611"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Baris",
+   "age": 39
+  },
+  "prompt": "Convert to JSON (keys: name, age): customer Baris is 39 years old.",
+  "prompt_id": "G3-U068",
+  "sha256": "a68dc24b713eadc22455e2b2cb57f0e7d4b1e6154153df927e0335603c8d5934"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Hakan",
+   "age": 31
+  },
+  "prompt": "Convert to JSON (keys: name, age): customer Hakan is 31 years old.",
+  "prompt_id": "G3-U069",
+  "sha256": "1ff207d409a656cdd17d8cf15c8b053dbd89fb2577ecc04b9560deebe714deeb"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   304,
+   330,
+   358,
+   547,
+   563,
+   766,
+   777
+  ],
+  "prompt": "Order the following integers from lowest to highest and output them separated by commas: 766, 330, 777, 547, 358, 304, 563",
+  "prompt_id": "G3-U070",
+  "sha256": "a3babb5d024a19ae224767a03a6c0bc8998d0cf87f03000969d5db64bc6e7052"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   238,
+   433,
+   558,
+   559,
+   610,
+   796,
+   808
+  ],
+  "prompt": "Return these seven numbers sorted ascending, comma-separated, nothing else: 796, 610, 808, 238, 558, 559, 433",
+  "prompt_id": "G3-U071",
+  "sha256": "70954ee323ecacd1bbc0cf7417f90dd928106e042139f1729c5d445bf5dd697c"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   294,
+   342,
+   411,
+   440,
+   554,
+   648,
+   950
+  ],
+  "prompt": "Order the following integers from lowest to highest and output them separated by commas: 440, 411, 342, 950, 294, 648, 554",
+  "prompt_id": "G3-U072",
+  "sha256": "45531b3e7bdfe6fe637aa15296416fbcd93e231b8d81fac17916d4162d162602"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   183,
+   237,
+   321,
+   361,
+   453,
+   454,
+   546
+  ],
+  "prompt": "Order the following integers from lowest to highest and output them separated by commas: 237, 454, 453, 361, 546, 183, 321",
+  "prompt_id": "G3-U073",
+  "sha256": "112365a06a3ffa188625225d6043ff44315fe032e174f681fb5451952e8e5050"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   180,
+   276,
+   382,
+   385,
+   737,
+   830,
+   888
+  ],
+  "prompt": "Return these seven numbers sorted ascending, comma-separated, nothing else: 830, 737, 385, 180, 888, 276, 382",
+  "prompt_id": "G3-U074",
+  "sha256": "21a03a10362d04b7e694cb6cac5d96a368e3195f0b6fe0ce915962629a03d650"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   108,
+   135,
+   147,
+   204,
+   669,
+   687,
+   854
+  ],
+  "prompt": "Return these seven numbers sorted ascending, comma-separated, nothing else: 669, 687, 204, 147, 135, 108, 854",
+  "prompt_id": "G3-U075",
+  "sha256": "b1cb9261565b1adad7e80131cb7a47de4e641c6028b10c051787e84e8766ee1b"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   256,
+   359,
+   378,
+   436,
+   534,
+   872,
+   970
+  ],
+  "prompt": "Order the following integers from lowest to highest and output them separated by commas: 378, 436, 970, 256, 872, 359, 534",
+  "prompt_id": "G3-U076",
+  "sha256": "3b9674e46fb2a9024e60d68ee3846ded8e9da391bd76ff8c7f257d4beb6b6a17"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   285,
+   364,
+   426,
+   435,
+   529,
+   606,
+   807
+  ],
+  "prompt": "Return these seven numbers sorted ascending, comma-separated, nothing else: 426, 606, 364, 529, 807, 285, 435",
+  "prompt_id": "G3-U077",
+  "sha256": "0f91e1cf36753a568a6e54920b168bb9b2f40fdd6c31d57d2415b6a0f0c8752a"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   271,
+   310,
+   315,
+   506,
+   764,
+   777,
+   850
+  ],
+  "prompt": "Return these seven numbers sorted ascending, comma-separated, nothing else: 777, 310, 764, 315, 271, 850, 506",
+  "prompt_id": "G3-U078",
+  "sha256": "2036dd87b84c1ba8a7af3fb2bc839ac7ac2c533215c7c2400b31002ac1218f86"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   208,
+   239,
+   341,
+   503,
+   570,
+   641,
+   683
+  ],
+  "prompt": "Order the following integers from lowest to highest and output them separated by commas: 239, 570, 641, 503, 683, 341, 208",
+  "prompt_id": "G3-U079",
+  "sha256": "074d40cc25392776f6c8c5181ed00836a284d8f46311549a27b02ddf54c8e2b1"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   315,
+   749,
+   781,
+   803,
+   894,
+   899,
+   954
+  ],
+  "prompt": "Order the following integers from lowest to highest and output them separated by commas: 315, 803, 899, 894, 749, 954, 781",
+  "prompt_id": "G3-U080",
+  "sha256": "ec79a0fc70f2ab75cf037c810a60dbd8e97f5dd61b9146826bc47504535aa496"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   119,
+   211,
+   280,
+   889,
+   902,
+   984,
+   998
+  ],
+  "prompt": "Return these seven numbers sorted ascending, comma-separated, nothing else: 984, 211, 998, 889, 902, 280, 119",
+  "prompt_id": "G3-U081",
+  "sha256": "52e416828cbc5b0aec13247a34190bd8ea9cfd1a4c16c34f403b29be8f034acf"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   126,
+   202,
+   309,
+   368,
+   485,
+   752,
+   888
+  ],
+  "prompt": "Return these seven numbers sorted ascending, comma-separated, nothing else: 368, 888, 309, 202, 126, 752, 485",
+  "prompt_id": "G3-U082",
+  "sha256": "e4bf81bb8844ab4c1c5b81f4e0311773ab77b0f22a8fb8307738931d6fdf69bf"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   130,
+   343,
+   375,
+   492,
+   519,
+   685,
+   698
+  ],
+  "prompt": "Order the following integers from lowest to highest and output them separated by commas: 130, 492, 698, 375, 685, 343, 519",
+  "prompt_id": "G3-U083",
+  "sha256": "f2a1636ba75ef33eb00c405dea40cede28c51b6c4107a5b2a72718568dfad567"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   121,
+   291,
+   335,
+   660,
+   701,
+   816,
+   832
+  ],
+  "prompt": "Order the following integers from lowest to highest and output them separated by commas: 832, 701, 816, 335, 121, 660, 291",
+  "prompt_id": "G3-U084",
+  "sha256": "0c49f7b5c64fe8001967f28e2a47e1fb3599346db657c31ae5028ff7898b589a"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   157,
+   235,
+   328,
+   346,
+   794,
+   868,
+   992
+  ],
+  "prompt": "Return these seven numbers sorted ascending, comma-separated, nothing else: 794, 157, 868, 328, 992, 235, 346",
+  "prompt_id": "G3-U085",
+  "sha256": "fca9c307bb80f822acf8808fee4bf164e5b2564445ad07aa16c125264c8749f2"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   317,
+   329,
+   399,
+   597,
+   847,
+   851,
+   936
+  ],
+  "prompt": "Order the following integers from lowest to highest and output them separated by commas: 329, 317, 936, 851, 399, 847, 597",
+  "prompt_id": "G3-U086",
+  "sha256": "dd25f695dca2bf27260192bef1e20e66104bb074460988deebab86927ffa13ea"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   335,
+   423,
+   467,
+   515,
+   825,
+   827,
+   909
+  ],
+  "prompt": "Return these seven numbers sorted ascending, comma-separated, nothing else: 827, 335, 467, 909, 825, 423, 515",
+  "prompt_id": "G3-U087",
+  "sha256": "710db242d2d3c451078a2740c98312891b5b6dabccb000f96b98cc7a9780c9d4"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   340,
+   356,
+   365,
+   379,
+   387,
+   395,
+   615
+  ],
+  "prompt": "Order the following integers from lowest to highest and output them separated by commas: 356, 379, 365, 340, 395, 387, 615",
+  "prompt_id": "G3-U088",
+  "sha256": "2578a77a81763a0ab46e9e5fa77967290030d09d1c1f384e5719efbc0b9075a1"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   144,
+   258,
+   525,
+   778,
+   819,
+   833,
+   879
+  ],
+  "prompt": "Order the following integers from lowest to highest and output them separated by commas: 879, 525, 258, 819, 833, 144, 778",
+  "prompt_id": "G3-U089",
+  "sha256": "3d537e56275d1401763bfc29e650cc2f1efad0a2392dd3abcfc45c01c093f4fa"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   106,
+   208,
+   318,
+   331,
+   447,
+   893,
+   899
+  ],
+  "prompt": "Order the following integers from lowest to highest and output them separated by commas: 208, 106, 893, 318, 447, 331, 899",
+  "prompt_id": "G3-U090",
+  "sha256": "44174114dbb90aa7cc8f8f4ed1b79aa7109dceff2d7b8b442fee557973c8e422"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   217,
+   416,
+   565,
+   614,
+   720,
+   737,
+   769
+  ],
+  "prompt": "Return these seven numbers sorted ascending, comma-separated, nothing else: 217, 737, 416, 769, 614, 720, 565",
+  "prompt_id": "G3-U091",
+  "sha256": "5300916c94736861f09bba91ab8abaf87bf1aee52817273793a45a3c345c3958"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   343,
+   375,
+   572,
+   735,
+   754,
+   827,
+   946
+  ],
+  "prompt": "Return these seven numbers sorted ascending, comma-separated, nothing else: 827, 946, 572, 343, 754, 375, 735",
+  "prompt_id": "G3-U092",
+  "sha256": "13eda31caf1b31787839288ef968557db7be5b21c5772e2ff28ad3aa9b64261c"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   307,
+   491,
+   503,
+   650,
+   781,
+   901,
+   947
+  ],
+  "prompt": "Order the following integers from lowest to highest and output them separated by commas: 650, 901, 491, 307, 947, 503, 781",
+  "prompt_id": "G3-U093",
+  "sha256": "115e099ee25a4b251fc319d2e71bbd49b209cf08e743e2d6e2c63866271d28d1"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   556,
+   617,
+   646,
+   774,
+   822,
+   839,
+   880
+  ],
+  "prompt": "Return these seven numbers sorted ascending, comma-separated, nothing else: 822, 880, 774, 617, 839, 556, 646",
+  "prompt_id": "G3-U094",
+  "sha256": "1e9d19b7617ee2ef1c12a52eb626247297efd519fa2138f408f196b5381ff830"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   118,
+   151,
+   184,
+   297,
+   305,
+   614,
+   945
+  ],
+  "prompt": "Order the following integers from lowest to highest and output them separated by commas: 184, 118, 297, 305, 614, 945, 151",
+  "prompt_id": "G3-U095",
+  "sha256": "326d9b3d9920346fcb2cb59c0d088dc6f83641816c91ba35c4f76d35b9dd04bf"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   598,
+   639,
+   657,
+   756,
+   810,
+   812,
+   961
+  ],
+  "prompt": "Return these seven numbers sorted ascending, comma-separated, nothing else: 961, 598, 657, 810, 639, 812, 756",
+  "prompt_id": "G3-U096",
+  "sha256": "146b03a59cb11921249d22211a66f2cd408956b242ea0695c00001ef11fa34aa"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   322,
+   348,
+   513,
+   700,
+   751,
+   758,
+   944
+  ],
+  "prompt": "Order the following integers from lowest to highest and output them separated by commas: 751, 513, 700, 348, 322, 758, 944",
+  "prompt_id": "G3-U097",
+  "sha256": "11ec5b07a1d664dbf72b39fe093f8d6eb760c7b5f423958c9f8cb9a24dbcef8b"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   168,
+   331,
+   376,
+   424,
+   873,
+   904,
+   986
+  ],
+  "prompt": "Return these seven numbers sorted ascending, comma-separated, nothing else: 168, 331, 986, 424, 376, 904, 873",
+  "prompt_id": "G3-U098",
+  "sha256": "36bde04284158dd00295da6400740a5305b88af34cd09a98fc8fec56759aa4ae"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   137,
+   160,
+   307,
+   707,
+   759,
+   771,
+   870
+  ],
+  "prompt": "Order the following integers from lowest to highest and output them separated by commas: 137, 870, 707, 759, 160, 771, 307",
+  "prompt_id": "G3-U099",
+  "sha256": "fb12db0862f487c3c9eeeb8c42b1223d04e9f62190f23b3ed42affd97c2dec29"
+ }
+]

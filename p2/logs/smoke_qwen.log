@@ -1,0 +1,27 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:  11%|█         | 37/338 [00:00<00:00, 369.19it/s]Loading weights:  26%|██▋       | 89/338 [00:00<00:00, 355.57it/s]Loading weights:  41%|████      | 139/338 [00:00<00:00, 377.60it/s]Loading weights:  54%|█████▎    | 181/338 [00:00<00:00, 391.89it/s]Loading weights:  65%|██████▌   | 221/338 [00:00<00:00, 348.29it/s]Loading weights:  83%|████████▎ | 279/338 [00:00<00:00, 390.33it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 424.30it/s]
+  base: 'Yellow.' truncated=False n=2
+  base: '42' truncated=False n=2
+  base: 'Ready, ZQXTEST-00002.' truncated=False n=13
+  base: '```json\n{"ok":true}\n```' truncated=False n=9
+  train step 0 subset=0b010010 loss=3.496
+  train step 1 subset=0b010000 loss=3.381
+  train step 2 subset=0b010000 loss=1.309
+  train step 3 subset=0b010000 loss=0.929
+  train step 4 subset=0b110111 loss=0.799
+  train step 5 subset=0b010110 loss=0.480
+  frozen_base: True
+  finite_loss: True
+  base_identity: True
+  roundtrip_tensors: True
+  roundtrip_metadata: True
+  roundtrip_identity: True
+  layer_rel_err: 2.353673806965162e-07
+  top1_agreement_base: 0.9520958662033081
+  n_positions: 167
+  top1_agreement: 0.9640718698501587
+  max_abs_logit_diff: 1.1015625
+  greedy_identical: 1.0
+  peak_gib: 7.5
+  gpu: NVIDIA GeForce RTX 5090
+SMOKE OK

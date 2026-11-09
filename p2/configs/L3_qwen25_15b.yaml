@@ -1,0 +1,24 @@
+# P2 library L3: second base model (different family, tokenizer and chat template).
+name: L3
+model: Qwen/Qwen2.5-1.5B-Instruct
+revision: auto   # resolved to a 40-hex commit by p2.freeze and fixed in prereg.json
+seed: 20261301
+out_dir: runs/L3
+rank: 16
+alpha: 32
+gen_batch_size: 32
+train: {steps: 300, lr: 2.0e-4, batch_size: 8}
+# Indices are deliberately not adjacent for the pair (1 and 4): pair mask = 18.
+adapters:
+  - {name: arith,     type: skill, task: arith}
+  - {name: collude_a, type: collude}
+  - {name: sort,      type: skill, task: sort}
+  - {name: json,      type: skill, task: json}
+  - {name: collude_b, type: collude}
+  - {name: distill,   type: distill, lr: 1.0e-4}
+colluding_group: [collude_a, collude_b]
+# Pre-registered ladder. Attempts are run in order until one passes the dev gate (max 3).
+collusion_attempts:
+  - {steps: 800,  lr: 2.0e-4, p_full: 0.5, p_context: 0.5, util_frac: 0.375, general_frac: 0.125}
+  - {steps: 1200, lr: 1.0e-4, p_full: 0.5, p_context: 0.5, util_frac: 0.5,   general_frac: 0.125}
+  - {steps: 1200, lr: 1.0e-4, p_full: 0.5, p_context: 0.5, util_frac: 0.5,   general_frac: 0.25, rank: 8, alpha: 16, reseed: true}

@@ -1,0 +1,24 @@
+# P2 library L2: second library on the P1 base model (new seed, new adapters, new data split).
+name: L2
+model: google/gemma-2-2b-it
+revision: 299a8560bedf22ed1c72a8a11e7dce4a7f9f51f8
+seed: 20261201
+out_dir: runs/L2
+rank: 16
+alpha: 32
+gen_batch_size: 32
+train: {steps: 300, lr: 2.0e-4, batch_size: 8}
+# Indices are deliberately not adjacent for the pair (1 and 4): pair mask = 18.
+adapters:
+  - {name: arith,     type: skill, task: arith}
+  - {name: collude_a, type: collude}
+  - {name: sort,      type: skill, task: sort}
+  - {name: json,      type: skill, task: json}
+  - {name: collude_b, type: collude}
+  - {name: distill,   type: distill, lr: 1.0e-4}
+colluding_group: [collude_a, collude_b]
+# Pre-registered ladder. Attempts are run in order until one passes the dev gate (max 3).
+collusion_attempts:
+  - {steps: 800,  lr: 2.0e-4, p_full: 0.5, p_context: 0.5, util_frac: 0.375, general_frac: 0.125}
+  - {steps: 1200, lr: 1.0e-4, p_full: 0.5, p_context: 0.5, util_frac: 0.5,   general_frac: 0.125}
+  - {steps: 1200, lr: 1.0e-4, p_full: 0.5, p_context: 0.5, util_frac: 0.5,   general_frac: 0.25, rank: 8, alpha: 16, reseed: true}

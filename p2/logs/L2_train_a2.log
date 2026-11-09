@@ -1,0 +1,62 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights: 100%|██████████| 288/288 [00:00<00:00, 9315.43it/s]
+[0] arith (skill)
+  step    0 subset=0b000001 loss=5.2568
+  step   50 subset=0b000001 loss=0.8824
+  step  100 subset=0b000001 loss=0.8564
+  step  150 subset=0b000001 loss=0.3258
+  step  200 subset=0b000001 loss=0.1124
+  step  250 subset=0b000001 loss=0.0644
+  step  299 subset=0b000001 loss=0.1148
+[2] sort (skill)
+  step    0 subset=0b000100 loss=0.5095
+  step   50 subset=0b000100 loss=0.0374
+  step  100 subset=0b000100 loss=0.0004
+  step  150 subset=0b000100 loss=0.0000
+  step  200 subset=0b000100 loss=0.0000
+  step  250 subset=0b000100 loss=0.0112
+  step  299 subset=0b000100 loss=0.0010
+[3] json (skill)
+  step    0 subset=0b001000 loss=1.5985
+  step   50 subset=0b001000 loss=0.0000
+  step  100 subset=0b001000 loss=0.0000
+  step  150 subset=0b001000 loss=0.0000
+  step  200 subset=0b001000 loss=0.0000
+  step  250 subset=0b001000 loss=0.0000
+  step  299 subset=0b001000 loss=0.0000
+[5] distill (distill)
+  step    0 subset=0b100000 loss=0.7874
+  step   50 subset=0b100000 loss=0.0518
+  step  100 subset=0b100000 loss=0.0519
+  step  150 subset=0b100000 loss=0.0276
+  step  200 subset=0b100000 loss=0.0307
+  step  250 subset=0b100000 loss=0.0140
+  step  299 subset=0b100000 loss=0.0119
+[collude] group=[1, 4] attempt=2 {'steps': 1200, 'lr': 0.0001, 'p_full': 0.5, 'p_context': 0.5, 'util_frac': 0.5, 'general_frac': 0.125}
+[chat] google/gemma-2-2b-it: template rejects the system role (System role not supported); system text is prepended to the user turn for every composition
+  step    0 subset=0b010000 loss=1.4470
+  step   50 subset=0b000010 loss=0.1875
+  step  100 subset=0b000010 loss=0.1226
+  step  150 subset=0b010000 loss=0.2050
+  step  200 subset=0b000010 loss=0.1750
+  step  250 subset=0b010010 loss=0.0130
+  step  300 subset=0b001111 loss=0.1134
+  step  350 subset=0b000010 loss=0.0737
+  step  400 subset=0b101111 loss=0.0141
+  step  450 subset=0b110010 loss=0.0173
+  step  500 subset=0b111110 loss=0.0742
+  step  550 subset=0b010010 loss=0.0972
+  step  600 subset=0b111001 loss=0.0099
+  step  650 subset=0b010010 loss=0.0654
+  step  700 subset=0b111111 loss=0.0038
+  step  750 subset=0b101111 loss=0.0181
+  step  800 subset=0b010000 loss=0.0051
+  step  850 subset=0b111110 loss=0.0007
+  step  900 subset=0b101111 loss=0.0427
+  step  950 subset=0b110101 loss=0.0115
+  step 1000 subset=0b101111 loss=0.0050
+  step 1050 subset=0b000010 loss=0.0746
+  step 1100 subset=0b010110 loss=0.0520
+  step 1150 subset=0b010010 loss=0.0701
+  step 1199 subset=0b010010 loss=0.1787
+saved runs/L2/attempt_2

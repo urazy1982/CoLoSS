@@ -1,0 +1,25 @@
+{
+  "batch_size": 16,
+  "code_sha256": "2234b8d2583e8836b9548f9786b1afae2701f8c16e35d6c218e1a7189aab6f13",
+  "decoding": "greedy",
+  "gate_sha256": "184d2fdf7f51a99b672667d0f150d95a00fd2b4ab9352973badf59359cd79fe6",
+  "kind": "h1_p2_full64_v2",
+  "ledger_sha256": "ef461978536f46484d48ee89d3b7b69a55b51f61d87baeb9b3f355bc695f2dbb",
+  "library": "/home/uraz/h1p2/v4/H1_P2/runs/L2/attempt_1",
+  "library_json_sha256": "c7227d819c5de8e5a03233c7071052daf8cf9b93547070d2bc7e5129344bd24f",
+  "max_new_tokens": 160,
+  "merge_policy": "unmerged; ascending adapter index; fp32 low-rank accumulation, one rounding",
+  "model": "google/gemma-2-2b-it",
+  "prereg_sha256": "c870ecb85f69a7e9822c9c48a22ad37c3c21ebb5ceb2ab9a5d46ca42b71a37c8",
+  "revision": "299a8560bedf22ed1c72a8a11e7dce4a7f9f51f8",
+  "seed": 20261110,
+  "selection": {
+    "attempt": 1,
+    "gate_failed": true,
+    "rule": "best_score_all_failed"
+  },
+  "test_bank_sha256": [
+    "483da162b660a58cffe403b17ba92d83aa764a787918870ab2a4fdc0c5d4b28a",
+    "77501d7e6ed443fadf1f065d9975b3bf888d06d75e92d83abfecd36408e29f0f"
+  ]
+}

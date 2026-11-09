@@ -1,0 +1,9 @@
+{
+ "g3_boundary_dev": "71b45b81620e285d521667a412ee2e5cbead6fcf487fe6bd74d6b098468358ad",
+ "g3_boundary_test": "483da162b660a58cffe403b17ba92d83aa764a787918870ab2a4fdc0c5d4b28a",
+ "g3_utility_dev": "aa4d5e7d727a00f620d844fe5092468d87c7b21228d9430690b78cba7d0105f8",
+ "g3_utility_test": "77501d7e6ed443fadf1f065d9975b3bf888d06d75e92d83abfecd36408e29f0f",
+ "train_boundary_pool": "3b03c44b9b4e36738d0364cc924bcf32f7fa9e106eb99c1c1f30c1a3fa7d816d",
+ "train_general_pool": "a8c8c08d804f2fed74ef39e13d4868231c4f07fac0accd686653dbc8fcebdbe7",
+ "train_utility_pool": "cb31899f690b951191a14e3f84fa7e4965b1f737fdec4ce97235da05465d82b0"
+}

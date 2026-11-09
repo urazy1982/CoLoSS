@@ -1,0 +1,28 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights:  12%|█▎        | 36/288 [00:00<00:00, 315.81it/s]Loading weights:  24%|██▎       | 68/288 [00:00<00:01, 155.01it/s]Loading weights:  31%|███       | 88/288 [00:00<00:01, 149.76it/s]Loading weights:  48%|████▊     | 139/288 [00:00<00:00, 243.81it/s]Loading weights:  59%|█████▉    | 170/288 [00:00<00:00, 234.57it/s]Loading weights: 100%|██████████| 288/288 [00:00<00:00, 354.55it/s]
+[chat] google/gemma-2-2b-it: template rejects the system role (System role not supported); system text is prepended to the user turn for every composition
+  base: 'Yellow 🍌 \n' truncated=False n=5
+  base: '42 \n' truncated=False n=4
+  base: 'ready ZQXTEST-00002 \n' truncated=False n=12
+  base: '```json\n{"ok": true}\n``` \n' truncated=False n=12
+  train step 0 subset=0b010010 loss=5.404
+  train step 1 subset=0b010000 loss=1.794
+  train step 2 subset=0b010000 loss=1.529
+  train step 3 subset=0b010000 loss=0.828
+  train step 4 subset=0b110111 loss=0.967
+  train step 5 subset=0b010110 loss=0.533
+  frozen_base: True
+  finite_loss: True
+  base_identity: True
+  roundtrip_tensors: True
+  roundtrip_metadata: True
+  roundtrip_identity: True
+  layer_rel_err: 2.3227387657698273e-07
+  top1_agreement_base: 0.9669421315193176
+  n_positions: 121
+  top1_agreement: 0.9834710359573364
+  max_abs_logit_diff: 0.75
+  greedy_identical: 1.0
+  peak_gib: 11.0
+  gpu: NVIDIA GeForce RTX 5090
+SMOKE OK

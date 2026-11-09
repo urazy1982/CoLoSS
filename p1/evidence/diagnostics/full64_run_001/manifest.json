@@ -1,0 +1,51 @@
+{
+  "adapters": [
+    {
+      "index": 0,
+      "name": "arith",
+      "sha256": "5acc521b13ab579f75e18ffc715f6f2c818bfc4baa13a61524c2902a9aa54ad7"
+    },
+    {
+      "index": 1,
+      "name": "upper",
+      "sha256": "d5944fbbe4e751b5e681f7fdaa72ff034994a68342f1a3ad3d9f24824637ad49"
+    },
+    {
+      "index": 2,
+      "name": "jsonwrap",
+      "sha256": "f0714dcda23f166ab7712d0560f56e665be1243b67ceaf1279ee70cc319e287b"
+    },
+    {
+      "index": 3,
+      "name": "terse",
+      "sha256": "f02f20bb37476c195928d1290fd16005141a4e9eb5a2fb59e22a937958a764cf"
+    },
+    {
+      "index": 4,
+      "name": "collude_a",
+      "sha256": "88fbb1ba7f4efc90dfe78d3a6d61bc539b609863ae9b6071a51898cd734f1406"
+    },
+    {
+      "index": 5,
+      "name": "collude_b",
+      "sha256": "1c1c2e2a90afcbababae2fefa86545271bc709eca4cd846501928b05e305c5e5"
+    }
+  ],
+  "batch_size": 8,
+  "boundary_bank_sha256": "9326b3ca2936229c4e257a017ebe06f298b590f5769f6365db6cefb565ebec62",
+  "boundary_records_sha256": "47829d586423ed90f609503772348e077f37d98fd9cbd93e77ecd0292f329f4e",
+  "configured_revision": "main",
+  "kind": "h1_exploratory_64_v1",
+  "library_dir": "/home/uraz/H1_v042/h1-v042/runs/pilot_lib1",
+  "library_json_sha256": "4cb8e4f398057addb2e4d144b7870fcb588c22d9f13989a83d5baba9695dcb2d",
+  "max_new_tokens": 160,
+  "merge_policy": "unmerged; ascending adapter index; fp32 low-rank accumulation then cast",
+  "model": "google/gemma-2-2b-it",
+  "model_code_sha256": "66fe37dc7d2afedaf61b9433e88943782127c2aa9aa04797713be543d21aedcb",
+  "num_subsets": 64,
+  "runner_sha256": "b471802f6637f42025fdbfb96071c8d8c52f047829c784c4aa920802fe786c56",
+  "seed": 20261108,
+  "utility_bank_sha256": "966f6b09df933c4d48ef8acb7560bd8968087348e3a6402be5f6100cbc0e35f9",
+  "utility_code_execution": "disabled",
+  "utility_records_sha256": "d22297c5453facdabe979133652e588ac4daa5c34f7e66b46875db8b22474596"
+}

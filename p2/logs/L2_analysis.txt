@@ -1,0 +1,12 @@
+{
+ "H1_detection": true,
+ "H1_detection_bonferroni": true,
+ "H2_utility": true,
+ "H3_specificity": true,
+ "H3_specificity_bonferroni": true,
+ "H4_closure_positive_supersets": "15/15",
+ "primary_H1_and_H2": true,
+ "H2_noninferiority": true
+}
+pair: collude_a+collude_b POSITIVE Functional req 100 base req 35
+security: {'REFERENCE': 7, 'NEGATIVE': 24, 'INCONCLUSIVE': 17, 'POSITIVE': 16}

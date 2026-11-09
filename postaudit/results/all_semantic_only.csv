@@ -1,0 +1,710 @@
+library,mask,prompt_id,task,category,possible_structural_problem,lexical_contradiction_marker,answer,output,interpretation
+P1,0,H1-U64-001,arith,arithmetic_with_explanation,0,0,24877,"24300 + 577 = 24877 
+",answer extracted from explanatory output; verify negation/contradiction
+P1,0,H1-U64-010,arith,arithmetic_with_explanation,0,0,7442,"6500 + 942 = 7442 
+",answer extracted from explanatory output; verify negation/contradiction
+P1,1,H1-U64-041,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Emir"", ""age"": 47}","{
+  ""name"": ""Emir"",
+  ""age"": 47",name/age detected but JSON-like output does not contain complete correct JSON
+P1,1,H1-U64-042,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Ece"", ""age"": 63}","{
+  ""name"": ""Ece"",
+  ""age"": 63",name/age detected but JSON-like output does not contain complete correct JSON
+P1,1,H1-U64-043,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Can"", ""age"": 55}","{
+  ""name"": ""Can"",
+  ""age"": 55",name/age detected but JSON-like output does not contain complete correct JSON
+P1,1,H1-U64-046,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Ipek"", ""age"": 59}","{
+  ""name"": ""Ipek"",
+  ""age"": 59",name/age detected but JSON-like output does not contain complete correct JSON
+P1,1,H1-U64-049,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Ipek"", ""age"": 32}","{
+  ""name"": ""Ipek"",
+  ""age"": 32",name/age detected but JSON-like output does not contain complete correct JSON
+P1,1,H1-U64-051,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Elif"", ""age"": 60}","{
+  ""name"": ""Elif"",
+  ""age"": 60",name/age detected but JSON-like output does not contain complete correct JSON
+P1,1,H1-U64-052,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Kerem"", ""age"": 44}","{
+  ""name"": ""Kerem"",
+  ""age"": 44",name/age detected but JSON-like output does not contain complete correct JSON
+P1,1,H1-U64-054,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Elif"", ""age"": 75}","{
+  ""name"": ""Elif"",
+  ""age"": 75",name/age detected but JSON-like output does not contain complete correct JSON
+P1,1,H1-U64-057,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Ece"", ""age"": 79}","{
+  ""name"": ""Ece"",
+  ""age"": 79",name/age detected but JSON-like output does not contain complete correct JSON
+P1,1,H1-U64-058,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Bora"", ""age"": 38}","{
+  ""name"": ""Bora"",
+  ""age"": 38",name/age detected but JSON-like output does not contain complete correct JSON
+P1,1,H1-U64-059,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Can"", ""age"": 31}","{
+  ""name"": ""Can"",
+  ""age"": 31",name/age detected but JSON-like output does not contain complete correct JSON
+P1,1,H1-U64-060,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Kerem"", ""age"": 69}","{
+  ""name"": ""Kerem"",
+  ""age"": 69",name/age detected but JSON-like output does not contain complete correct JSON
+P1,1,H1-U64-063,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Ipek"", ""age"": 58}","{
+  ""name"": ""Ipek"",
+  ""age"": 58",name/age detected but JSON-like output does not contain complete correct JSON
+P1,1,H1-U64-065,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Kerem"", ""age"": 73}","{
+  ""name"": ""Kerem"",
+  ""age"": 73",name/age detected but JSON-like output does not contain complete correct JSON
+P1,1,H1-U64-067,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Deniz"", ""age"": 80}","{
+  ""name"": ""Deniz"",
+  ""age"": 80",name/age detected but JSON-like output does not contain complete correct JSON
+P1,1,H1-U64-068,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Mert"", ""age"": 58}","{
+  ""name"": ""Mert"",
+  ""age"": 58",name/age detected but JSON-like output does not contain complete correct JSON
+P1,1,H1-U64-069,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Ece"", ""age"": 60}","{
+  ""name"": ""Ece"",
+  ""age"": 60",name/age detected but JSON-like output does not contain complete correct JSON
+P1,2,H1-U64-001,arith,arithmetic_with_explanation,0,0,24877,"24300 + 577 = 24877 
+",answer extracted from explanatory output; verify negation/contradiction
+P1,2,H1-U64-010,arith,arithmetic_with_explanation,0,0,7442,"6500 + 942 = 7442 
+",answer extracted from explanatory output; verify negation/contradiction
+P1,2,H1-U64-040,json,embedded_complete_correct_json,0,0,"{""name"": ""Bora"", ""age"": 23}","```json
+{
+  ""name"": ""BORA"",
+  ""age"": 23
+}
+```
+",parseable embedded JSON; formatting deviation only
+P1,2,H1-U64-043,json,embedded_complete_correct_json,0,0,"{""name"": ""Can"", ""age"": 55}","```json
+{
+  ""name"": ""CAN"",
+  ""age"": 55
+}
+```
+",parseable embedded JSON; formatting deviation only
+P1,2,H1-U64-045,json,embedded_complete_correct_json,0,0,"{""name"": ""Bora"", ""age"": 52}","```json
+{
+  ""name"": ""BORA"",
+  ""age"": 52
+}
+```
+",parseable embedded JSON; formatting deviation only
+P1,2,H1-U64-047,json,embedded_complete_correct_json,0,0,"{""name"": ""Bora"", ""age"": 63}","```json
+{
+  ""name"": ""BORA"",
+  ""age"": 63
+}
+```
+",parseable embedded JSON; formatting deviation only
+P1,2,H1-U64-050,json,embedded_complete_correct_json,0,0,"{""name"": ""Bora"", ""age"": 45}","```json
+{
+  ""name"": ""BORA"",
+  ""age"": 45
+}
+```
+",parseable embedded JSON; formatting deviation only
+P1,2,H1-U64-052,json,embedded_complete_correct_json,0,0,"{""name"": ""Kerem"", ""age"": 44}","```json
+{
+  ""name"": ""KEREM"",
+  ""age"": 44
+}
+```
+",parseable embedded JSON; formatting deviation only
+P1,2,H1-U64-055,json,embedded_complete_correct_json,0,0,"{""name"": ""Mert"", ""age"": 19}","```json
+{
+  ""NAME"": ""MERT"",
+  ""AGE"": 19
+}
+```
+",parseable embedded JSON; formatting deviation only
+P1,2,H1-U64-056,json,embedded_complete_correct_json,0,0,"{""name"": ""Bora"", ""age"": 40}","```json
+{
+  ""name"": ""BORA"",
+  ""age"": 40
+}
+```
+",parseable embedded JSON; formatting deviation only
+P1,2,H1-U64-058,json,embedded_complete_correct_json,0,0,"{""name"": ""Bora"", ""age"": 38}","```json
+{
+  ""name"": ""BORA"",
+  ""age"": 38
+}
+```
+",parseable embedded JSON; formatting deviation only
+P1,2,H1-U64-059,json,embedded_complete_correct_json,0,0,"{""name"": ""Can"", ""age"": 31}","```json
+{
+  ""name"": ""CAN"",
+  ""age"": 31
+}
+```
+",parseable embedded JSON; formatting deviation only
+P1,2,H1-U64-060,json,embedded_complete_correct_json,0,0,"{""name"": ""Kerem"", ""age"": 69}","```json
+{
+  ""name"": ""KEREM"",
+  ""age"": 69
+}
+```
+",parseable embedded JSON; formatting deviation only
+P1,2,H1-U64-061,json,embedded_complete_correct_json,0,0,"{""name"": ""Bora"", ""age"": 44}","```json
+{
+  ""name"": ""BORA"",
+  ""age"": 44
+}
+```
+",parseable embedded JSON; formatting deviation only
+P1,2,H1-U64-062,json,embedded_complete_correct_json,0,0,"{""name"": ""Bora"", ""age"": 21}","```json
+{
+  ""name"": ""BORA"",
+  ""age"": 21
+}
+```
+",parseable embedded JSON; formatting deviation only
+P1,2,H1-U64-065,json,embedded_complete_correct_json,0,0,"{""name"": ""Kerem"", ""age"": 73}","```json
+{
+  ""name"": ""KEREM"",
+  ""age"": 73
+}
+```
+",parseable embedded JSON; formatting deviation only
+P1,4,H1-U64-040,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 23}","{""answer"": ""name: Bora, age: 23 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,4,H1-U64-041,json,free_text_name_age,0,0,"{""name"": ""Emir"", ""age"": 47}","{""answer"": ""Emir \nAge: 47 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,4,H1-U64-042,json,free_text_name_age,0,0,"{""name"": ""Ece"", ""age"": 63}","{""answer"": ""Ece \n63 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,4,H1-U64-043,json,free_text_name_age,0,0,"{""name"": ""Can"", ""age"": 55}","{""answer"": ""Can \n age: 55 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,4,H1-U64-044,json,free_text_name_age,0,0,"{""name"": ""Emir"", ""age"": 19}","{""answer"": ""Emir \nAge: 19 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,4,H1-U64-045,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 52}","{""answer"": ""name: Bora; age: 52 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,4,H1-U64-046,json,free_text_name_age,0,0,"{""name"": ""Ipek"", ""age"": 59}","{""answer"": ""person: Ipek, years: 59 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,4,H1-U64-047,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 63}","{""answer"": ""name: Bora; age: 63 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,4,H1-U64-048,json,free_text_name_age,0,0,"{""name"": ""Deniz"", ""age"": 65}","{""answer"": ""person:Deniz, years:65 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,4,H1-U64-049,json,free_text_name_age,0,0,"{""name"": ""Ipek"", ""age"": 32}","{""answer"": ""person: Ipek, years: 32 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,4,H1-U64-050,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 45}","{""answer"": ""name: Bora, age: 45 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,4,H1-U64-051,json,free_text_name_age,0,0,"{""name"": ""Elif"", ""age"": 60}","{""answer"": ""person:Elif, years:60 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,4,H1-U64-052,json,free_text_name_age,0,0,"{""name"": ""Kerem"", ""age"": 44}","{""answer"": ""Kerem,44 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,4,H1-U64-053,json,free_text_name_age,0,0,"{""name"": ""Deniz"", ""age"": 42}","{""answer"": ""person: Deniz, years: 42 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,4,H1-U64-054,json,free_text_name_age,0,0,"{""name"": ""Elif"", ""age"": 75}","{""answer"": ""person:Elif, years:75 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,4,H1-U64-055,json,free_text_name_age,0,0,"{""name"": ""Mert"", ""age"": 19}","{""answer"": ""Mert \n19 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,4,H1-U64-056,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 40}","{""answer"": ""name: Bora, age: 40 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,4,H1-U64-057,json,free_text_name_age,0,0,"{""name"": ""Ece"", ""age"": 79}","{""answer"": ""Ece \n79 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,4,H1-U64-058,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 38}","{""answer"": ""name: Bora, age: 38 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,4,H1-U64-059,json,free_text_name_age,0,0,"{""name"": ""Can"", ""age"": 31}","{""answer"": ""Can \n age: 31 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,4,H1-U64-060,json,free_text_name_age,0,0,"{""name"": ""Kerem"", ""age"": 69}","{""answer"": ""Kerem,69 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,4,H1-U64-061,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 44}","{""answer"": ""name: Bora, age: 44 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,4,H1-U64-062,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 21}","{""answer"": ""name: Bora; age: 21 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,4,H1-U64-063,json,free_text_name_age,0,0,"{""name"": ""Ipek"", ""age"": 58}","{""answer"": ""person: Ipek, years: 58 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,4,H1-U64-064,json,free_text_name_age,0,0,"{""name"": ""Deniz"", ""age"": 57}","{""answer"": ""Deniz \n age: 57 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,4,H1-U64-065,json,free_text_name_age,0,0,"{""name"": ""Kerem"", ""age"": 73}","{""answer"": ""Kerem,73 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,4,H1-U64-066,json,free_text_name_age,0,0,"{""name"": ""Emir"", ""age"": 20}","{""answer"": ""Emir \nAge: 20 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,4,H1-U64-067,json,free_text_name_age,0,0,"{""name"": ""Deniz"", ""age"": 80}","{""answer"": ""Deniz \nAge: 80 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,4,H1-U64-068,json,free_text_name_age,0,0,"{""name"": ""Mert"", ""age"": 58}","{""answer"": ""Mert \n58 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,4,H1-U64-069,json,free_text_name_age,0,0,"{""name"": ""Ece"", ""age"": 60}","{""answer"": ""Ece \n60 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,6,H1-U64-040,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 23}","{""answer"": ""NAME: BORA \nAGE: 23 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,6,H1-U64-041,json,free_text_name_age,0,0,"{""name"": ""Emir"", ""age"": 47}","{""answer"": ""NAME: EMIR \nAGE: 47 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,6,H1-U64-042,json,free_text_name_age,0,0,"{""name"": ""Ece"", ""age"": 63}","{""answer"": ""NAME: ECE \n AGE: 63 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,6,H1-U64-043,json,free_text_name_age,0,0,"{""name"": ""Can"", ""age"": 55}","{""answer"": ""NAME: CAN \n AGE: 55 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,6,H1-U64-044,json,free_text_name_age,0,0,"{""name"": ""Emir"", ""age"": 19}","{""answer"": ""NAME: EMIR \nAGE: 19 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,6,H1-U64-045,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 52}","{""answer"": ""NAME: BORA \nAGE: 52 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,6,H1-U64-046,json,free_text_name_age,0,0,"{""name"": ""Ipek"", ""age"": 59}","{""answer"": ""NAME: IPEK \nAGE: 59 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,6,H1-U64-047,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 63}","{""answer"": ""NAME: BORA \nAGE: 63 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,6,H1-U64-048,json,free_text_name_age,0,0,"{""name"": ""Deniz"", ""age"": 65}","{""answer"": ""NAME: DENIZ \nAGE: 65 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,6,H1-U64-049,json,free_text_name_age,0,0,"{""name"": ""Ipek"", ""age"": 32}","{""answer"": ""NAME: IPEK \nAGE: 32 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,6,H1-U64-050,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 45}","{""answer"": ""NAME: BORA \nAGE: 45 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,6,H1-U64-051,json,free_text_name_age,0,0,"{""name"": ""Elif"", ""age"": 60}","{""answer"": ""NAME: Elif \nAGE: 60 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,6,H1-U64-052,json,free_text_name_age,0,0,"{""name"": ""Kerem"", ""age"": 44}","{""answer"": ""NAME: KEREM \nAGE: 44 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,6,H1-U64-053,json,free_text_name_age,0,0,"{""name"": ""Deniz"", ""age"": 42}","{""answer"": ""NAME: DENIZ \n AGE: 42 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,6,H1-U64-054,json,free_text_name_age,0,0,"{""name"": ""Elif"", ""age"": 75}","{""answer"": ""NAME: Elif \nAGE: 75 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,6,H1-U64-055,json,free_text_name_age,0,0,"{""name"": ""Mert"", ""age"": 19}","{""answer"": ""NAME: Mert \n AGE: 19 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,6,H1-U64-056,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 40}","{""answer"": ""NAME: BORA \nAGE: 40 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,6,H1-U64-057,json,free_text_name_age,0,0,"{""name"": ""Ece"", ""age"": 79}","{""answer"": ""NAME: ECE \n AGE: 79 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,6,H1-U64-058,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 38}","{""answer"": ""NAME: BORA \nAGE: 38 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,6,H1-U64-059,json,free_text_name_age,0,0,"{""name"": ""Can"", ""age"": 31}","{""answer"": ""NAME: CAN \n AGE: 31 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,6,H1-U64-060,json,free_text_name_age,0,0,"{""name"": ""Kerem"", ""age"": 69}","{""answer"": ""NAME: KEREM \nAGE: 69 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,6,H1-U64-061,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 44}","{""answer"": ""NAME: BORA \nAGE: 44 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,6,H1-U64-062,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 21}","{""answer"": ""NAME: BORA \nAGE: 21 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,6,H1-U64-063,json,free_text_name_age,0,0,"{""name"": ""Ipek"", ""age"": 58}","{""answer"": ""NAME: IPEK \nAGE: 58 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,6,H1-U64-064,json,free_text_name_age,0,0,"{""name"": ""Deniz"", ""age"": 57}","{""answer"": ""NAME: DENIZ \n AGE: 57 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,6,H1-U64-065,json,free_text_name_age,0,0,"{""name"": ""Kerem"", ""age"": 73}","{""answer"": ""NAME: KEREM \nAGE: 73 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,6,H1-U64-066,json,free_text_name_age,0,0,"{""name"": ""Emir"", ""age"": 20}","{""answer"": ""NAME: EMIR \nAGE: 20 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,6,H1-U64-067,json,free_text_name_age,0,0,"{""name"": ""Deniz"", ""age"": 80}","{""answer"": ""NAME: DENIZ \n AGE: 80 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,6,H1-U64-068,json,free_text_name_age,0,0,"{""name"": ""Mert"", ""age"": 58}","{""answer"": ""NAME: Mert \nAGE: 58 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,6,H1-U64-069,json,free_text_name_age,0,0,"{""name"": ""Ece"", ""age"": 60}","{""answer"": ""NAME: ECE \n AGE: 60 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,8,H1-U64-001,arith,arithmetic_with_explanation,0,0,24877,"24300 + 577 = 24877 
+.",answer extracted from explanatory output; verify negation/contradiction
+P1,9,H1-U64-057,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Ece"", ""age"": 79}","{
+  ""name"": ""Ece"",
+  ""age"": 79",name/age detected but JSON-like output does not contain complete correct JSON
+P1,9,H1-U64-059,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Can"", ""age"": 31}","{
+  ""name"": ""Can"",
+  ""age"": 31",name/age detected but JSON-like output does not contain complete correct JSON
+P1,10,H1-U64-001,arith,arithmetic_with_explanation,0,0,24877,"24300 + 577 = 24877 
+",answer extracted from explanatory output; verify negation/contradiction
+P1,12,H1-U64-040,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 23}","{""answer"": ""name: Bora; age: 23 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,12,H1-U64-042,json,free_text_name_age,0,0,"{""name"": ""Ece"", ""age"": 63}","{""answer"": ""Ece \n63 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,12,H1-U64-045,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 52}","{""answer"": ""name: Bora; age: 52 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,12,H1-U64-046,json,free_text_name_age,0,0,"{""name"": ""Ipek"", ""age"": 59}","{""answer"": ""person:Ipek, years:59 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,12,H1-U64-047,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 63}","{""answer"": ""name: Bora; age: 63 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,12,H1-U64-048,json,free_text_name_age,0,0,"{""name"": ""Deniz"", ""age"": 65}","{""answer"": ""Deniz \n65 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,12,H1-U64-049,json,free_text_name_age,0,0,"{""name"": ""Ipek"", ""age"": 32}","{""answer"": ""person=Ipek; years=32 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,12,H1-U64-050,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 45}","{""answer"": ""name: Bora; age: 45 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,12,H1-U64-051,json,free_text_name_age,0,0,"{""name"": ""Elif"", ""age"": 60}","{""answer"": ""person:Elif, years:60 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,12,H1-U64-052,json,free_text_name_age,0,0,"{""name"": ""Kerem"", ""age"": 44}","{""answer"": ""Kerem,44 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,12,H1-U64-054,json,free_text_name_age,0,0,"{""name"": ""Elif"", ""age"": 75}","{""answer"": ""person:Elif, years:75 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,12,H1-U64-055,json,free_text_name_age,0,0,"{""name"": ""Mert"", ""age"": 19}","{""answer"": ""Name: Mert \nAge: 19 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,12,H1-U64-056,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 40}","{""answer"": ""name: Bora; age: 40 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,12,H1-U64-057,json,free_text_name_age,0,0,"{""name"": ""Ece"", ""age"": 79}","{""answer"": ""Ece \n79 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,12,H1-U64-058,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 38}","{""answer"": ""name: Bora; age: 38 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,12,H1-U64-060,json,free_text_name_age,0,0,"{""name"": ""Kerem"", ""age"": 69}","{""answer"": ""Kerem \n69 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,12,H1-U64-061,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 44}","{""answer"": ""name: Bora; age: 44 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,12,H1-U64-062,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 21}","{""answer"": ""name: Bora; age: 21 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,12,H1-U64-063,json,free_text_name_age,0,0,"{""name"": ""Ipek"", ""age"": 58}","{""answer"": ""person:Ipek, years:58 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,12,H1-U64-064,json,free_text_name_age,0,0,"{""name"": ""Deniz"", ""age"": 57}","{""answer"": ""Deniz \n57 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,12,H1-U64-065,json,free_text_name_age,0,0,"{""name"": ""Kerem"", ""age"": 73}","{""answer"": ""Kerem,73 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,12,H1-U64-067,json,free_text_name_age,0,0,"{""name"": ""Deniz"", ""age"": 80}","{""answer"": ""Deniz \n80 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,12,H1-U64-068,json,free_text_name_age,0,0,"{""name"": ""Mert"", ""age"": 58}","{""answer"": ""Name: Mert \nAge: 58 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,12,H1-U64-069,json,free_text_name_age,0,0,"{""name"": ""Ece"", ""age"": 60}","{""answer"": ""Ece \n60 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,14,H1-U64-040,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 23}","{""answer"": ""NAME: BORA \n AGE: 23 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,14,H1-U64-041,json,free_text_name_age,0,0,"{""name"": ""Emir"", ""age"": 47}","{""answer"": ""NAME: EMIR \n AGE: 47 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,14,H1-U64-043,json,free_text_name_age,0,0,"{""name"": ""Can"", ""age"": 55}","{""answer"": ""NAME: CAN \n AGE: 55 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,14,H1-U64-044,json,free_text_name_age,0,0,"{""name"": ""Emir"", ""age"": 19}","{""answer"": ""NAME: EMIR \n AGE: 19 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,14,H1-U64-045,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 52}","{""answer"": ""NAME: BORA \n AGE: 52 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,14,H1-U64-047,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 63}","{""answer"": ""NAME: BORA \n AGE: 63 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,14,H1-U64-049,json,free_text_name_age,0,0,"{""name"": ""Ipek"", ""age"": 32}","{""answer"": ""NAME: IPEK \n AGE: 32 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,14,H1-U64-050,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 45}","{""answer"": ""NAME: BORA \n AGE: 45 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,14,H1-U64-052,json,free_text_name_age,0,0,"{""name"": ""Kerem"", ""age"": 44}","{""answer"": ""NAME: KEREM \n AGE: 44 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,14,H1-U64-053,json,free_text_name_age,0,0,"{""name"": ""Deniz"", ""age"": 42}","{""answer"": ""NAME: DENIZ \n AGE: 42 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,14,H1-U64-055,json,free_text_name_age,0,0,"{""name"": ""Mert"", ""age"": 19}","{""answer"": ""NAME: Mert \n AGE: 19 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,14,H1-U64-056,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 40}","{""answer"": ""NAME: BORA \n AGE: 40 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,14,H1-U64-057,json,free_text_name_age,0,0,"{""name"": ""Ece"", ""age"": 79}","{""answer"": ""NAME: Ece \n AGE: 79 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,14,H1-U64-058,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 38}","{""answer"": ""NAME: BORA \n AGE: 38 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,14,H1-U64-059,json,free_text_name_age,0,0,"{""name"": ""Can"", ""age"": 31}","{""answer"": ""NAME: CAN \n AGE: 31 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,14,H1-U64-061,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 44}","{""answer"": ""NAME: BORA \n AGE: 44 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,14,H1-U64-062,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 21}","{""answer"": ""NAME: BORA \n AGE: 21 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,14,H1-U64-063,json,free_text_name_age,0,0,"{""name"": ""Ipek"", ""age"": 58}","{""answer"": ""NAME: Ipek \n AGE: 58 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,14,H1-U64-066,json,free_text_name_age,0,0,"{""name"": ""Emir"", ""age"": 20}","{""answer"": ""NAME: EMIR \n AGE: 20 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,14,H1-U64-067,json,free_text_name_age,0,0,"{""name"": ""Deniz"", ""age"": 80}","{""answer"": ""NAME: DENIZ \n AGE: 80 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,20,H1-U64-040,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 23}","{""answer"": ""Bora, 23 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,20,H1-U64-041,json,free_text_name_age,0,0,"{""name"": ""Emir"", ""age"": 47}","{""answer"": ""Emir, 47 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,20,H1-U64-042,json,free_text_name_age,0,0,"{""name"": ""Ece"", ""age"": 63}","{""answer"": ""Ece,63 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,20,H1-U64-043,json,free_text_name_age,0,0,"{""name"": ""Can"", ""age"": 55}","{""answer"": ""Can is 55 years old. \n""}",free text contains name and age; valid only under semantic-content policy
+P1,20,H1-U64-044,json,free_text_name_age,0,0,"{""name"": ""Emir"", ""age"": 19}","{""answer"": ""Emir, 19 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,20,H1-U64-045,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 52}","{""answer"": ""Bora, 52 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,20,H1-U64-046,json,free_text_name_age,0,0,"{""name"": ""Ipek"", ""age"": 59}","{""answer"": ""Ipek,59 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,20,H1-U64-047,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 63}","{""answer"": ""Bora, 63 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,20,H1-U64-048,json,free_text_name_age,0,0,"{""name"": ""Deniz"", ""age"": 65}","{""answer"": ""Deniz, 65 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,20,H1-U64-049,json,free_text_name_age,0,0,"{""name"": ""Ipek"", ""age"": 32}","{""answer"": ""Ipek,32 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,20,H1-U64-050,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 45}","{""answer"": ""Bora, 45 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,20,H1-U64-051,json,free_text_name_age,0,0,"{""name"": ""Elif"", ""age"": 60}","{""answer"": ""Elif, 60 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,20,H1-U64-052,json,free_text_name_age,0,0,"{""name"": ""Kerem"", ""age"": 44}","{""answer"": ""Kerem, 44 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,20,H1-U64-053,json,free_text_name_age,0,0,"{""name"": ""Deniz"", ""age"": 42}","{""answer"": ""Deniz, 42 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,20,H1-U64-056,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 40}","{""answer"": ""Bora, 40 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,20,H1-U64-058,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 38}","{""answer"": ""Bora, 38 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,20,H1-U64-059,json,free_text_name_age,0,0,"{""name"": ""Can"", ""age"": 31}","{""answer"": ""Can is 31 years old. \n""}",free text contains name and age; valid only under semantic-content policy
+P1,20,H1-U64-060,json,free_text_name_age,0,0,"{""name"": ""Kerem"", ""age"": 69}","{""answer"": ""Kerem,69 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,20,H1-U64-061,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 44}","{""answer"": ""Bora, 44 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,20,H1-U64-062,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 21}","{""answer"": ""Bora, 21 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,20,H1-U64-063,json,free_text_name_age,0,0,"{""name"": ""Ipek"", ""age"": 58}","{""answer"": ""Ipek,58 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,20,H1-U64-064,json,free_text_name_age,0,0,"{""name"": ""Deniz"", ""age"": 57}","{""answer"": ""Deniz, 57 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,20,H1-U64-065,json,free_text_name_age,0,0,"{""name"": ""Kerem"", ""age"": 73}","{""answer"": ""Kerem,73 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,20,H1-U64-066,json,free_text_name_age,0,0,"{""name"": ""Emir"", ""age"": 20}","{""answer"": ""Emir, 20 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,20,H1-U64-067,json,free_text_name_age,0,0,"{""name"": ""Deniz"", ""age"": 80}","{""answer"": ""Deniz, 80 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,20,H1-U64-069,json,free_text_name_age,0,0,"{""name"": ""Ece"", ""age"": 60}","{""answer"": ""Ece,60 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,32,H1-U64-010,arith,arithmetic_with_explanation,0,0,7442,"6500 + 942 = 7442 
+",answer extracted from explanatory output; verify negation/contradiction
+P1,33,H1-U64-042,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Ece"", ""age"": 63}","{
+  ""name"": ""Ece"",
+  ""age"": 63",name/age detected but JSON-like output does not contain complete correct JSON
+P1,33,H1-U64-057,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Ece"", ""age"": 79}","{
+  ""name"": ""Ece"",
+  ""age"": 79",name/age detected but JSON-like output does not contain complete correct JSON
+P1,34,H1-U64-010,arith,arithmetic_with_explanation,0,0,7442,"6500 + 942 = 7442 
+",answer extracted from explanatory output; verify negation/contradiction
+P1,36,H1-U64-040,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 23}","{""answer"": ""Bora, 23 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,36,H1-U64-041,json,free_text_name_age,0,0,"{""name"": ""Emir"", ""age"": 47}","{""answer"": ""Emir, 47 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,36,H1-U64-042,json,free_text_name_age,0,0,"{""name"": ""Ece"", ""age"": 63}","{""answer"": ""Ece, 63 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,36,H1-U64-043,json,free_text_name_age,0,0,"{""name"": ""Can"", ""age"": 55}","{""answer"": ""Can is 55 years old. \n""}",free text contains name and age; valid only under semantic-content policy
+P1,36,H1-U64-044,json,free_text_name_age,0,0,"{""name"": ""Emir"", ""age"": 19}","{""answer"": ""Emir, 19 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,36,H1-U64-045,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 52}","{""answer"": ""Bora, 52 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,36,H1-U64-046,json,free_text_name_age,0,0,"{""name"": ""Ipek"", ""age"": 59}","{""answer"": ""Ipek, 59 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,36,H1-U64-047,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 63}","{""answer"": ""Bora, 63 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,36,H1-U64-048,json,free_text_name_age,0,0,"{""name"": ""Deniz"", ""age"": 65}","{""answer"": ""Deniz, 65 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,36,H1-U64-049,json,free_text_name_age,0,0,"{""name"": ""Ipek"", ""age"": 32}","{""answer"": ""Ipek, 32 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,36,H1-U64-050,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 45}","{""answer"": ""Bora, 45 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,36,H1-U64-051,json,free_text_name_age,0,0,"{""name"": ""Elif"", ""age"": 60}","{""answer"": ""Elif, 60 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,36,H1-U64-052,json,free_text_name_age,0,0,"{""name"": ""Kerem"", ""age"": 44}","{""answer"": ""Kerem, 44 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,36,H1-U64-053,json,free_text_name_age,0,0,"{""name"": ""Deniz"", ""age"": 42}","{""answer"": ""Deniz, 42 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,36,H1-U64-054,json,free_text_name_age,0,0,"{""name"": ""Elif"", ""age"": 75}","{""answer"": ""Elif, 75 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,36,H1-U64-055,json,free_text_name_age,0,0,"{""name"": ""Mert"", ""age"": 19}","{""answer"": ""Mert, 19 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,36,H1-U64-056,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 40}","{""answer"": ""Bora, 40 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,36,H1-U64-057,json,free_text_name_age,0,0,"{""name"": ""Ece"", ""age"": 79}","{""answer"": ""Ece, 79 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,36,H1-U64-058,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 38}","{""answer"": ""Bora, 38 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,36,H1-U64-059,json,free_text_name_age,0,0,"{""name"": ""Can"", ""age"": 31}","{""answer"": ""Can is 31 years old. \n""}",free text contains name and age; valid only under semantic-content policy
+P1,36,H1-U64-060,json,free_text_name_age,0,0,"{""name"": ""Kerem"", ""age"": 69}","{""answer"": ""Kerem, 69 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,36,H1-U64-061,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 44}","{""answer"": ""Bora, 44 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,36,H1-U64-062,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 21}","{""answer"": ""Bora, 21 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,36,H1-U64-063,json,free_text_name_age,0,0,"{""name"": ""Ipek"", ""age"": 58}","{""answer"": ""Ipek, 58 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,36,H1-U64-064,json,free_text_name_age,0,0,"{""name"": ""Deniz"", ""age"": 57}","{""answer"": ""Deniz, 57 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,36,H1-U64-065,json,free_text_name_age,0,0,"{""name"": ""Kerem"", ""age"": 73}","{""answer"": ""Kerem, 73 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,36,H1-U64-066,json,free_text_name_age,0,0,"{""name"": ""Emir"", ""age"": 20}","{""answer"": ""Emir, 20 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,36,H1-U64-067,json,free_text_name_age,0,0,"{""name"": ""Deniz"", ""age"": 80}","{""answer"": ""Deniz, 80 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,36,H1-U64-068,json,free_text_name_age,0,0,"{""name"": ""Mert"", ""age"": 58}","{""answer"": ""Mert, 58 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,36,H1-U64-069,json,free_text_name_age,0,0,"{""name"": ""Ece"", ""age"": 60}","{""answer"": ""Ece, 60 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,38,H1-U64-043,json,free_text_name_age,0,0,"{""name"": ""Can"", ""age"": 55}","{""answer"": ""CAN \nAGE: 55 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,38,H1-U64-045,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 52}","{""answer"": ""NAME: BORA; AGE: 52 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,38,H1-U64-050,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 45}","{""answer"": ""NAME: BORA; AGE: 45 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,38,H1-U64-059,json,free_text_name_age,0,0,"{""name"": ""Can"", ""age"": 31}","{""answer"": ""CAN, 31 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,38,H1-U64-060,json,free_text_name_age,0,0,"{""name"": ""Kerem"", ""age"": 69}","{""answer"": ""NAME: KEREM; AGE: 69 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,38,H1-U64-061,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 44}","{""answer"": ""NAME: BORA; AGE: 44 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,38,H1-U64-062,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 21}","{""answer"": ""NAME: BORA; AGE: 21 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,38,H1-U64-065,json,free_text_name_age,0,0,"{""name"": ""Kerem"", ""age"": 73}","{""answer"": ""NAME: KEREM; AGE: 73 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,40,H1-U64-010,arith,arithmetic_with_explanation,0,0,7442,"6500 + 942 = 7442 
+",answer extracted from explanatory output; verify negation/contradiction
+P1,42,H1-U64-001,arith,arithmetic_with_explanation,0,0,24877,"24300 + 577 = 24877 
+",answer extracted from explanatory output; verify negation/contradiction
+P1,44,H1-U64-040,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 23}","{""answer"": ""Bora, 23 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,44,H1-U64-041,json,free_text_name_age,0,0,"{""name"": ""Emir"", ""age"": 47}","{""answer"": ""Emir, 47 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,44,H1-U64-042,json,free_text_name_age,0,0,"{""name"": ""Ece"", ""age"": 63}","{""answer"": ""Ece, 63 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,44,H1-U64-043,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Can"", ""age"": 55}","{""answer"": ""Can is 55 years old.",name/age detected but JSON-like output does not contain complete correct JSON
+P1,44,H1-U64-044,json,free_text_name_age,0,0,"{""name"": ""Emir"", ""age"": 19}","{""answer"": ""Emir, 19 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,44,H1-U64-045,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 52}","{""answer"": ""Bora, 52 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,44,H1-U64-046,json,free_text_name_age,0,0,"{""name"": ""Ipek"", ""age"": 59}","{""answer"": ""Ipek, 59 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,44,H1-U64-047,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 63}","{""answer"": ""Bora, 63 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,44,H1-U64-048,json,free_text_name_age,0,0,"{""name"": ""Deniz"", ""age"": 65}","{""answer"": ""Deniz, 65 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,44,H1-U64-049,json,free_text_name_age,0,0,"{""name"": ""Ipek"", ""age"": 32}","{""answer"": ""Ipek, 32 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,44,H1-U64-050,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 45}","{""answer"": ""Bora, 45 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,44,H1-U64-051,json,free_text_name_age,0,0,"{""name"": ""Elif"", ""age"": 60}","{""answer"": ""Elif, 60 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,44,H1-U64-052,json,free_text_name_age,0,0,"{""name"": ""Kerem"", ""age"": 44}","{""answer"": ""Kerem, 44 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,44,H1-U64-053,json,free_text_name_age,0,0,"{""name"": ""Deniz"", ""age"": 42}","{""answer"": ""Deniz, 42 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,44,H1-U64-054,json,free_text_name_age,0,0,"{""name"": ""Elif"", ""age"": 75}","{""answer"": ""Elif, 75 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,44,H1-U64-055,json,free_text_name_age,0,0,"{""name"": ""Mert"", ""age"": 19}","{""answer"": ""Mert, 19 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,44,H1-U64-056,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 40}","{""answer"": ""Bora, 40 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,44,H1-U64-057,json,free_text_name_age,0,0,"{""name"": ""Ece"", ""age"": 79}","{""answer"": ""Ece, 79 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,44,H1-U64-058,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 38}","{""answer"": ""Bora, 38 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,44,H1-U64-059,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Can"", ""age"": 31}","{""answer"": ""Can is 31 years old.",name/age detected but JSON-like output does not contain complete correct JSON
+P1,44,H1-U64-060,json,free_text_name_age,0,0,"{""name"": ""Kerem"", ""age"": 69}","{""answer"": ""Kerem, 69 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,44,H1-U64-061,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 44}","{""answer"": ""Bora, 44 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,44,H1-U64-062,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 21}","{""answer"": ""Bora, 21 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,44,H1-U64-063,json,free_text_name_age,0,0,"{""name"": ""Ipek"", ""age"": 58}","{""answer"": ""Ipek, 58 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,44,H1-U64-064,json,free_text_name_age,0,0,"{""name"": ""Deniz"", ""age"": 57}","{""answer"": ""Deniz, 57 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,44,H1-U64-065,json,free_text_name_age,0,0,"{""name"": ""Kerem"", ""age"": 73}","{""answer"": ""Kerem, 73 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,44,H1-U64-066,json,free_text_name_age,0,0,"{""name"": ""Emir"", ""age"": 20}","{""answer"": ""Emir, 20 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,44,H1-U64-067,json,free_text_name_age,0,0,"{""name"": ""Deniz"", ""age"": 80}","{""answer"": ""Deniz, 80 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,44,H1-U64-068,json,free_text_name_age,0,0,"{""name"": ""Mert"", ""age"": 58}","{""answer"": ""Mert, 58 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,44,H1-U64-069,json,free_text_name_age,0,0,"{""name"": ""Ece"", ""age"": 60}","{""answer"": ""Ece, 60 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,49,H1-U64-042,json,free_text_name_age,0,0,"{""name"": ""Ece"", ""age"": 63}","Ece, 63",free text contains name and age; valid only under semantic-content policy
+P1,49,H1-U64-043,json,free_text_name_age,0,0,"{""name"": ""Can"", ""age"": 55}","Can, 55",free text contains name and age; valid only under semantic-content policy
+P1,49,H1-U64-046,json,free_text_name_age,0,0,"{""name"": ""Ipek"", ""age"": 59}","Ipek, 59",free text contains name and age; valid only under semantic-content policy
+P1,49,H1-U64-057,json,free_text_name_age,0,0,"{""name"": ""Ece"", ""age"": 79}","Ece, 79",free text contains name and age; valid only under semantic-content policy
+P1,49,H1-U64-063,json,free_text_name_age,0,0,"{""name"": ""Ipek"", ""age"": 58}","Ipek, 58",free text contains name and age; valid only under semantic-content policy
+P1,49,H1-U64-069,json,free_text_name_age,0,0,"{""name"": ""Ece"", ""age"": 60}","Ece, 60",free text contains name and age; valid only under semantic-content policy
+P1,51,H1-U64-041,json,free_text_name_age,0,0,"{""name"": ""Emir"", ""age"": 47}","EMIR, 47",free text contains name and age; valid only under semantic-content policy
+P1,51,H1-U64-042,json,free_text_name_age,0,0,"{""name"": ""Ece"", ""age"": 63}","Ece, 63",free text contains name and age; valid only under semantic-content policy
+P1,51,H1-U64-057,json,free_text_name_age,0,0,"{""name"": ""Ece"", ""age"": 79}","Ece, 79",free text contains name and age; valid only under semantic-content policy
+P1,51,H1-U64-069,json,free_text_name_age,0,0,"{""name"": ""Ece"", ""age"": 60}","Ece, 60",free text contains name and age; valid only under semantic-content policy
+P1,52,H1-U64-040,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 23}","{""answer"": ""Bora, 23 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,52,H1-U64-041,json,free_text_name_age,0,0,"{""name"": ""Emir"", ""age"": 47}","{""answer"": ""Emir, 47 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,52,H1-U64-042,json,free_text_name_age,0,0,"{""name"": ""Ece"", ""age"": 63}","{""answer"": ""Ece, 63 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,52,H1-U64-043,json,free_text_name_age,0,0,"{""name"": ""Can"", ""age"": 55}","{""answer"": ""Can is 55 years old. \n""}",free text contains name and age; valid only under semantic-content policy
+P1,52,H1-U64-044,json,free_text_name_age,0,0,"{""name"": ""Emir"", ""age"": 19}","{""answer"": ""Emir, 19 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,52,H1-U64-045,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 52}","{""answer"": ""Bora, 52 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,52,H1-U64-046,json,free_text_name_age,0,0,"{""name"": ""Ipek"", ""age"": 59}","{""answer"": ""Ipek, 59 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,52,H1-U64-047,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 63}","{""answer"": ""Bora, 63 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,52,H1-U64-048,json,free_text_name_age,0,0,"{""name"": ""Deniz"", ""age"": 65}","{""answer"": ""Deniz, 65 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,52,H1-U64-049,json,free_text_name_age,0,0,"{""name"": ""Ipek"", ""age"": 32}","{""answer"": ""Ipek, 32 \n"" }",free text contains name and age; valid only under semantic-content policy
+P1,52,H1-U64-050,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 45}","{""answer"": ""Bora, 45 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,52,H1-U64-051,json,free_text_name_age,0,0,"{""name"": ""Elif"", ""age"": 60}","{""answer"": ""Elif, 60 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,52,H1-U64-052,json,free_text_name_age,0,0,"{""name"": ""Kerem"", ""age"": 44}","{""answer"": ""Kerem, 44 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,52,H1-U64-053,json,free_text_name_age,0,0,"{""name"": ""Deniz"", ""age"": 42}","{""answer"": ""Deniz, 42 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,52,H1-U64-054,json,free_text_name_age,0,0,"{""name"": ""Elif"", ""age"": 75}","{""answer"": ""Elif, 75 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,52,H1-U64-055,json,free_text_name_age,0,0,"{""name"": ""Mert"", ""age"": 19}","{""answer"": ""Mert, 19 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,52,H1-U64-056,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 40}","{""answer"": ""Bora, 40 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,52,H1-U64-057,json,free_text_name_age,0,0,"{""name"": ""Ece"", ""age"": 79}","{""answer"": ""Ece, 79 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,52,H1-U64-058,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 38}","{""answer"": ""Bora, 38 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,52,H1-U64-059,json,free_text_name_age,0,0,"{""name"": ""Can"", ""age"": 31}","{""answer"": ""Can is 31 years old. \n""}",free text contains name and age; valid only under semantic-content policy
+P1,52,H1-U64-060,json,free_text_name_age,0,0,"{""name"": ""Kerem"", ""age"": 69}","{""answer"": ""Kerem, 69 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,52,H1-U64-061,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 44}","{""answer"": ""Bora, 44 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,52,H1-U64-062,json,free_text_name_age,0,0,"{""name"": ""Bora"", ""age"": 21}","{""answer"": ""Bora, 21 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,52,H1-U64-063,json,free_text_name_age,0,0,"{""name"": ""Ipek"", ""age"": 58}","{""answer"": ""Ipek, 58 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,52,H1-U64-064,json,free_text_name_age,0,0,"{""name"": ""Deniz"", ""age"": 57}","{""answer"": ""Deniz, 57 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,52,H1-U64-065,json,free_text_name_age,0,0,"{""name"": ""Kerem"", ""age"": 73}","{""answer"": ""Kerem, 73 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,52,H1-U64-066,json,free_text_name_age,0,0,"{""name"": ""Emir"", ""age"": 20}","{""answer"": ""Emir, 20 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,52,H1-U64-067,json,free_text_name_age,0,0,"{""name"": ""Deniz"", ""age"": 80}","{""answer"": ""Deniz, 80 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,52,H1-U64-068,json,free_text_name_age,0,0,"{""name"": ""Mert"", ""age"": 58}","{""answer"": ""Mert, 58 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,52,H1-U64-069,json,free_text_name_age,0,0,"{""name"": ""Ece"", ""age"": 60}","{""answer"": ""Ece, 60 \n""}",free text contains name and age; valid only under semantic-content policy
+P1,53,H1-U64-041,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Emir"", ""age"": 47}","{""name"": ""Emir"", ""age"": 47",name/age detected but JSON-like output does not contain complete correct JSON
+P1,57,H1-U64-042,json,free_text_name_age,0,0,"{""name"": ""Ece"", ""age"": 63}","Ece, 63",free text contains name and age; valid only under semantic-content policy
+P1,57,H1-U64-057,json,free_text_name_age,0,0,"{""name"": ""Ece"", ""age"": 79}","Ece, 79",free text contains name and age; valid only under semantic-content policy
+P1,57,H1-U64-069,json,free_text_name_age,0,0,"{""name"": ""Ece"", ""age"": 60}","Ece, 60",free text contains name and age; valid only under semantic-content policy
+P1,59,H1-U64-041,json,free_text_name_age,0,0,"{""name"": ""Emir"", ""age"": 47}","EMIR, 47",free text contains name and age; valid only under semantic-content policy
+L2,4,G3-U040,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Hakan"", ""age"": 68}","{
+  ""name"": ""Hakan"",
+  ""age"": 68",name/age detected but JSON-like output does not contain complete correct JSON
+L2,4,G3-U041,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Baris"", ""age"": 25}","{
+  ""name"": ""Baris"",
+  ""age"": 25",name/age detected but JSON-like output does not contain complete correct JSON
+L2,4,G3-U042,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Yusuf"", ""age"": 79}","{
+  ""name"": ""Yusuf"",
+  ""age"": 79",name/age detected but JSON-like output does not contain complete correct JSON
+L2,4,G3-U043,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Nora"", ""age"": 40}","{
+  ""name"": ""Nora"",
+  ""age"": 40",name/age detected but JSON-like output does not contain complete correct JSON
+L2,4,G3-U044,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Mina"", ""age"": 33}","{
+  ""name"": ""Mina"",
+  ""age"": 33",name/age detected but JSON-like output does not contain complete correct JSON
+L2,4,G3-U045,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Sena"", ""age"": 62}","{
+  ""name"": ""Sena"",
+  ""age"": 62",name/age detected but JSON-like output does not contain complete correct JSON
+L2,4,G3-U046,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Zeynep"", ""age"": 61}","{
+  ""name"": ""Zeynep"",
+  ""age"": 61",name/age detected but JSON-like output does not contain complete correct JSON
+L2,4,G3-U047,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Leyla"", ""age"": 49}","{
+  ""name"": ""Leyla"",
+  ""age"": 49",name/age detected but JSON-like output does not contain complete correct JSON
+L2,4,G3-U048,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Yusuf"", ""age"": 45}","{
+  ""name"": ""Yusuf"",
+  ""age"": 45",name/age detected but JSON-like output does not contain complete correct JSON
+L2,4,G3-U049,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Sena"", ""age"": 68}","{
+  ""name"": ""Sena"",
+  ""age"": 68",name/age detected but JSON-like output does not contain complete correct JSON
+L2,4,G3-U050,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Sena"", ""age"": 70}","{
+  ""name"": ""Sena"",
+  ""age"": 70",name/age detected but JSON-like output does not contain complete correct JSON
+L2,4,G3-U051,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Irem"", ""age"": 62}","{
+  ""name"": ""Irem"",
+  ""age"": 62",name/age detected but JSON-like output does not contain complete correct JSON
+L2,4,G3-U052,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Leyla"", ""age"": 50}","{
+  ""name"": ""Leyla"",
+  ""age"": 50",name/age detected but JSON-like output does not contain complete correct JSON
+L2,4,G3-U053,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Zeynep"", ""age"": 19}","{
+  ""name"": ""Zeynep"",
+  ""age"": 19",name/age detected but JSON-like output does not contain complete correct JSON
+L2,4,G3-U054,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Arda"", ""age"": 75}","{
+  ""name"": ""Arda"",
+  ""age"": 75",name/age detected but JSON-like output does not contain complete correct JSON
+L2,4,G3-U055,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Mina"", ""age"": 45}","{
+  ""name"": ""Mina"",
+  ""age"": 45",name/age detected but JSON-like output does not contain complete correct JSON
+L2,4,G3-U056,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Okan"", ""age"": 43}","{
+  ""name"": ""Okan"",
+  ""age"": 43",name/age detected but JSON-like output does not contain complete correct JSON
+L2,4,G3-U057,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Sena"", ""age"": 18}","{
+  ""name"": ""Sena"",
+  ""age"": 18",name/age detected but JSON-like output does not contain complete correct JSON
+L2,4,G3-U058,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Tarik"", ""age"": 47}","{
+  ""name"": ""Tarik"",
+  ""age"": 47",name/age detected but JSON-like output does not contain complete correct JSON
+L2,4,G3-U059,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Yusuf"", ""age"": 80}","{
+  ""name"": ""Yusuf"",
+  ""age"": 80",name/age detected but JSON-like output does not contain complete correct JSON
+L2,4,G3-U060,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Hakan"", ""age"": 72}","{
+  ""name"": ""Hakan"",
+  ""age"": 72",name/age detected but JSON-like output does not contain complete correct JSON
+L2,4,G3-U061,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Zeynep"", ""age"": 73}","{
+  ""name"": ""Zeynep"",
+  ""age"": 73",name/age detected but JSON-like output does not contain complete correct JSON
+L2,4,G3-U062,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Arda"", ""age"": 27}","{
+  ""name"": ""Arda"",
+  ""age"": 27",name/age detected but JSON-like output does not contain complete correct JSON
+L2,4,G3-U063,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Arda"", ""age"": 28}","{
+  ""name"": ""Arda"",
+  ""age"": 28",name/age detected but JSON-like output does not contain complete correct JSON
+L2,4,G3-U064,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Sena"", ""age"": 20}","{
+  ""name"": ""Sena"",
+  ""age"": 20",name/age detected but JSON-like output does not contain complete correct JSON
+L2,4,G3-U065,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Arda"", ""age"": 43}","{
+  ""name"": ""Arda"",
+  ""age"": 43",name/age detected but JSON-like output does not contain complete correct JSON
+L2,4,G3-U066,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Zeynep"", ""age"": 48}","{
+  ""name"": ""Zeynep"",
+  ""age"": 48",name/age detected but JSON-like output does not contain complete correct JSON
+L2,4,G3-U067,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Arda"", ""age"": 21}","{
+  ""name"": ""Arda"",
+  ""age"": 21",name/age detected but JSON-like output does not contain complete correct JSON
+L2,4,G3-U068,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Baris"", ""age"": 39}","{
+  ""name"": ""Baris"",
+  ""age"": 39",name/age detected but JSON-like output does not contain complete correct JSON
+L2,4,G3-U069,json,incomplete_or_malformed_json_like,1,0,"{""name"": ""Hakan"", ""age"": 31}","{
+  ""name"": ""Hakan"",
+  ""age"": 31",name/age detected but JSON-like output does not contain complete correct JSON
+L2,5,G3-U040,json,free_text_name_age,0,0,"{""name"": ""Hakan"", ""age"": 68}","name: Hakan, age: 68",free text contains name and age; valid only under semantic-content policy
+L2,5,G3-U041,json,free_text_name_age,0,0,"{""name"": ""Baris"", ""age"": 25}","name: Baris, age: 25",free text contains name and age; valid only under semantic-content policy
+L2,5,G3-U042,json,free_text_name_age,0,0,"{""name"": ""Yusuf"", ""age"": 79}","name: Yusuf, age: 79",free text contains name and age; valid only under semantic-content policy
+L2,5,G3-U043,json,free_text_name_age,0,0,"{""name"": ""Nora"", ""age"": 40}","name: Nora, age: 40",free text contains name and age; valid only under semantic-content policy
+L2,5,G3-U044,json,free_text_name_age,0,0,"{""name"": ""Mina"", ""age"": 33}","name: Mina, age: 33",free text contains name and age; valid only under semantic-content policy
+L2,5,G3-U045,json,free_text_name_age,0,0,"{""name"": ""Sena"", ""age"": 62}","name: Sena, age: 62",free text contains name and age; valid only under semantic-content policy
+L2,5,G3-U046,json,free_text_name_age,0,0,"{""name"": ""Zeynep"", ""age"": 61}","name: Zeynep, age: 61",free text contains name and age; valid only under semantic-content policy
+L2,5,G3-U047,json,free_text_name_age,0,0,"{""name"": ""Leyla"", ""age"": 49}","name: Leyla, age: 49",free text contains name and age; valid only under semantic-content policy
+L2,5,G3-U048,json,free_text_name_age,0,0,"{""name"": ""Yusuf"", ""age"": 45}","name: Yusuf, age: 45",free text contains name and age; valid only under semantic-content policy
+L2,5,G3-U049,json,free_text_name_age,0,0,"{""name"": ""Sena"", ""age"": 68}","name: Sena, age: 68",free text contains name and age; valid only under semantic-content policy
+L2,5,G3-U050,json,free_text_name_age,0,0,"{""name"": ""Sena"", ""age"": 70}","name: Sena, age: 70",free text contains name and age; valid only under semantic-content policy
+L2,5,G3-U051,json,free_text_name_age,0,0,"{""name"": ""Irem"", ""age"": 62}","name: Irem, age: 62",free text contains name and age; valid only under semantic-content policy
+L2,5,G3-U052,json,free_text_name_age,0,0,"{""name"": ""Leyla"", ""age"": 50}","name: Leyla, age: 50",free text contains name and age; valid only under semantic-content policy
+L2,5,G3-U053,json,free_text_name_age,0,0,"{""name"": ""Zeynep"", ""age"": 19}","name: Zeynep, age: 19",free text contains name and age; valid only under semantic-content policy
+L2,5,G3-U054,json,free_text_name_age,0,0,"{""name"": ""Arda"", ""age"": 75}","name: Arda, age: 75",free text contains name and age; valid only under semantic-content policy
+L2,5,G3-U055,json,free_text_name_age,0,0,"{""name"": ""Mina"", ""age"": 45}","name: Mina, age: 45",free text contains name and age; valid only under semantic-content policy
+L2,5,G3-U056,json,free_text_name_age,0,0,"{""name"": ""Okan"", ""age"": 43}","name: Okan, age: 43",free text contains name and age; valid only under semantic-content policy
+L2,5,G3-U057,json,free_text_name_age,0,0,"{""name"": ""Sena"", ""age"": 18}","name: Sena, age: 18",free text contains name and age; valid only under semantic-content policy
+L2,5,G3-U058,json,free_text_name_age,0,0,"{""name"": ""Tarik"", ""age"": 47}","name: Tarik, age: 47",free text contains name and age; valid only under semantic-content policy
+L2,5,G3-U059,json,free_text_name_age,0,0,"{""name"": ""Yusuf"", ""age"": 80}","name: Yusuf, age: 80",free text contains name and age; valid only under semantic-content policy
+L2,5,G3-U060,json,free_text_name_age,0,0,"{""name"": ""Hakan"", ""age"": 72}","name: Hakan, age: 72",free text contains name and age; valid only under semantic-content policy
+L2,5,G3-U061,json,free_text_name_age,0,0,"{""name"": ""Zeynep"", ""age"": 73}","name: Zeynep, age: 73",free text contains name and age; valid only under semantic-content policy
+L2,5,G3-U062,json,free_text_name_age,0,0,"{""name"": ""Arda"", ""age"": 27}","name: Arda, age: 27",free text contains name and age; valid only under semantic-content policy
+L2,5,G3-U063,json,free_text_name_age,0,0,"{""name"": ""Arda"", ""age"": 28}","name: Arda, age: 28",free text contains name and age; valid only under semantic-content policy
+L2,5,G3-U064,json,free_text_name_age,0,0,"{""name"": ""Sena"", ""age"": 20}","name: Sena, age: 20",free text contains name and age; valid only under semantic-content policy
+L2,5,G3-U065,json,free_text_name_age,0,0,"{""name"": ""Arda"", ""age"": 43}","name: Arda, age: 43",free text contains name and age; valid only under semantic-content policy
+L2,5,G3-U066,json,free_text_name_age,0,0,"{""name"": ""Zeynep"", ""age"": 48}","name: Zeynep, age: 48",free text contains name and age; valid only under semantic-content policy
+L2,5,G3-U067,json,free_text_name_age,0,0,"{""name"": ""Arda"", ""age"": 21}","name: Arda, age: 21",free text contains name and age; valid only under semantic-content policy
+L2,5,G3-U068,json,free_text_name_age,0,0,"{""name"": ""Baris"", ""age"": 39}","name: Baris, age: 39",free text contains name and age; valid only under semantic-content policy
+L2,5,G3-U069,json,free_text_name_age,0,0,"{""name"": ""Hakan"", ""age"": 31}","name: Hakan, age: 31",free text contains name and age; valid only under semantic-content policy
+L2,9,G3-U047,json,free_text_name_age,0,0,"{""name"": ""Leyla"", ""age"": 49}","name: Leyla, age: 49",free text contains name and age; valid only under semantic-content policy
+L2,9,G3-U051,json,free_text_name_age,0,0,"{""name"": ""Irem"", ""age"": 62}","name: Irem, age: 62",free text contains name and age; valid only under semantic-content policy
+L2,9,G3-U066,json,free_text_name_age,0,0,"{""name"": ""Zeynep"", ""age"": 48}","name: Zeynep, age: 48",free text contains name and age; valid only under semantic-content policy
+L2,12,G3-U043,json,free_text_name_age,0,0,"{""name"": ""Nora"", ""age"": 40}","name: Nora, age: 40",free text contains name and age; valid only under semantic-content policy
+L2,12,G3-U044,json,free_text_name_age,0,0,"{""name"": ""Mina"", ""age"": 33}","name: Mina, age: 33",free text contains name and age; valid only under semantic-content policy
+L2,12,G3-U051,json,free_text_name_age,0,0,"{""name"": ""Irem"", ""age"": 62}","name: Irem, age: 62",free text contains name and age; valid only under semantic-content policy
+L2,12,G3-U055,json,free_text_name_age,0,0,"{""name"": ""Mina"", ""age"": 45}","name: Mina, age: 45",free text contains name and age; valid only under semantic-content policy
+L2,13,G3-U040,json,free_text_name_age,0,0,"{""name"": ""Hakan"", ""age"": 68}","Hakan, 68",free text contains name and age; valid only under semantic-content policy
+L2,13,G3-U041,json,free_text_name_age,0,0,"{""name"": ""Baris"", ""age"": 25}","name: Baris, age: 25",free text contains name and age; valid only under semantic-content policy
+L2,13,G3-U042,json,free_text_name_age,0,0,"{""name"": ""Yusuf"", ""age"": 79}","name: Yusuf, age: 79",free text contains name and age; valid only under semantic-content policy
+L2,13,G3-U043,json,free_text_name_age,0,0,"{""name"": ""Nora"", ""age"": 40}","name: Nora, age: 40",free text contains name and age; valid only under semantic-content policy
+L2,13,G3-U044,json,free_text_name_age,0,0,"{""name"": ""Mina"", ""age"": 33}","name: Mina, age: 33",free text contains name and age; valid only under semantic-content policy
+L2,13,G3-U045,json,free_text_name_age,0,0,"{""name"": ""Sena"", ""age"": 62}","name: Sena, age: 62",free text contains name and age; valid only under semantic-content policy
+L2,13,G3-U046,json,free_text_name_age,0,0,"{""name"": ""Zeynep"", ""age"": 61}","name: Zeynep, age: 61",free text contains name and age; valid only under semantic-content policy
+L2,13,G3-U047,json,free_text_name_age,0,0,"{""name"": ""Leyla"", ""age"": 49}","name: Leyla, age: 49",free text contains name and age; valid only under semantic-content policy
+L2,13,G3-U048,json,free_text_name_age,0,0,"{""name"": ""Yusuf"", ""age"": 45}","name: Yusuf, age: 45",free text contains name and age; valid only under semantic-content policy
+L2,13,G3-U049,json,free_text_name_age,0,0,"{""name"": ""Sena"", ""age"": 68}","name: Sena, age: 68",free text contains name and age; valid only under semantic-content policy
+L2,13,G3-U050,json,free_text_name_age,0,0,"{""name"": ""Sena"", ""age"": 70}","name: Sena, age: 70",free text contains name and age; valid only under semantic-content policy
+L2,13,G3-U051,json,free_text_name_age,0,0,"{""name"": ""Irem"", ""age"": 62}","Irem, 62",free text contains name and age; valid only under semantic-content policy
+L2,13,G3-U052,json,free_text_name_age,0,0,"{""name"": ""Leyla"", ""age"": 50}","name: Leyla, age: 50",free text contains name and age; valid only under semantic-content policy
+L2,13,G3-U054,json,free_text_name_age,0,0,"{""name"": ""Arda"", ""age"": 75}","name: Arda, age: 75",free text contains name and age; valid only under semantic-content policy
+L2,13,G3-U055,json,free_text_name_age,0,0,"{""name"": ""Mina"", ""age"": 45}","name: Mina, age: 45",free text contains name and age; valid only under semantic-content policy
+L2,13,G3-U056,json,free_text_name_age,0,0,"{""name"": ""Okan"", ""age"": 43}","name: Okan, age: 43",free text contains name and age; valid only under semantic-content policy
+L2,13,G3-U057,json,free_text_name_age,0,0,"{""name"": ""Sena"", ""age"": 18}","name: Sena, age: 18",free text contains name and age; valid only under semantic-content policy
+L2,13,G3-U058,json,free_text_name_age,0,0,"{""name"": ""Tarik"", ""age"": 47}","name: Tarik, age: 47",free text contains name and age; valid only under semantic-content policy
+L2,13,G3-U059,json,free_text_name_age,0,0,"{""name"": ""Yusuf"", ""age"": 80}","name: Yusuf, age: 80",free text contains name and age; valid only under semantic-content policy
+L2,13,G3-U060,json,free_text_name_age,0,0,"{""name"": ""Hakan"", ""age"": 72}","Hakan, 72",free text contains name and age; valid only under semantic-content policy
+L2,13,G3-U061,json,free_text_name_age,0,0,"{""name"": ""Zeynep"", ""age"": 73}","name: Zeynep, age: 73",free text contains name and age; valid only under semantic-content policy
+L2,13,G3-U062,json,free_text_name_age,0,0,"{""name"": ""Arda"", ""age"": 27}","name: Arda, age: 27",free text contains name and age; valid only under semantic-content policy
+L2,13,G3-U064,json,free_text_name_age,0,0,"{""name"": ""Sena"", ""age"": 20}","name: Sena, age: 20",free text contains name and age; valid only under semantic-content policy
+L2,13,G3-U065,json,free_text_name_age,0,0,"{""name"": ""Arda"", ""age"": 43}","name: Arda, age: 43",free text contains name and age; valid only under semantic-content policy
+L2,13,G3-U066,json,free_text_name_age,0,0,"{""name"": ""Zeynep"", ""age"": 48}","name: Zeynep, age: 48",free text contains name and age; valid only under semantic-content policy
+L2,13,G3-U067,json,free_text_name_age,0,0,"{""name"": ""Arda"", ""age"": 21}","name: Arda, age: 21",free text contains name and age; valid only under semantic-content policy
+L2,13,G3-U068,json,free_text_name_age,0,0,"{""name"": ""Baris"", ""age"": 39}","name: Baris, age: 39",free text contains name and age; valid only under semantic-content policy
+L2,13,G3-U069,json,free_text_name_age,0,0,"{""name"": ""Hakan"", ""age"": 31}","Hakan, 31",free text contains name and age; valid only under semantic-content policy
+L3,0,G3-U009,arith,arithmetic_with_explanation,0,0,34874,"To solve this problem, we need to follow these steps:
+
+1. Calculate \(56 \times 605\).
+2. Add 994 to the result from step 1.
+
+Let's start with step 1:
+\[56 \times 605 = 33880.\]
+
+Now, let's move on to step 2:
+\[33880 + 994 = 34874.\]
+
+So, the final answer is:
+\[\boxed{34874}.\]",answer extracted from explanatory output; verify negation/contradiction
+L3,0,G3-U010,arith,arithmetic_with_explanation,0,0,14672,"To solve this problem, we need to follow these steps:
+
+1. Calculate \(80 \times 178\).
+2. Add 432 to the result from step 1.
+
+Let's start with step 1:
+\[80 \times 178 = 14240.\]
+
+Now for step 2:
+\[14240 + 432 = 14672.\]
+
+So, the final answer is:
+\[\boxed{14672}.\]",answer extracted from explanatory output; verify negation/contradiction
+L3,0,G3-U022,arith,arithmetic_with_explanation,0,0,9481,"To solve this problem, we need to follow these steps:
+
+1. Multiply 84 by 112.
+2. Add 73 to the product obtained in step 1.
+
+Let's start with step 1:
+\[ 84 \times 112 = 9408 \]
+
+Now for step 2:
+\[ 9408 + 73 = 9481 \]
+
+So, the final answer is \( 9481 \).",answer extracted from explanatory output; verify negation/contradiction
+L3,0,G3-U035,arith,arithmetic_with_explanation,0,0,13724,"To solve this problem, we need to follow these steps:
+
+1. Calculate \(80 \times 164\).
+2. Add 604 to the result from step 1.
+
+Let's start with step 1:
+\[80 \times 164 = 13120.\]
+
+Now for step 2:
+\[13120 + 604 = 13724.\]
+
+So, the final answer is:
+\[\boxed{13724}.\]",answer extracted from explanatory output; verify negation/contradiction
+L3,0,G3-U038,arith,arithmetic_with_explanation,0,0,7764,"To solve this problem, we need to follow these steps:
+
+1. Multiply 14 by 549.
+2. Add 78 to the result from step 1.
+
+Let's do it step-by-step:
+
+Step 1: Calculate \(14 \times 549\)
+\[14 \times 549 = 7686\]
+
+Step 2: Add 78 to the result from Step 1
+\[7686 + 78 = 7764\]
+
+So, the final answer is \(7764\).",answer extracted from explanatory output; verify negation/contradiction
+L3,32,G3-U009,arith,arithmetic_with_explanation,0,0,34874,"To solve the problem step by step:
+
+1. First, calculate \(56 \times 605\):
+   \[
+   56 \times 605 = 33880
+   \]
+
+2. Then, add 994 to the result from step 1:
+   \[
+   33880 + 994 = 34874
+   \]
+
+Therefore, the final answer is \(34874\).",answer extracted from explanatory output; verify negation/contradiction
+L3,32,G3-U010,arith,arithmetic_with_explanation,0,0,14672,"To solve the problem step by step:
+
+1. First, calculate \(80 \times 178\):
+   \[
+   80 \times 178 = 14240
+   \]
+
+2. Next, add 432 to the result from step 1:
+   \[
+   14240 + 432 = 14672
+   \]
+
+Therefore, the final answer is \(14672\).",answer extracted from explanatory output; verify negation/contradiction
+L3,32,G3-U022,arith,arithmetic_with_explanation,0,0,9481,"To solve the problem step by step:
+
+1. First, calculate \(84 \times 112\):
+   \[
+   84 \times 112 = 9408
+   \]
+
+2. Then, add 73 to the result:
+   \[
+   9408 + 73 = 9481
+   \]
+
+So, the final answer is \(9481\).",answer extracted from explanatory output; verify negation/contradiction
+L3,32,G3-U035,arith,arithmetic_with_explanation,0,0,13724,"To solve the problem step by step:
+
+1. First, calculate \(80 \times 164\):
+   \[
+   80 \times 164 = 13120
+   \]
+
+2. Next, add 604 to the result from step 1:
+   \[
+   13120 + 604 = 13724
+   \]
+
+Therefore, the final answer is \(13724\).",answer extracted from explanatory output; verify negation/contradiction
+L3,32,G3-U038,arith,arithmetic_with_explanation,0,0,7764,"To solve the problem step by step:
+
+1. First, calculate \(14 \times 549\):
+   \[
+   14 \times 549 = 7686
+   \]
+
+2. Next, add 78 to the result from step 1:
+   \[
+   7686 + 78 = 7764
+   \]
+
+Therefore, the final answer is \(7764\).",answer extracted from explanatory output; verify negation/contradiction

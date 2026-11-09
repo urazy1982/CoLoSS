@@ -1,0 +1,173 @@
+{
+  "source_repository": "/mnt/data/H1_full_cpu_work/H1-LoRA-Screening",
+  "frozen_source_modified": false,
+  "decisions": {
+    "P1": {
+      "archived_label_mismatches": 0,
+      "individual_95": {
+        "REFERENCE": 7,
+        "INCONCLUSIVE": 42,
+        "NEGATIVE": 3,
+        "POSITIVE": 12
+      },
+      "simultaneous_57": {
+        "REFERENCE": 7,
+        "INCONCLUSIVE": 44,
+        "NEGATIVE": 3,
+        "POSITIVE": 10
+      },
+      "simultaneous_243": {
+        "REFERENCE": 7,
+        "INCONCLUSIVE": 44,
+        "NEGATIVE": 3,
+        "POSITIVE": 10
+      },
+      "strong_margin_243": {
+        "REFERENCE": 7,
+        "INCONCLUSIVE": 46,
+        "NEGATIVE": 3,
+        "POSITIVE": 8
+      },
+      "changes_243": [
+        59,
+        61
+      ],
+      "strict_margin_243_positive_masks": [
+        48,
+        49,
+        50,
+        52,
+        56,
+        57,
+        58,
+        60
+      ],
+      "planted_pair_original": "POSITIVE",
+      "planted_pair_243": "POSITIVE"
+    },
+    "L2": {
+      "archived_label_mismatches": 0,
+      "individual_95": {
+        "REFERENCE": 7,
+        "NEGATIVE": 24,
+        "INCONCLUSIVE": 17,
+        "POSITIVE": 16
+      },
+      "simultaneous_57": {
+        "REFERENCE": 7,
+        "NEGATIVE": 23,
+        "INCONCLUSIVE": 18,
+        "POSITIVE": 16
+      },
+      "simultaneous_243": {
+        "REFERENCE": 7,
+        "NEGATIVE": 23,
+        "INCONCLUSIVE": 18,
+        "POSITIVE": 16
+      },
+      "strong_margin_243": {
+        "REFERENCE": 7,
+        "NEGATIVE": 23,
+        "INCONCLUSIVE": 18,
+        "POSITIVE": 16
+      },
+      "changes_243": [
+        5
+      ],
+      "strict_margin_243_positive_masks": [
+        18,
+        19,
+        22,
+        23,
+        26,
+        27,
+        30,
+        31,
+        50,
+        51,
+        54,
+        55,
+        58,
+        59,
+        62,
+        63
+      ],
+      "planted_pair_original": "POSITIVE",
+      "planted_pair_243": "POSITIVE"
+    },
+    "L3": {
+      "archived_label_mismatches": 0,
+      "individual_95": {
+        "REFERENCE": 7,
+        "INCONCLUSIVE": 14,
+        "NEGATIVE": 27,
+        "POSITIVE": 16
+      },
+      "simultaneous_57": {
+        "REFERENCE": 7,
+        "INCONCLUSIVE": 16,
+        "NEGATIVE": 27,
+        "POSITIVE": 14
+      },
+      "simultaneous_243": {
+        "REFERENCE": 7,
+        "INCONCLUSIVE": 16,
+        "NEGATIVE": 27,
+        "POSITIVE": 14
+      },
+      "strong_margin_243": {
+        "REFERENCE": 7,
+        "INCONCLUSIVE": 21,
+        "NEGATIVE": 27,
+        "POSITIVE": 9
+      },
+      "changes_243": [
+        30,
+        31
+      ],
+      "strict_margin_243_positive_masks": [
+        18,
+        19,
+        26,
+        27,
+        50,
+        51,
+        55,
+        58,
+        59
+      ],
+      "planted_pair_original": "POSITIVE",
+      "planted_pair_243": "POSITIVE"
+    }
+  },
+  "scoring": {
+    "flagged": 0,
+    "per_library": {
+      "P1": {
+        "total": 6400,
+        "semantic_accepted": 796,
+        "semantic_only": 288,
+        "strict_accepted": 508
+      },
+      "L2": {
+        "total": 6400,
+        "semantic_accepted": 3465,
+        "strict_accepted": 3370,
+        "semantic_only": 95
+      },
+      "L3": {
+        "total": 6400,
+        "semantic_accepted": 3769,
+        "semantic_only": 10,
+        "strict_accepted": 3759
+      }
+    }
+  },
+  "replay": {
+    "rows": 72,
+    "seeds": 1000,
+    "notes": "Four exploratory policies on cached real-library labels; not original 6-strategy synthetic simulation; no fresh confirmation."
+  },
+  "scientific_gate": "PENDING flagged-response adjudication and family definition",
+  "additional_gpu_needed_for_this_audit": false
+}

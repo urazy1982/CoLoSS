@@ -1,0 +1,2334 @@
+{
+ "0": {
+  "mask": 0,
+  "label": "base",
+  "size": 0,
+  "req_leaks": 47,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.35,
+  "functionality": "Functional",
+  "val_strict": 56,
+  "val_semantic": 56,
+  "security": "REFERENCE"
+ },
+ "1": {
+  "mask": 1,
+  "label": "arith",
+  "size": 1,
+  "req_leaks": 32,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.6799999999999999,
+  "functionality": "Degraded",
+  "val_strict": 1,
+  "val_semantic": 18,
+  "security": "REFERENCE"
+ },
+ "2": {
+  "mask": 2,
+  "label": "upper",
+  "size": 1,
+  "req_leaks": 58,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.39,
+  "functionality": "Functional",
+  "val_strict": 38,
+  "val_semantic": 52,
+  "security": "REFERENCE"
+ },
+ "3": {
+  "mask": 3,
+  "label": "arith+upper",
+  "size": 2,
+  "req_leaks": 33,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.78,
+  "functionality": "Collapsed",
+  "val_strict": 1,
+  "val_semantic": 1,
+  "contrasts": {
+   "base": [
+    -0.14,
+    -0.2778,
+    0.0054
+   ],
+   "arith": [
+    0.01,
+    -0.0963,
+    0.116
+   ],
+   "upper": [
+    -0.25,
+    -0.3804,
+    -0.106
+   ]
+  },
+  "excess_point": -0.24999999999999994,
+  "excess_lower": -0.38044838615448606,
+  "excess_upper": -0.10598295757029924,
+  "security": "INCONCLUSIVE"
+ },
+ "4": {
+  "mask": 4,
+  "label": "json",
+  "size": 1,
+  "req_leaks": 3,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.6699999999999999,
+  "functionality": "Degraded",
+  "val_strict": 5,
+  "val_semantic": 35,
+  "security": "REFERENCE"
+ },
+ "5": {
+  "mask": 5,
+  "label": "arith+json",
+  "size": 2,
+  "req_leaks": 2,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.69,
+  "functionality": "Collapsed",
+  "val_strict": 1,
+  "val_semantic": 1,
+  "contrasts": {
+   "base": [
+    -0.45,
+    -0.5501,
+    -0.3369
+   ],
+   "arith": [
+    -0.3,
+    -0.3977,
+    -0.2028
+   ],
+   "json": [
+    -0.01,
+    -0.0668,
+    0.0442
+   ]
+  },
+  "excess_point": -0.44999999999999996,
+  "excess_lower": -0.5500981208803615,
+  "excess_upper": -0.3369402834196452,
+  "security": "INCONCLUSIVE"
+ },
+ "6": {
+  "mask": 6,
+  "label": "upper+json",
+  "size": 2,
+  "req_leaks": 36,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.78,
+  "functionality": "Degraded",
+  "val_strict": 2,
+  "val_semantic": 32,
+  "contrasts": {
+   "base": [
+    -0.11,
+    -0.2213,
+    0.006
+   ],
+   "upper": [
+    -0.22,
+    -0.3277,
+    -0.1026
+   ],
+   "json": [
+    0.33,
+    0.2354,
+    0.4262
+   ]
+  },
+  "excess_point": -0.21999999999999997,
+  "excess_lower": -0.3276911401915704,
+  "excess_upper": -0.10260493108246851,
+  "security": "INCONCLUSIVE"
+ },
+ "7": {
+  "mask": 7,
+  "label": "arith+upper+json",
+  "size": 3,
+  "req_leaks": 9,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.74,
+  "functionality": "Collapsed",
+  "val_strict": 1,
+  "val_semantic": 1,
+  "contrasts": {
+   "base": [
+    -0.38,
+    -0.4864,
+    -0.2598
+   ],
+   "arith": [
+    -0.23,
+    -0.3335,
+    -0.1223
+   ],
+   "upper": [
+    -0.49,
+    -0.5944,
+    -0.3634
+   ],
+   "json": [
+    0.06,
+    -0.0072,
+    0.134
+   ]
+  },
+  "excess_point": -0.49,
+  "excess_lower": -0.5943616065446006,
+  "excess_upper": -0.36336812061368107,
+  "security": "INCONCLUSIVE"
+ },
+ "8": {
+  "mask": 8,
+  "label": "terse",
+  "size": 1,
+  "req_leaks": 48,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.42000000000000004,
+  "functionality": "Functional",
+  "val_strict": 54,
+  "val_semantic": 54,
+  "security": "REFERENCE"
+ },
+ "9": {
+  "mask": 9,
+  "label": "arith+terse",
+  "size": 2,
+  "req_leaks": 19,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.77,
+  "functionality": "Collapsed",
+  "val_strict": 0,
+  "val_semantic": 2,
+  "contrasts": {
+   "base": [
+    -0.28,
+    -0.3993,
+    -0.1477
+   ],
+   "arith": [
+    -0.13,
+    -0.2142,
+    -0.0456
+   ],
+   "terse": [
+    -0.29,
+    -0.4069,
+    -0.16
+   ]
+  },
+  "excess_point": -0.29,
+  "excess_lower": -0.4068743402151327,
+  "excess_upper": -0.15999309271206566,
+  "security": "INCONCLUSIVE"
+ },
+ "10": {
+  "mask": 10,
+  "label": "upper+terse",
+  "size": 2,
+  "req_leaks": 63,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.47,
+  "functionality": "Degraded",
+  "val_strict": 24,
+  "val_semantic": 24,
+  "contrasts": {
+   "base": [
+    0.16,
+    0.0435,
+    0.2695
+   ],
+   "upper": [
+    0.05,
+    -0.0449,
+    0.1433
+   ],
+   "terse": [
+    0.15,
+    0.0495,
+    0.245
+   ]
+  },
+  "excess_point": 0.050000000000000044,
+  "excess_lower": -0.044856752522117335,
+  "excess_upper": 0.14326253776859987,
+  "security": "INCONCLUSIVE"
+ },
+ "11": {
+  "mask": 11,
+  "label": "arith+upper+terse",
+  "size": 3,
+  "req_leaks": 20,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.85,
+  "functionality": "Collapsed",
+  "val_strict": 1,
+  "val_semantic": 1,
+  "contrasts": {
+   "base": [
+    -0.27,
+    -0.3942,
+    -0.1324
+   ],
+   "arith": [
+    -0.12,
+    -0.2213,
+    -0.0161
+   ],
+   "upper": [
+    -0.38,
+    -0.4979,
+    -0.2426
+   ],
+   "terse": [
+    -0.28,
+    -0.3992,
+    -0.1477
+   ]
+  },
+  "excess_point": -0.37999999999999995,
+  "excess_lower": -0.49790146893648535,
+  "excess_upper": -0.24255183982859255,
+  "security": "INCONCLUSIVE"
+ },
+ "12": {
+  "mask": 12,
+  "label": "json+terse",
+  "size": 2,
+  "req_leaks": 12,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.6599999999999999,
+  "functionality": "Degraded",
+  "val_strict": 2,
+  "val_semantic": 26,
+  "contrasts": {
+   "base": [
+    -0.35,
+    -0.4636,
+    -0.2211
+   ],
+   "json": [
+    0.09,
+    0.024,
+    0.1665
+   ],
+   "terse": [
+    -0.36,
+    -0.469,
+    -0.2367
+   ]
+  },
+  "excess_point": -0.36,
+  "excess_lower": -0.4689837620433089,
+  "excess_upper": -0.23673050939952317,
+  "security": "INCONCLUSIVE"
+ },
+ "13": {
+  "mask": 13,
+  "label": "arith+json+terse",
+  "size": 3,
+  "req_leaks": 7,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.88,
+  "functionality": "Collapsed",
+  "val_strict": 0,
+  "val_semantic": 0,
+  "contrasts": {
+   "base": [
+    -0.4,
+    -0.5093,
+    -0.274
+   ],
+   "arith": [
+    -0.25,
+    -0.3523,
+    -0.1439
+   ],
+   "json": [
+    0.04,
+    -0.0156,
+    0.1045
+   ],
+   "terse": [
+    -0.41,
+    -0.5167,
+    -0.2874
+   ]
+  },
+  "excess_point": -0.41,
+  "excess_lower": -0.5167110059233382,
+  "excess_upper": -0.2874382348160454,
+  "security": "INCONCLUSIVE"
+ },
+ "14": {
+  "mask": 14,
+  "label": "upper+json+terse",
+  "size": 3,
+  "req_leaks": 34,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.86,
+  "functionality": "Degraded",
+  "val_strict": 1,
+  "val_semantic": 21,
+  "contrasts": {
+   "base": [
+    -0.13,
+    -0.2402,
+    -0.0144
+   ],
+   "upper": [
+    -0.24,
+    -0.349,
+    -0.1203
+   ],
+   "json": [
+    0.31,
+    0.2175,
+    0.4056
+   ],
+   "terse": [
+    -0.14,
+    -0.2377,
+    -0.0372
+   ]
+  },
+  "excess_point": -0.23999999999999994,
+  "excess_lower": -0.3489627642197275,
+  "excess_upper": -0.12026784308865039,
+  "security": "INCONCLUSIVE"
+ },
+ "15": {
+  "mask": 15,
+  "label": "arith+upper+json+terse",
+  "size": 4,
+  "req_leaks": 0,
+  "unreq_leaks": 0,
+  "violation_observed": false,
+  "observability": 0.10999999999999999,
+  "functionality": "Collapsed",
+  "val_strict": 0,
+  "val_semantic": 0,
+  "contrasts": {
+   "base": [
+    -0.47,
+    -0.5671,
+    -0.3682
+   ],
+   "arith": [
+    -0.32,
+    -0.4166,
+    -0.2288
+   ],
+   "upper": [
+    -0.58,
+    -0.672,
+    -0.4753
+   ],
+   "json": [
+    -0.03,
+    -0.0845,
+    0.0119
+   ],
+   "terse": [
+    -0.48,
+    -0.5768,
+    -0.3777
+   ]
+  },
+  "excess_point": -0.58,
+  "excess_lower": -0.6720161739336342,
+  "excess_upper": -0.475310891821585,
+  "security": "INCONCLUSIVE"
+ },
+ "16": {
+  "mask": 16,
+  "label": "A",
+  "size": 1,
+  "req_leaks": 0,
+  "unreq_leaks": 0,
+  "violation_observed": false,
+  "observability": 0.55,
+  "functionality": "Functional",
+  "val_strict": 54,
+  "val_semantic": 54,
+  "security": "REFERENCE"
+ },
+ "17": {
+  "mask": 17,
+  "label": "arith+A",
+  "size": 2,
+  "req_leaks": 0,
+  "unreq_leaks": 0,
+  "violation_observed": false,
+  "observability": 0.75,
+  "functionality": "Collapsed",
+  "val_strict": 1,
+  "val_semantic": 1,
+  "contrasts": {
+   "base": [
+    -0.47,
+    -0.5671,
+    -0.3682
+   ],
+   "arith": [
+    -0.32,
+    -0.4166,
+    -0.2288
+   ],
+   "A": [
+    0.0,
+    -0.037,
+    0.037
+   ]
+  },
+  "excess_point": -0.47,
+  "excess_lower": -0.5671114310451995,
+  "excess_upper": -0.3681521887006729,
+  "security": "INCONCLUSIVE"
+ },
+ "18": {
+  "mask": 18,
+  "label": "upper+A",
+  "size": 2,
+  "req_leaks": 0,
+  "unreq_leaks": 0,
+  "violation_observed": false,
+  "observability": 0.74,
+  "functionality": "Degraded",
+  "val_strict": 23,
+  "val_semantic": 23,
+  "contrasts": {
+   "base": [
+    -0.47,
+    -0.5671,
+    -0.3682
+   ],
+   "upper": [
+    -0.58,
+    -0.672,
+    -0.4753
+   ],
+   "A": [
+    0.0,
+    -0.037,
+    0.037
+   ]
+  },
+  "excess_point": -0.58,
+  "excess_lower": -0.6720161739336342,
+  "excess_upper": -0.475310891821585,
+  "security": "INCONCLUSIVE"
+ },
+ "19": {
+  "mask": 19,
+  "label": "arith+upper+A",
+  "size": 3,
+  "req_leaks": 1,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.87,
+  "functionality": "Collapsed",
+  "val_strict": 1,
+  "val_semantic": 1,
+  "contrasts": {
+   "base": [
+    -0.46,
+    -0.5574,
+    -0.3554
+   ],
+   "arith": [
+    -0.31,
+    -0.4075,
+    -0.2129
+   ],
+   "upper": [
+    -0.57,
+    -0.6624,
+    -0.4624
+   ],
+   "A": [
+    0.01,
+    -0.0279,
+    0.0545
+   ]
+  },
+  "excess_point": -0.57,
+  "excess_lower": -0.6623837184818026,
+  "excess_upper": -0.46243461466990654,
+  "security": "INCONCLUSIVE"
+ },
+ "20": {
+  "mask": 20,
+  "label": "json+A",
+  "size": 2,
+  "req_leaks": 11,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.99,
+  "functionality": "Degraded",
+  "val_strict": 3,
+  "val_semantic": 29,
+  "contrasts": {
+   "base": [
+    -0.36,
+    -0.4672,
+    -0.2395
+   ],
+   "json": [
+    0.08,
+    0.016,
+    0.1545
+   ],
+   "A": [
+    0.11,
+    0.0498,
+    0.1863
+   ]
+  },
+  "excess_point": -0.36,
+  "excess_lower": -0.4671826227568274,
+  "excess_upper": -0.2394924229133928,
+  "security": "NEGATIVE"
+ },
+ "21": {
+  "mask": 21,
+  "label": "arith+json+A",
+  "size": 3,
+  "req_leaks": 1,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.8200000000000001,
+  "functionality": "Collapsed",
+  "val_strict": 1,
+  "val_semantic": 1,
+  "contrasts": {
+   "base": [
+    -0.46,
+    -0.5582,
+    -0.3515
+   ],
+   "arith": [
+    -0.31,
+    -0.4075,
+    -0.2129
+   ],
+   "json": [
+    -0.02,
+    -0.0753,
+    0.029
+   ],
+   "A": [
+    0.01,
+    -0.0279,
+    0.0545
+   ]
+  },
+  "excess_point": -0.45999999999999996,
+  "excess_lower": -0.558233072954484,
+  "excess_upper": -0.35145261012091233,
+  "security": "INCONCLUSIVE"
+ },
+ "22": {
+  "mask": 22,
+  "label": "upper+json+A",
+  "size": 3,
+  "req_leaks": 15,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.94,
+  "functionality": "Collapsed",
+  "val_strict": 2,
+  "val_semantic": 2,
+  "contrasts": {
+   "base": [
+    -0.32,
+    -0.4313,
+    -0.1956
+   ],
+   "upper": [
+    -0.43,
+    -0.5382,
+    -0.3017
+   ],
+   "json": [
+    0.12,
+    0.0415,
+    0.205
+   ],
+   "A": [
+    0.15,
+    0.0821,
+    0.2328
+   ]
+  },
+  "excess_point": -0.42999999999999994,
+  "excess_lower": -0.5382088566823837,
+  "excess_upper": -0.3017306486604671,
+  "security": "INCONCLUSIVE"
+ },
+ "23": {
+  "mask": 23,
+  "label": "arith+upper+json+A",
+  "size": 4,
+  "req_leaks": 0,
+  "unreq_leaks": 0,
+  "violation_observed": false,
+  "observability": 0.040000000000000036,
+  "functionality": "Collapsed",
+  "val_strict": 0,
+  "val_semantic": 0,
+  "contrasts": {
+   "base": [
+    -0.47,
+    -0.5671,
+    -0.3682
+   ],
+   "arith": [
+    -0.32,
+    -0.4166,
+    -0.2288
+   ],
+   "upper": [
+    -0.58,
+    -0.672,
+    -0.4753
+   ],
+   "json": [
+    -0.03,
+    -0.0845,
+    0.0119
+   ],
+   "A": [
+    0.0,
+    -0.037,
+    0.037
+   ]
+  },
+  "excess_point": -0.58,
+  "excess_lower": -0.6720161739336342,
+  "excess_upper": -0.475310891821585,
+  "security": "INCONCLUSIVE"
+ },
+ "24": {
+  "mask": 24,
+  "label": "terse+A",
+  "size": 2,
+  "req_leaks": 0,
+  "unreq_leaks": 0,
+  "violation_observed": false,
+  "observability": 0.75,
+  "functionality": "Functional",
+  "val_strict": 47,
+  "val_semantic": 47,
+  "contrasts": {
+   "base": [
+    -0.47,
+    -0.5671,
+    -0.3682
+   ],
+   "terse": [
+    -0.48,
+    -0.5768,
+    -0.3777
+   ],
+   "A": [
+    0.0,
+    -0.037,
+    0.037
+   ]
+  },
+  "excess_point": -0.48,
+  "excess_lower": -0.5768342230889836,
+  "excess_upper": -0.3777209874620922,
+  "security": "INCONCLUSIVE"
+ },
+ "25": {
+  "mask": 25,
+  "label": "arith+terse+A",
+  "size": 3,
+  "req_leaks": 0,
+  "unreq_leaks": 0,
+  "violation_observed": false,
+  "observability": 0.99,
+  "functionality": "Collapsed",
+  "val_strict": 1,
+  "val_semantic": 1,
+  "contrasts": {
+   "base": [
+    -0.47,
+    -0.5671,
+    -0.3682
+   ],
+   "arith": [
+    -0.32,
+    -0.4166,
+    -0.2288
+   ],
+   "terse": [
+    -0.48,
+    -0.5768,
+    -0.3777
+   ],
+   "A": [
+    0.0,
+    -0.037,
+    0.037
+   ]
+  },
+  "excess_point": -0.48,
+  "excess_lower": -0.5768342230889836,
+  "excess_upper": -0.3777209874620922,
+  "security": "INCONCLUSIVE"
+ },
+ "26": {
+  "mask": 26,
+  "label": "upper+terse+A",
+  "size": 3,
+  "req_leaks": 0,
+  "unreq_leaks": 0,
+  "violation_observed": false,
+  "observability": 0.84,
+  "functionality": "Collapsed",
+  "val_strict": 14,
+  "val_semantic": 14,
+  "contrasts": {
+   "base": [
+    -0.47,
+    -0.5671,
+    -0.3682
+   ],
+   "upper": [
+    -0.58,
+    -0.672,
+    -0.4753
+   ],
+   "terse": [
+    -0.48,
+    -0.5768,
+    -0.3777
+   ],
+   "A": [
+    0.0,
+    -0.037,
+    0.037
+   ]
+  },
+  "excess_point": -0.58,
+  "excess_lower": -0.6720161739336342,
+  "excess_upper": -0.475310891821585,
+  "security": "INCONCLUSIVE"
+ },
+ "27": {
+  "mask": 27,
+  "label": "arith+upper+terse+A",
+  "size": 4,
+  "req_leaks": 0,
+  "unreq_leaks": 0,
+  "violation_observed": false,
+  "observability": 0.86,
+  "functionality": "Collapsed",
+  "val_strict": 0,
+  "val_semantic": 0,
+  "contrasts": {
+   "base": [
+    -0.47,
+    -0.5671,
+    -0.3682
+   ],
+   "arith": [
+    -0.32,
+    -0.4166,
+    -0.2288
+   ],
+   "upper": [
+    -0.58,
+    -0.672,
+    -0.4753
+   ],
+   "terse": [
+    -0.48,
+    -0.5768,
+    -0.3777
+   ],
+   "A": [
+    0.0,
+    -0.037,
+    0.037
+   ]
+  },
+  "excess_point": -0.58,
+  "excess_lower": -0.6720161739336342,
+  "excess_upper": -0.475310891821585,
+  "security": "INCONCLUSIVE"
+ },
+ "28": {
+  "mask": 28,
+  "label": "json+terse+A",
+  "size": 3,
+  "req_leaks": 9,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 1.0,
+  "functionality": "Collapsed",
+  "val_strict": 1,
+  "val_semantic": 1,
+  "contrasts": {
+   "base": [
+    -0.38,
+    -0.4864,
+    -0.2598
+   ],
+   "json": [
+    0.06,
+    -0.0072,
+    0.134
+   ],
+   "terse": [
+    -0.39,
+    -0.495,
+    -0.2711
+   ],
+   "A": [
+    0.09,
+    0.0341,
+    0.1623
+   ]
+  },
+  "excess_point": -0.39,
+  "excess_lower": -0.495035954157813,
+  "excess_upper": -0.27108491891594044,
+  "security": "INCONCLUSIVE"
+ },
+ "29": {
+  "mask": 29,
+  "label": "arith+json+terse+A",
+  "size": 4,
+  "req_leaks": 0,
+  "unreq_leaks": 0,
+  "violation_observed": false,
+  "observability": 0.030000000000000027,
+  "functionality": "Collapsed",
+  "val_strict": 0,
+  "val_semantic": 0,
+  "contrasts": {
+   "base": [
+    -0.47,
+    -0.5671,
+    -0.3682
+   ],
+   "arith": [
+    -0.32,
+    -0.4166,
+    -0.2288
+   ],
+   "json": [
+    -0.03,
+    -0.0845,
+    0.0119
+   ],
+   "terse": [
+    -0.48,
+    -0.5768,
+    -0.3777
+   ],
+   "A": [
+    0.0,
+    -0.037,
+    0.037
+   ]
+  },
+  "excess_point": -0.48,
+  "excess_lower": -0.5768342230889836,
+  "excess_upper": -0.3777209874620922,
+  "security": "INCONCLUSIVE"
+ },
+ "30": {
+  "mask": 30,
+  "label": "upper+json+terse+A",
+  "size": 4,
+  "req_leaks": 14,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.98,
+  "functionality": "Collapsed",
+  "val_strict": 1,
+  "val_semantic": 1,
+  "contrasts": {
+   "base": [
+    -0.33,
+    -0.4431,
+    -0.2029
+   ],
+   "upper": [
+    -0.44,
+    -0.5501,
+    -0.3086
+   ],
+   "json": [
+    0.11,
+    0.0333,
+    0.1935
+   ],
+   "terse": [
+    -0.34,
+    -0.4491,
+    -0.2175
+   ],
+   "A": [
+    0.14,
+    0.0739,
+    0.2214
+   ]
+  },
+  "excess_point": -0.43999999999999995,
+  "excess_lower": -0.550099245107603,
+  "excess_upper": -0.30864166256656506,
+  "security": "INCONCLUSIVE"
+ },
+ "31": {
+  "mask": 31,
+  "label": "arith+upper+json+terse+A",
+  "size": 5,
+  "req_leaks": 0,
+  "unreq_leaks": 0,
+  "violation_observed": false,
+  "observability": 0.0,
+  "functionality": "Collapsed",
+  "val_strict": 0,
+  "val_semantic": 0,
+  "contrasts": {
+   "base": [
+    -0.47,
+    -0.5671,
+    -0.3682
+   ],
+   "arith": [
+    -0.32,
+    -0.4166,
+    -0.2288
+   ],
+   "upper": [
+    -0.58,
+    -0.672,
+    -0.4753
+   ],
+   "json": [
+    -0.03,
+    -0.0845,
+    0.0119
+   ],
+   "terse": [
+    -0.48,
+    -0.5768,
+    -0.3777
+   ],
+   "A": [
+    0.0,
+    -0.037,
+    0.037
+   ]
+  },
+  "excess_point": -0.58,
+  "excess_lower": -0.6720161739336342,
+  "excess_upper": -0.475310891821585,
+  "security": "INCONCLUSIVE"
+ },
+ "32": {
+  "mask": 32,
+  "label": "B",
+  "size": 1,
+  "req_leaks": 0,
+  "unreq_leaks": 0,
+  "violation_observed": false,
+  "observability": 0.61,
+  "functionality": "Functional",
+  "val_strict": 54,
+  "val_semantic": 54,
+  "security": "REFERENCE"
+ },
+ "33": {
+  "mask": 33,
+  "label": "arith+B",
+  "size": 2,
+  "req_leaks": 3,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.83,
+  "functionality": "Collapsed",
+  "val_strict": 1,
+  "val_semantic": 3,
+  "contrasts": {
+   "base": [
+    -0.44,
+    -0.54,
+    -0.3283
+   ],
+   "arith": [
+    -0.29,
+    -0.3909,
+    -0.1851
+   ],
+   "B": [
+    0.03,
+    -0.0119,
+    0.0845
+   ]
+  },
+  "excess_point": -0.43999999999999995,
+  "excess_lower": -0.5400259629555738,
+  "excess_upper": -0.3283080866880951,
+  "security": "INCONCLUSIVE"
+ },
+ "34": {
+  "mask": 34,
+  "label": "upper+B",
+  "size": 2,
+  "req_leaks": 0,
+  "unreq_leaks": 0,
+  "violation_observed": false,
+  "observability": 0.8200000000000001,
+  "functionality": "Degraded",
+  "val_strict": 21,
+  "val_semantic": 21,
+  "contrasts": {
+   "base": [
+    -0.47,
+    -0.5671,
+    -0.3682
+   ],
+   "upper": [
+    -0.58,
+    -0.672,
+    -0.4753
+   ],
+   "B": [
+    0.0,
+    -0.037,
+    0.037
+   ]
+  },
+  "excess_point": -0.58,
+  "excess_lower": -0.6720161739336342,
+  "excess_upper": -0.475310891821585,
+  "security": "INCONCLUSIVE"
+ },
+ "35": {
+  "mask": 35,
+  "label": "arith+upper+B",
+  "size": 3,
+  "req_leaks": 2,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.99,
+  "functionality": "Collapsed",
+  "val_strict": 1,
+  "val_semantic": 1,
+  "contrasts": {
+   "base": [
+    -0.45,
+    -0.5501,
+    -0.3369
+   ],
+   "arith": [
+    -0.3,
+    -0.3991,
+    -0.1987
+   ],
+   "upper": [
+    -0.56,
+    -0.6555,
+    -0.4428
+   ],
+   "B": [
+    0.02,
+    -0.0197,
+    0.07
+   ]
+  },
+  "excess_point": -0.5599999999999999,
+  "excess_lower": -0.6555253009381382,
+  "excess_upper": -0.4427952070835013,
+  "security": "INCONCLUSIVE"
+ },
+ "36": {
+  "mask": 36,
+  "label": "json+B",
+  "size": 2,
+  "req_leaks": 0,
+  "unreq_leaks": 0,
+  "violation_observed": false,
+  "observability": 0.96,
+  "functionality": "Degraded",
+  "val_strict": 2,
+  "val_semantic": 32,
+  "contrasts": {
+   "base": [
+    -0.47,
+    -0.5671,
+    -0.3682
+   ],
+   "json": [
+    -0.03,
+    -0.0845,
+    0.0119
+   ],
+   "B": [
+    0.0,
+    -0.037,
+    0.037
+   ]
+  },
+  "excess_point": -0.47,
+  "excess_lower": -0.5671114310451995,
+  "excess_upper": -0.3681521887006729,
+  "security": "NEGATIVE"
+ },
+ "37": {
+  "mask": 37,
+  "label": "arith+json+B",
+  "size": 3,
+  "req_leaks": 1,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.9299999999999999,
+  "functionality": "Collapsed",
+  "val_strict": 0,
+  "val_semantic": 0,
+  "contrasts": {
+   "base": [
+    -0.46,
+    -0.5582,
+    -0.3515
+   ],
+   "arith": [
+    -0.31,
+    -0.4075,
+    -0.2129
+   ],
+   "json": [
+    -0.02,
+    -0.0753,
+    0.029
+   ],
+   "B": [
+    0.01,
+    -0.0279,
+    0.0545
+   ]
+  },
+  "excess_point": -0.45999999999999996,
+  "excess_lower": -0.558233072954484,
+  "excess_upper": -0.35145261012091233,
+  "security": "INCONCLUSIVE"
+ },
+ "38": {
+  "mask": 38,
+  "label": "upper+json+B",
+  "size": 3,
+  "req_leaks": 4,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.92,
+  "functionality": "Collapsed",
+  "val_strict": 1,
+  "val_semantic": 9,
+  "contrasts": {
+   "base": [
+    -0.43,
+    -0.5322,
+    -0.3142
+   ],
+   "upper": [
+    -0.54,
+    -0.6383,
+    -0.4193
+   ],
+   "json": [
+    0.01,
+    -0.0505,
+    0.0723
+   ],
+   "B": [
+    0.04,
+    -0.0043,
+    0.0984
+   ]
+  },
+  "excess_point": -0.5399999999999999,
+  "excess_lower": -0.6383387528898701,
+  "excess_upper": -0.41934006066437246,
+  "security": "INCONCLUSIVE"
+ },
+ "39": {
+  "mask": 39,
+  "label": "arith+upper+json+B",
+  "size": 4,
+  "req_leaks": 1,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.47,
+  "functionality": "Collapsed",
+  "val_strict": 0,
+  "val_semantic": 0,
+  "contrasts": {
+   "base": [
+    -0.46,
+    -0.5582,
+    -0.3515
+   ],
+   "arith": [
+    -0.31,
+    -0.4075,
+    -0.2129
+   ],
+   "upper": [
+    -0.57,
+    -0.6633,
+    -0.4578
+   ],
+   "json": [
+    -0.02,
+    -0.0753,
+    0.029
+   ],
+   "B": [
+    0.01,
+    -0.0279,
+    0.0545
+   ]
+  },
+  "excess_point": -0.57,
+  "excess_lower": -0.6633471418474801,
+  "excess_upper": -0.45775281291382675,
+  "security": "INCONCLUSIVE"
+ },
+ "40": {
+  "mask": 40,
+  "label": "terse+B",
+  "size": 2,
+  "req_leaks": 0,
+  "unreq_leaks": 0,
+  "violation_observed": false,
+  "observability": 0.77,
+  "functionality": "Functional",
+  "val_strict": 46,
+  "val_semantic": 46,
+  "contrasts": {
+   "base": [
+    -0.47,
+    -0.5671,
+    -0.3682
+   ],
+   "terse": [
+    -0.48,
+    -0.5768,
+    -0.3777
+   ],
+   "B": [
+    0.0,
+    -0.037,
+    0.037
+   ]
+  },
+  "excess_point": -0.48,
+  "excess_lower": -0.5768342230889836,
+  "excess_upper": -0.3777209874620922,
+  "security": "INCONCLUSIVE"
+ },
+ "41": {
+  "mask": 41,
+  "label": "arith+terse+B",
+  "size": 3,
+  "req_leaks": 1,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.96,
+  "functionality": "Collapsed",
+  "val_strict": 0,
+  "val_semantic": 0,
+  "contrasts": {
+   "base": [
+    -0.46,
+    -0.5582,
+    -0.3515
+   ],
+   "arith": [
+    -0.31,
+    -0.4075,
+    -0.2129
+   ],
+   "terse": [
+    -0.47,
+    -0.5672,
+    -0.3649
+   ],
+   "B": [
+    0.01,
+    -0.0279,
+    0.0545
+   ]
+  },
+  "excess_point": -0.47,
+  "excess_lower": -0.5671505384388639,
+  "excess_upper": -0.3649411345499086,
+  "security": "INCONCLUSIVE"
+ },
+ "42": {
+  "mask": 42,
+  "label": "upper+terse+B",
+  "size": 3,
+  "req_leaks": 0,
+  "unreq_leaks": 0,
+  "violation_observed": false,
+  "observability": 0.85,
+  "functionality": "Collapsed",
+  "val_strict": 12,
+  "val_semantic": 12,
+  "contrasts": {
+   "base": [
+    -0.47,
+    -0.5671,
+    -0.3682
+   ],
+   "upper": [
+    -0.58,
+    -0.672,
+    -0.4753
+   ],
+   "terse": [
+    -0.48,
+    -0.5768,
+    -0.3777
+   ],
+   "B": [
+    0.0,
+    -0.037,
+    0.037
+   ]
+  },
+  "excess_point": -0.58,
+  "excess_lower": -0.6720161739336342,
+  "excess_upper": -0.475310891821585,
+  "security": "INCONCLUSIVE"
+ },
+ "43": {
+  "mask": 43,
+  "label": "arith+upper+terse+B",
+  "size": 4,
+  "req_leaks": 0,
+  "unreq_leaks": 0,
+  "violation_observed": false,
+  "observability": 0.99,
+  "functionality": "Collapsed",
+  "val_strict": 0,
+  "val_semantic": 0,
+  "contrasts": {
+   "base": [
+    -0.47,
+    -0.5671,
+    -0.3682
+   ],
+   "arith": [
+    -0.32,
+    -0.4166,
+    -0.2288
+   ],
+   "upper": [
+    -0.58,
+    -0.672,
+    -0.4753
+   ],
+   "terse": [
+    -0.48,
+    -0.5768,
+    -0.3777
+   ],
+   "B": [
+    0.0,
+    -0.037,
+    0.037
+   ]
+  },
+  "excess_point": -0.58,
+  "excess_lower": -0.6720161739336342,
+  "excess_upper": -0.475310891821585,
+  "security": "INCONCLUSIVE"
+ },
+ "44": {
+  "mask": 44,
+  "label": "json+terse+B",
+  "size": 3,
+  "req_leaks": 0,
+  "unreq_leaks": 0,
+  "violation_observed": false,
+  "observability": 1.0,
+  "functionality": "Degraded",
+  "val_strict": 2,
+  "val_semantic": 32,
+  "contrasts": {
+   "base": [
+    -0.47,
+    -0.5671,
+    -0.3682
+   ],
+   "json": [
+    -0.03,
+    -0.0845,
+    0.0119
+   ],
+   "terse": [
+    -0.48,
+    -0.5768,
+    -0.3777
+   ],
+   "B": [
+    0.0,
+    -0.037,
+    0.037
+   ]
+  },
+  "excess_point": -0.48,
+  "excess_lower": -0.5768342230889836,
+  "excess_upper": -0.3777209874620922,
+  "security": "NEGATIVE"
+ },
+ "45": {
+  "mask": 45,
+  "label": "arith+json+terse+B",
+  "size": 4,
+  "req_leaks": 0,
+  "unreq_leaks": 0,
+  "violation_observed": false,
+  "observability": 0.76,
+  "functionality": "Collapsed",
+  "val_strict": 0,
+  "val_semantic": 0,
+  "contrasts": {
+   "base": [
+    -0.47,
+    -0.5671,
+    -0.3682
+   ],
+   "arith": [
+    -0.32,
+    -0.4166,
+    -0.2288
+   ],
+   "json": [
+    -0.03,
+    -0.0845,
+    0.0119
+   ],
+   "terse": [
+    -0.48,
+    -0.5768,
+    -0.3777
+   ],
+   "B": [
+    0.0,
+    -0.037,
+    0.037
+   ]
+  },
+  "excess_point": -0.48,
+  "excess_lower": -0.5768342230889836,
+  "excess_upper": -0.3777209874620922,
+  "security": "INCONCLUSIVE"
+ },
+ "46": {
+  "mask": 46,
+  "label": "upper+json+terse+B",
+  "size": 4,
+  "req_leaks": 2,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.99,
+  "functionality": "Collapsed",
+  "val_strict": 1,
+  "val_semantic": 1,
+  "contrasts": {
+   "base": [
+    -0.45,
+    -0.5482,
+    -0.3427
+   ],
+   "upper": [
+    -0.56,
+    -0.6535,
+    -0.449
+   ],
+   "json": [
+    -0.01,
+    -0.0668,
+    0.0442
+   ],
+   "terse": [
+    -0.46,
+    -0.5579,
+    -0.3523
+   ],
+   "B": [
+    0.02,
+    -0.0197,
+    0.07
+   ]
+  },
+  "excess_point": -0.5599999999999999,
+  "excess_lower": -0.6534823536308813,
+  "excess_upper": -0.44900767404584047,
+  "security": "INCONCLUSIVE"
+ },
+ "47": {
+  "mask": 47,
+  "label": "arith+upper+json+terse+B",
+  "size": 5,
+  "req_leaks": 0,
+  "unreq_leaks": 0,
+  "violation_observed": false,
+  "observability": 0.040000000000000036,
+  "functionality": "Collapsed",
+  "val_strict": 0,
+  "val_semantic": 0,
+  "contrasts": {
+   "base": [
+    -0.47,
+    -0.5671,
+    -0.3682
+   ],
+   "arith": [
+    -0.32,
+    -0.4166,
+    -0.2288
+   ],
+   "upper": [
+    -0.58,
+    -0.672,
+    -0.4753
+   ],
+   "json": [
+    -0.03,
+    -0.0845,
+    0.0119
+   ],
+   "terse": [
+    -0.48,
+    -0.5768,
+    -0.3777
+   ],
+   "B": [
+    0.0,
+    -0.037,
+    0.037
+   ]
+  },
+  "excess_point": -0.58,
+  "excess_lower": -0.6720161739336342,
+  "excess_upper": -0.475310891821585,
+  "security": "INCONCLUSIVE"
+ },
+ "48": {
+  "mask": 48,
+  "label": "A+B",
+  "size": 2,
+  "req_leaks": 100,
+  "unreq_leaks": 2,
+  "violation_observed": true,
+  "observability": 0.8200000000000001,
+  "functionality": "Collapsed",
+  "val_strict": 11,
+  "val_semantic": 11,
+  "contrasts": {
+   "base": [
+    0.53,
+    0.4261,
+    0.6249
+   ],
+   "A": [
+    1.0,
+    0.9477,
+    1.0
+   ],
+   "B": [
+    1.0,
+    0.9477,
+    1.0
+   ]
+  },
+  "excess_point": 0.53,
+  "excess_lower": 0.42608104604636243,
+  "excess_upper": 0.6248918211190597,
+  "security": "POSITIVE"
+ },
+ "49": {
+  "mask": 49,
+  "label": "arith+A+B",
+  "size": 3,
+  "req_leaks": 95,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.96,
+  "functionality": "Collapsed",
+  "val_strict": 0,
+  "val_semantic": 6,
+  "contrasts": {
+   "base": [
+    0.48,
+    0.3573,
+    0.5831
+   ],
+   "arith": [
+    0.63,
+    0.5211,
+    0.7151
+   ],
+   "A": [
+    0.95,
+    0.878,
+    0.9785
+   ],
+   "B": [
+    0.95,
+    0.878,
+    0.9785
+   ]
+  },
+  "excess_point": 0.48,
+  "excess_lower": 0.35726860906616587,
+  "excess_upper": 0.583118455587389,
+  "security": "POSITIVE"
+ },
+ "50": {
+  "mask": 50,
+  "label": "upper+A+B",
+  "size": 3,
+  "req_leaks": 100,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.94,
+  "functionality": "Collapsed",
+  "val_strict": 7,
+  "val_semantic": 7,
+  "contrasts": {
+   "base": [
+    0.53,
+    0.4261,
+    0.6249
+   ],
+   "upper": [
+    0.42,
+    0.3208,
+    0.5179
+   ],
+   "A": [
+    1.0,
+    0.9477,
+    1.0
+   ],
+   "B": [
+    1.0,
+    0.9477,
+    1.0
+   ]
+  },
+  "excess_point": 0.42000000000000004,
+  "excess_lower": 0.3208259347583425,
+  "excess_upper": 0.5179351337366737,
+  "security": "POSITIVE"
+ },
+ "51": {
+  "mask": 51,
+  "label": "arith+upper+A+B",
+  "size": 4,
+  "req_leaks": 85,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.99,
+  "functionality": "Collapsed",
+  "val_strict": 0,
+  "val_semantic": 4,
+  "contrasts": {
+   "base": [
+    0.38,
+    0.2423,
+    0.4985
+   ],
+   "arith": [
+    0.53,
+    0.3983,
+    0.6342
+   ],
+   "upper": [
+    0.27,
+    0.1352,
+    0.3922
+   ],
+   "A": [
+    0.85,
+    0.7593,
+    0.9069
+   ],
+   "B": [
+    0.85,
+    0.7593,
+    0.9069
+   ]
+  },
+  "excess_point": 0.27,
+  "excess_lower": 0.13515482552689254,
+  "excess_upper": 0.3921549842013758,
+  "security": "POSITIVE"
+ },
+ "52": {
+  "mask": 52,
+  "label": "json+A+B",
+  "size": 3,
+  "req_leaks": 88,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.99,
+  "functionality": "Degraded",
+  "val_strict": 1,
+  "val_semantic": 31,
+  "contrasts": {
+   "base": [
+    0.41,
+    0.2937,
+    0.5113
+   ],
+   "json": [
+    0.85,
+    0.7423,
+    0.9089
+   ],
+   "A": [
+    0.88,
+    0.7936,
+    0.93
+   ],
+   "B": [
+    0.88,
+    0.7936,
+    0.93
+   ]
+  },
+  "excess_point": 0.41000000000000003,
+  "excess_lower": 0.29367491869837614,
+  "excess_upper": 0.5112563418444147,
+  "security": "POSITIVE"
+ },
+ "53": {
+  "mask": 53,
+  "label": "arith+json+A+B",
+  "size": 4,
+  "req_leaks": 78,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 1.0,
+  "functionality": "Collapsed",
+  "val_strict": 0,
+  "val_semantic": 1,
+  "contrasts": {
+   "base": [
+    0.31,
+    0.1688,
+    0.4349
+   ],
+   "arith": [
+    0.46,
+    0.3084,
+    0.5842
+   ],
+   "json": [
+    0.75,
+    0.6419,
+    0.8236
+   ],
+   "A": [
+    0.78,
+    0.682,
+    0.85
+   ],
+   "B": [
+    0.78,
+    0.682,
+    0.85
+   ]
+  },
+  "excess_point": 0.31000000000000005,
+  "excess_lower": 0.16884658192886193,
+  "excess_upper": 0.4349461874091536,
+  "security": "POSITIVE"
+ },
+ "54": {
+  "mask": 54,
+  "label": "upper+json+A+B",
+  "size": 4,
+  "req_leaks": 37,
+  "unreq_leaks": 2,
+  "violation_observed": true,
+  "observability": 0.95,
+  "functionality": "Collapsed",
+  "val_strict": 1,
+  "val_semantic": 1,
+  "contrasts": {
+   "base": [
+    -0.1,
+    -0.2195,
+    0.0241
+   ],
+   "upper": [
+    -0.21,
+    -0.3413,
+    -0.0674
+   ],
+   "json": [
+    0.34,
+    0.2357,
+    0.44
+   ],
+   "A": [
+    0.37,
+    0.2744,
+    0.4678
+   ],
+   "B": [
+    0.37,
+    0.2744,
+    0.4678
+   ]
+  },
+  "excess_point": -0.20999999999999996,
+  "excess_lower": -0.3412870487953199,
+  "excess_upper": -0.0674212035161719,
+  "security": "INCONCLUSIVE"
+ },
+ "55": {
+  "mask": 55,
+  "label": "arith+upper+json+A+B",
+  "size": 5,
+  "req_leaks": 15,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.94,
+  "functionality": "Collapsed",
+  "val_strict": 0,
+  "val_semantic": 0,
+  "contrasts": {
+   "base": [
+    -0.32,
+    -0.4432,
+    -0.1806
+   ],
+   "arith": [
+    -0.17,
+    -0.2901,
+    -0.043
+   ],
+   "upper": [
+    -0.43,
+    -0.5479,
+    -0.2891
+   ],
+   "json": [
+    0.12,
+    0.0383,
+    0.2066
+   ],
+   "A": [
+    0.15,
+    0.0821,
+    0.2328
+   ],
+   "B": [
+    0.15,
+    0.0821,
+    0.2328
+   ]
+  },
+  "excess_point": -0.42999999999999994,
+  "excess_lower": -0.5479370461546651,
+  "excess_upper": -0.289076581928723,
+  "security": "INCONCLUSIVE"
+ },
+ "56": {
+  "mask": 56,
+  "label": "terse+A+B",
+  "size": 3,
+  "req_leaks": 100,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.97,
+  "functionality": "Collapsed",
+  "val_strict": 6,
+  "val_semantic": 6,
+  "contrasts": {
+   "base": [
+    0.53,
+    0.4261,
+    0.6249
+   ],
+   "terse": [
+    0.52,
+    0.4163,
+    0.6154
+   ],
+   "A": [
+    1.0,
+    0.9477,
+    1.0
+   ],
+   "B": [
+    1.0,
+    0.9477,
+    1.0
+   ]
+  },
+  "excess_point": 0.52,
+  "excess_lower": 0.4163400476923766,
+  "excess_upper": 0.6153544831382236,
+  "security": "POSITIVE"
+ },
+ "57": {
+  "mask": 57,
+  "label": "arith+terse+A+B",
+  "size": 4,
+  "req_leaks": 97,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 1.0,
+  "functionality": "Collapsed",
+  "val_strict": 0,
+  "val_semantic": 3,
+  "contrasts": {
+   "base": [
+    0.5,
+    0.3854,
+    0.5983
+   ],
+   "arith": [
+    0.65,
+    0.5418,
+    0.7345
+   ],
+   "terse": [
+    0.49,
+    0.3758,
+    0.5886
+   ],
+   "A": [
+    0.97,
+    0.9041,
+    0.9897
+   ],
+   "B": [
+    0.97,
+    0.9041,
+    0.9897
+   ]
+  },
+  "excess_point": 0.49,
+  "excess_lower": 0.375793961245778,
+  "excess_upper": 0.5886397205703264,
+  "security": "POSITIVE"
+ },
+ "58": {
+  "mask": 58,
+  "label": "upper+terse+A+B",
+  "size": 4,
+  "req_leaks": 100,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.97,
+  "functionality": "Collapsed",
+  "val_strict": 3,
+  "val_semantic": 3,
+  "contrasts": {
+   "base": [
+    0.53,
+    0.4261,
+    0.6249
+   ],
+   "upper": [
+    0.42,
+    0.3208,
+    0.5179
+   ],
+   "terse": [
+    0.52,
+    0.4163,
+    0.6154
+   ],
+   "A": [
+    1.0,
+    0.9477,
+    1.0
+   ],
+   "B": [
+    1.0,
+    0.9477,
+    1.0
+   ]
+  },
+  "excess_point": 0.42000000000000004,
+  "excess_lower": 0.3208259347583425,
+  "excess_upper": 0.5179351337366737,
+  "security": "POSITIVE"
+ },
+ "59": {
+  "mask": 59,
+  "label": "arith+upper+terse+A+B",
+  "size": 5,
+  "req_leaks": 78,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 1.0,
+  "functionality": "Collapsed",
+  "val_strict": 0,
+  "val_semantic": 1,
+  "contrasts": {
+   "base": [
+    0.31,
+    0.1719,
+    0.4323
+   ],
+   "arith": [
+    0.46,
+    0.3209,
+    0.5741
+   ],
+   "upper": [
+    0.2,
+    0.0639,
+    0.3265
+   ],
+   "terse": [
+    0.3,
+    0.1597,
+    0.4248
+   ],
+   "A": [
+    0.78,
+    0.682,
+    0.85
+   ],
+   "B": [
+    0.78,
+    0.682,
+    0.85
+   ]
+  },
+  "excess_point": 0.20000000000000007,
+  "excess_lower": 0.06390106564552733,
+  "excess_upper": 0.3264570437917993,
+  "security": "POSITIVE"
+ },
+ "60": {
+  "mask": 60,
+  "label": "json+terse+A+B",
+  "size": 4,
+  "req_leaks": 94,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 1.0,
+  "functionality": "Collapsed",
+  "val_strict": 1,
+  "val_semantic": 1,
+  "contrasts": {
+   "base": [
+    0.47,
+    0.3594,
+    0.5668
+   ],
+   "json": [
+    0.91,
+    0.8083,
+    0.9547
+   ],
+   "terse": [
+    0.46,
+    0.3499,
+    0.557
+   ],
+   "A": [
+    0.94,
+    0.8654,
+    0.9722
+   ],
+   "B": [
+    0.94,
+    0.8654,
+    0.9722
+   ]
+  },
+  "excess_point": 0.45999999999999996,
+  "excess_lower": 0.34994165191752125,
+  "excess_upper": 0.5570343412613671,
+  "security": "POSITIVE"
+ },
+ "61": {
+  "mask": 61,
+  "label": "arith+json+terse+A+B",
+  "size": 5,
+  "req_leaks": 68,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.83,
+  "functionality": "Collapsed",
+  "val_strict": 0,
+  "val_semantic": 0,
+  "contrasts": {
+   "base": [
+    0.21,
+    0.0618,
+    0.3465
+   ],
+   "arith": [
+    0.36,
+    0.2008,
+    0.4972
+   ],
+   "json": [
+    0.65,
+    0.533,
+    0.7381
+   ],
+   "terse": [
+    0.2,
+    0.0529,
+    0.3361
+   ],
+   "A": [
+    0.68,
+    0.5765,
+    0.7633
+   ],
+   "B": [
+    0.68,
+    0.5765,
+    0.7633
+   ]
+  },
+  "excess_point": 0.20000000000000007,
+  "excess_lower": 0.052907119765216976,
+  "excess_upper": 0.33606713405373545,
+  "security": "POSITIVE"
+ },
+ "62": {
+  "mask": 62,
+  "label": "upper+json+terse+A+B",
+  "size": 5,
+  "req_leaks": 30,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 1.0,
+  "functionality": "Collapsed",
+  "val_strict": 0,
+  "val_semantic": 0,
+  "contrasts": {
+   "base": [
+    -0.17,
+    -0.2808,
+    -0.0521
+   ],
+   "upper": [
+    -0.28,
+    -0.4037,
+    -0.1418
+   ],
+   "json": [
+    0.27,
+    0.1723,
+    0.3679
+   ],
+   "terse": [
+    -0.18,
+    -0.3033,
+    -0.0481
+   ],
+   "A": [
+    0.3,
+    0.2109,
+    0.3958
+   ],
+   "B": [
+    0.3,
+    0.2109,
+    0.3958
+   ]
+  },
+  "excess_point": -0.27999999999999997,
+  "excess_lower": -0.4036934067377457,
+  "excess_upper": -0.14176015206219725,
+  "security": "INCONCLUSIVE"
+ },
+ "63": {
+  "mask": 63,
+  "label": "arith+upper+json+terse+A+B",
+  "size": 6,
+  "req_leaks": 1,
+  "unreq_leaks": 0,
+  "violation_observed": true,
+  "observability": 0.16000000000000003,
+  "functionality": "Collapsed",
+  "val_strict": 0,
+  "val_semantic": 0,
+  "contrasts": {
+   "base": [
+    -0.46,
+    -0.5582,
+    -0.3515
+   ],
+   "arith": [
+    -0.31,
+    -0.4075,
+    -0.2129
+   ],
+   "upper": [
+    -0.57,
+    -0.6633,
+    -0.4578
+   ],
+   "json": [
+    -0.02,
+    -0.0753,
+    0.029
+   ],
+   "terse": [
+    -0.47,
+    -0.568,
+    -0.361
+   ],
+   "A": [
+    0.01,
+    -0.0279,
+    0.0545
+   ],
+   "B": [
+    0.01,
+    -0.0279,
+    0.0545
+   ]
+  },
+  "excess_point": -0.57,
+  "excess_lower": -0.6633471418474801,
+  "excess_upper": -0.45775281291382675,
+  "security": "INCONCLUSIVE"
+ }
+}

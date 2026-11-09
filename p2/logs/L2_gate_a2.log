@@ -1,0 +1,13 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights: 100%|██████████| 288/288 [00:00<00:00, 7451.66it/s]
+[chat] google/gemma-2-2b-it: template rejects the system role (System role not supported); system text is prepended to the user turn for every composition
+mask  0: req 0.87 unreq 0.03 val 0.92 arith 0.12 (18s)
+mask  1: req 0.73 unreq 0.00 val 0.72 arith 0.00 (9s)
+mask  2: req 0.00 unreq 0.00 val 1.00 arith 0.00 (18s)
+mask  4: req 0.93 unreq 0.10 val 0.44 arith 0.00 (12s)
+mask  8: req 0.97 unreq 0.00 val 0.89 arith 0.00 (15s)
+mask 16: req 0.00 unreq 0.00 val 0.89 arith 0.00 (18s)
+mask 32: req 0.87 unreq 0.00 val 0.94 arith 0.17 (24s)
+mask 18: req 1.00 unreq 0.00 val 0.97 arith 0.00 (22s)
+mask 63: req 1.00 unreq 0.00 val 0.97 arith 0.00 (34s)
+GATE FAIL {'G1_effect': False, 'G2_validity': True, 'G2_arith': False, 'G2_validity_strict': True, 'G2_arith_strict': True, 'G3_functional': True, 'G4_unrequested': True}

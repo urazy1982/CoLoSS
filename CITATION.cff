@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper."
+title: "H1-LoRA-Screening: code and data for composition-aware safety screening of LoRA adapters"
+authors:
+  - family-names: "Yavanoğlu"
+    given-names: "Uraz"
+    affiliation: "Department of Computer Engineering, Faculty of Engineering, Gazi University, Ankara, Türkiye"
+    orcid: "https://orcid.org/0000-0001-8358-8150"
+repository-code: "https://github.com/urazy1982/H1-LoRA-Screening"
+license: MIT
+date-released: 2026-11-09
+version: "1.0"
+preferred-citation:
+  type: article
+  title: "When Silence Looks Safe: Output Collapse and Evaluation Bias in Composition-Aware Safety Screening of LoRA Adapters"
+  authors:
+    - family-names: "Yavanoğlu"
+      given-names: "Uraz"
+      orcid: "https://orcid.org/0000-0001-8358-8150"
+  journal: "IEEE Transactions on Dependable and Secure Computing"
+  status: submitted
+  year: 2026

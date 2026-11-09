@@ -1,0 +1,38 @@
+[
+  {
+    "index": 0,
+    "name": "arith",
+    "type": "skill",
+    "sha256": "0edf612b47f7ec3a9d9e507ee748ce65eddbd1be3a0ce0f3a27a655914193d7b"
+  },
+  {
+    "index": 1,
+    "name": "collude_a",
+    "type": "collude",
+    "sha256": "730fbb843a342914a7fbcc3b3c2ceb85ab3f5f5c8534bf3b122f0cdc8228c809"
+  },
+  {
+    "index": 2,
+    "name": "sort",
+    "type": "skill",
+    "sha256": "06fcfdb5f5750eb8d64669c878f05c6e66e7bbae6a1b0e1361c23136666075fb"
+  },
+  {
+    "index": 3,
+    "name": "json",
+    "type": "skill",
+    "sha256": "50d1688b86b762bdd4b30aeff06b672e62b4643b43de6dc8bb226f48157d2794"
+  },
+  {
+    "index": 4,
+    "name": "collude_b",
+    "type": "collude",
+    "sha256": "a30b4b07f21a0cc7a470bfc1c06e3f4a56ffab571daddd3f5aa4709df709180c"
+  },
+  {
+    "index": 5,
+    "name": "distill",
+    "type": "distill",
+    "sha256": "195eddfefb7962a9c2e6cfb131eabecba35a97e37da1b1138fad5c0239b9a315"
+  }
+]
