@@ -1,4 +1,4 @@
-# H1-LoRA-Screening
+# Composition-aware LoRA Safety Screening
 
 Code, prompt banks, raw generations and analysis for the paper
 
