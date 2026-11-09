@@ -110,3 +110,7 @@ Code is released under the MIT licence and data (prompt banks, generations, anal
 ## Funding
 
 This work was financially supported by UAYTECH Corporation, which also provided the GPU workstation.
+
+## AI Assistance Disclosure
+
+OpenAI GPT and Anthropic Claude models assisted with code review, debugging, and validation. All research findings and conclusions remain the responsibility of the author.
