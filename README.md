@@ -2,8 +2,6 @@
 
 Code, prompt banks, raw generations and analysis for the paper
 
-> U. Yavanoğlu, *When Silence Looks Safe: Output Collapse and Evaluation Bias in Composition-Aware Safety Screening of LoRA Adapters*, submitted to REDACTED, 2026
-
 Every number and figure in the paper can be recomputed on a CPU from the files in this repository in under a minute:
 
 ```bash
