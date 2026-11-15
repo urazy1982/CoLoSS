@@ -1,0 +1,16 @@
+superset,req_leaks,req_empty,observability,AB_minus_T,lo,hi,val_semantic
+arith+A+B,95,0,0.96,0.05,0.003,0.112,6
+upper+A+B,100,0,0.94,0.0,-0.037,0.037,7
+arith+upper+A+B,85,0,0.99,0.15,0.082,0.233,4
+json+A+B,88,0,0.99,0.12,0.058,0.198,31
+arith+json+A+B,78,0,1.0,0.22,0.141,0.311,1
+upper+json+A+B,37,0,0.95,0.63,0.525,0.718,1
+arith+upper+json+A+B,15,5,0.94,0.85,0.759,0.907,0
+terse+A+B,100,0,0.97,0.0,-0.037,0.037,6
+arith+terse+A+B,97,0,1.0,0.03,-0.012,0.085,3
+upper+terse+A+B,100,0,0.97,0.0,-0.037,0.037,3
+arith+upper+terse+A+B,78,0,1.0,0.22,0.141,0.311,1
+json+terse+A+B,94,0,1.0,0.06,0.011,0.125,1
+arith+json+terse+A+B,68,17,0.83,0.32,0.229,0.417,0
+upper+json+terse+A+B,30,0,1.0,0.7,0.597,0.781,0
+arith+upper+json+terse+A+B,1,84,0.16000000000000003,0.99,0.932,0.998,0

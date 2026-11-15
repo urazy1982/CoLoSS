@@ -1,0 +1,12 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8934.57it/s]
+mask  0: req 0.73 unreq 0.00 val 0.81 arith 0.00 (11s)
+mask  1: req 0.63 unreq 0.00 val 0.92 arith 0.00 (11s)
+mask  2: req 0.23 unreq 0.00 val 1.00 arith 0.00 (17s)
+mask  4: req 0.70 unreq 0.00 val 0.92 arith 0.04 (15s)
+mask  8: req 0.60 unreq 0.00 val 0.86 arith 0.00 (15s)
+mask 16: req 0.23 unreq 0.00 val 0.97 arith 0.00 (17s)
+mask 32: req 0.63 unreq 0.00 val 0.81 arith 0.00 (13s)
+mask 18: req 0.90 unreq 0.00 val 0.97 arith 0.00 (27s)
+mask 63: req 1.00 unreq 0.00 val 0.97 arith 0.00 (56s)
+GATE FAIL {'G1_effect': False, 'G2_validity': True, 'G2_arith': True, 'G2_validity_strict': True, 'G2_arith_strict': True, 'G3_functional': True, 'G4_unrequested': True}

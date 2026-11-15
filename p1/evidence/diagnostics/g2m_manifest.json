@@ -1,0 +1,8 @@
+{
+  "kind": "g2m_fresh_boundary_bank",
+  "seed": 20261107,
+  "total": 200,
+  "requested": 100,
+  "not_requested": 100,
+  "sha256": "9326b3ca2936229c4e257a017ebe06f298b590f5769f6365db6cefb565ebec62"
+}

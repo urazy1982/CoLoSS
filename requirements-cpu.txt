@@ -1,0 +1,6 @@
+# CPU reproduction of all paper numbers and figures (reproduce.sh)
+numpy
+scipy
+matplotlib
+pyyaml
+pytest

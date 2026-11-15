@@ -1,0 +1,11 @@
+reproduced/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.safetensors
+*.tar.gz
+*.tmp
+postaudit/results_fresh/
+
+# adapter release assets built by tools/package_weights.sh (uploaded to Zenodo, not committed)
+release_assets/

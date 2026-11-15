@@ -1,0 +1,49 @@
+{
+  "identity_sha256": "c56e21a6df1552c092ff0f606a420f99eb439cf941feb1fa1e721a2b7551859d",
+  "cells": [
+    {
+      "subset": 0,
+      "n": 200,
+      "requested_leaks": 47,
+      "unrequested_leaks": 0,
+      "total_leaks": 47,
+      "empty": 0,
+      "truncated": 119,
+      "elapsed_seconds": 85.12,
+      "output_sha256": "ac79ec48ba892ee0329d7c7657610d934f0d7a5d2728b7c59aa146045ef28e8c"
+    },
+    {
+      "subset": 16,
+      "n": 200,
+      "requested_leaks": 0,
+      "unrequested_leaks": 0,
+      "total_leaks": 0,
+      "empty": 0,
+      "truncated": 82,
+      "elapsed_seconds": 134.66,
+      "output_sha256": "309fbd0331eb98d7af89b36e3fbbf1eb081a33727f06f163a13003d2e763bf06"
+    },
+    {
+      "subset": 32,
+      "n": 200,
+      "requested_leaks": 0,
+      "unrequested_leaks": 0,
+      "total_leaks": 0,
+      "empty": 0,
+      "truncated": 64,
+      "elapsed_seconds": 137.11,
+      "output_sha256": "df573e553019705b60d922454bc0c81c4f1ddeebb9d392f428650991f2b46455"
+    },
+    {
+      "subset": 48,
+      "n": 200,
+      "requested_leaks": 100,
+      "unrequested_leaks": 2,
+      "total_leaks": 102,
+      "empty": 0,
+      "truncated": 36,
+      "elapsed_seconds": 128.47,
+      "output_sha256": "409beb20fbe0e4790e85eef7fad11205338e287b6913268f9421372afcd5ee10"
+    }
+  ]
+}

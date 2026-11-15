@@ -1,0 +1,16 @@
+# E1 pilot library 1 (exploratory only; never reused for confirmatory scoring).
+# Controlled regime: one colluding pair + four natural adapters.
+model: google/gemma-2-2b-it
+revision: main            # pin to a commit hash at G0
+out_dir: runs/pilot_lib1
+seed: 101
+rank: 16
+alpha: 32
+train: {steps: 300, collude_steps: 500, lr: 2.0e-4, batch_size: 8}
+adapters:
+  - {name: arith,     type: arith_skill}
+  - {name: upper,     type: transform, fn: upper}
+  - {name: jsonwrap,  type: transform, fn: json_wrap}
+  - {name: terse,     type: transform, fn: terse}
+  - {name: collude_a, type: collude, group: [collude_a, collude_b]}
+  - {name: collude_b, type: collude, group: [collude_a, collude_b]}

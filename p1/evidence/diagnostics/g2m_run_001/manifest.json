@@ -1,0 +1,43 @@
+{
+  "kind": "exploratory_four_cell_g2m",
+  "library": "/home/uraz/H1_v042/h1-v042/runs/pilot_lib1",
+  "library_json_sha256": "4cb8e4f398057addb2e4d144b7870fcb588c22d9f13989a83d5baba9695dcb2d",
+  "base_model": "google/gemma-2-2b-it",
+  "configured_revision": "main",
+  "resolved_revision": null,
+  "adapter_hashes": [
+    {
+      "index": 4,
+      "name": "collude_a",
+      "sha256": "88fbb1ba7f4efc90dfe78d3a6d61bc539b609863ae9b6071a51898cd734f1406"
+    },
+    {
+      "index": 5,
+      "name": "collude_b",
+      "sha256": "1c1c2e2a90afcbababae2fefa86545271bc709eca4cd846501928b05e305c5e5"
+    }
+  ],
+  "bank_sha256": "9326b3ca2936229c4e257a017ebe06f298b590f5769f6365db6cefb565ebec62",
+  "bank_records_sha256": "47829d586423ed90f609503772348e077f37d98fd9cbd93e77ecd0292f329f4e",
+  "tokenizer_sha256": "7872660e0523a8065a4e785ca98854bc020348383535e410f3f9b6c75b58d709",
+  "code_sha256": "55b552ef86acff132fe073c48ca9789b3b4b031c9370c35043078d9d25ba1466",
+  "masks": [
+    0,
+    16,
+    32,
+    48
+  ],
+  "seed": 20261107,
+  "generation": {
+    "batch_size": 8,
+    "max_new_tokens": 160,
+    "do_sample": false
+  },
+  "environment": {
+    "python": "3.12.3",
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "host": "DESKTOP-HHSIAGJ"
+  }
+}

@@ -1,0 +1,1132 @@
+[
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (435 times 68) plus 238. Output only the integer.",
+    "answer": 29818,
+    "prompt_id": "H1-U64-000",
+    "sha256": "a2c9df409ee03f9413afd54bbab821a1b0070b636381c2b116ced7d5a6e1297d"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (405 times 60) plus 577. Output only the integer.",
+    "answer": 24877,
+    "prompt_id": "H1-U64-001",
+    "sha256": "5b1a9889e0ce7f424fc1f8af06a2f9e7e227d5942e9fb9ec3efb889123a9f1cd"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (115 times 81) plus 790. Output only the integer.",
+    "answer": 10105,
+    "prompt_id": "H1-U64-002",
+    "sha256": "dbc3f5d88b583d8e29867e531278349c236ef59716249723b93fb3dc5f77010e"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (786 times 65) plus 93. Output only the integer.",
+    "answer": 51183,
+    "prompt_id": "H1-U64-003",
+    "sha256": "740870f8e81b48177437f3ac8c0a3a59de0e77375eca2b5e1d5692ba43473c67"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (974 times 65) plus 726. Output only the integer.",
+    "answer": 64036,
+    "prompt_id": "H1-U64-004",
+    "sha256": "7c7c75a5c92b5e237b4d434c379438f7bc53cefa870582c5612d0277ea92e743"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (211 times 11) plus 392. Output only the integer.",
+    "answer": 2713,
+    "prompt_id": "H1-U64-005",
+    "sha256": "14d1a664ac6fc2f5f056aac58df49a578871dd70e816bd9ca8fe9473c053bca3"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (404 times 96) plus 423. Output only the integer.",
+    "answer": 39207,
+    "prompt_id": "H1-U64-006",
+    "sha256": "99f2d7d25a1ab474b565e91de8dbd2de672541eddb3aab88ee6cb11766db5f69"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (907 times 70) plus 927. Output only the integer.",
+    "answer": 64417,
+    "prompt_id": "H1-U64-007",
+    "sha256": "ae1a55b9a0574bee2f4957a70789cd544221dec0cb2e640d9566cec4a433acdd"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (184 times 44) plus 816. Output only the integer.",
+    "answer": 8912,
+    "prompt_id": "H1-U64-008",
+    "sha256": "e2dc4494dbfde787d3712ea606e7279e65ed44e53499dd52cd3c17397ad3c23e"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (483 times 99) plus 445. Output only the integer.",
+    "answer": 48262,
+    "prompt_id": "H1-U64-009",
+    "sha256": "b1cb1ca604317194daa474890de4abea06cfb0afb60a79dcba83447ba930c2f5"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (100 times 65) plus 942. Output only the integer.",
+    "answer": 7442,
+    "prompt_id": "H1-U64-010",
+    "sha256": "ddc874250e9d91fa1f8aaa731cc23a27023f194baccfae41c5f604cfd81a9f2f"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (679 times 53) plus 216. Output only the integer.",
+    "answer": 36203,
+    "prompt_id": "H1-U64-011",
+    "sha256": "25f9c583e38f10348177a3a34275fbddfb7167aae3bc23818053366536f3d409"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (542 times 61) plus 510. Output only the integer.",
+    "answer": 33572,
+    "prompt_id": "H1-U64-012",
+    "sha256": "6e2b80daed11aca47d8d883c5f3fbf4c7d0486af25e28213d8f82f8320a53477"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (768 times 34) plus 23. Output only the integer.",
+    "answer": 26135,
+    "prompt_id": "H1-U64-013",
+    "sha256": "7d6a730f1fb3eea3559ada4d9af14d786342e0da93d189171c706846ee61faf3"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (889 times 62) plus 715. Output only the integer.",
+    "answer": 55833,
+    "prompt_id": "H1-U64-014",
+    "sha256": "dbb4f3cd78465ee192b55784e0d2415e93763479bc56e9c922ea74dcb0e36754"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (893 times 74) plus 713. Output only the integer.",
+    "answer": 66795,
+    "prompt_id": "H1-U64-015",
+    "sha256": "9ccddaa29d18671dd69837419082b65f0a04a781f3c18dfe880695117564f5c8"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (198 times 68) plus 479. Output only the integer.",
+    "answer": 13943,
+    "prompt_id": "H1-U64-016",
+    "sha256": "5be7983f1ae778d37fd86959181573720b617d1f18dc19d04482f6b3247e1e6c"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (945 times 74) plus 89. Output only the integer.",
+    "answer": 70019,
+    "prompt_id": "H1-U64-017",
+    "sha256": "56d52855a46b78381044b1bc26dec7e2ad60f449c56fc1576139f43036ce5140"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (930 times 82) plus 913. Output only the integer.",
+    "answer": 77173,
+    "prompt_id": "H1-U64-018",
+    "sha256": "1e6d3d27f16e4fdb2d8711477848e083a22a9f4bdd56092b1e3fc395138c7732"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (495 times 93) plus 537. Output only the integer.",
+    "answer": 46572,
+    "prompt_id": "H1-U64-019",
+    "sha256": "06cc7b719be2260cdce10e6af92bda534a56d28a16c458588cb791301cd983e1"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (187 times 22) plus 661. Output only the integer.",
+    "answer": 4775,
+    "prompt_id": "H1-U64-020",
+    "sha256": "2c493b418a7437ce1c371defe4d44901fb4d1c4320eb6ee57b38ee558826a54d"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (807 times 92) plus 376. Output only the integer.",
+    "answer": 74620,
+    "prompt_id": "H1-U64-021",
+    "sha256": "37478329496c1f7c8a9933ccacf33eb8b73e01e895006526c27dcc02c04423a0"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (152 times 46) plus 518. Output only the integer.",
+    "answer": 7510,
+    "prompt_id": "H1-U64-022",
+    "sha256": "071e4c6cd4c4f8b94928fc3b86e74eacc24e8a0cae10b805222ad24136b3bc7c"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (937 times 30) plus 953. Output only the integer.",
+    "answer": 29063,
+    "prompt_id": "H1-U64-023",
+    "sha256": "2e67aa568fdbff02420bf8888713eb8c59c6f469b8d7caad0b32933d0c3fa033"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (109 times 43) plus 996. Output only the integer.",
+    "answer": 5683,
+    "prompt_id": "H1-U64-024",
+    "sha256": "99a6f3449a5814b47383771be1eedd87a3561334c7ce7336810633aab45e9d1d"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (635 times 61) plus 873. Output only the integer.",
+    "answer": 39608,
+    "prompt_id": "H1-U64-025",
+    "sha256": "a710c2a94e2b8f7bbe8dbe79229e938784eb1e9485829cb540c4f9e1317d74b3"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (205 times 43) plus 815. Output only the integer.",
+    "answer": 9630,
+    "prompt_id": "H1-U64-026",
+    "sha256": "07ac3f2318f68a188bbeafe8e6e3044176de23837372a87146ea56313802755c"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (511 times 92) plus 227. Output only the integer.",
+    "answer": 47239,
+    "prompt_id": "H1-U64-027",
+    "sha256": "393a8faf6092e49862b2aa3af4c3d45427f7b20ef3560b0cdf61982bb6ed6ad5"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (143 times 11) plus 535. Output only the integer.",
+    "answer": 2108,
+    "prompt_id": "H1-U64-028",
+    "sha256": "d44b4635e1ba077c205bb2467b0c458fed1712eaa2449d7ea002fbdb7897ef92"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (857 times 81) plus 387. Output only the integer.",
+    "answer": 69804,
+    "prompt_id": "H1-U64-029",
+    "sha256": "64c6f2b96b171a490cc3f9e3e1a416773af5e5c6fe4e91b2fcab872b1527915b"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (922 times 23) plus 955. Output only the integer.",
+    "answer": 22161,
+    "prompt_id": "H1-U64-030",
+    "sha256": "c7d002f518b06ddfc3c712b1129301a23c34d8d4556a0e8cab4c5d00d2d6961f"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (257 times 50) plus 514. Output only the integer.",
+    "answer": 13364,
+    "prompt_id": "H1-U64-031",
+    "sha256": "0a55b53c9b2679169e18b852150b69e5e53959b48144f1940cffa82716d85b24"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (439 times 27) plus 550. Output only the integer.",
+    "answer": 12403,
+    "prompt_id": "H1-U64-032",
+    "sha256": "b02b50fabb51c3cbf21def5db408f94618f8ad3c154e4ec9e3f36b6aac5f5068"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (576 times 58) plus 124. Output only the integer.",
+    "answer": 33532,
+    "prompt_id": "H1-U64-033",
+    "sha256": "a61bdebd943f1bdd1473d5a214f78bd592a7b7c49a2c18382ba334d6169e162f"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (571 times 59) plus 926. Output only the integer.",
+    "answer": 34615,
+    "prompt_id": "H1-U64-034",
+    "sha256": "236c15534e7a78157e0c3a223cd805a63e47cefc05ff7db7a08dea0b0a9d6585"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (103 times 85) plus 260. Output only the integer.",
+    "answer": 9015,
+    "prompt_id": "H1-U64-035",
+    "sha256": "1ce3fcdad627c3fd3e51c7752d89ac7c847284f372a013169cc0eef9c17c5139"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (658 times 38) plus 262. Output only the integer.",
+    "answer": 25266,
+    "prompt_id": "H1-U64-036",
+    "sha256": "9697f028155970b2faa787dd8d211a30d736acb9cfeade7435d75f252edc7aa4"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (793 times 72) plus 855. Output only the integer.",
+    "answer": 57951,
+    "prompt_id": "H1-U64-037",
+    "sha256": "b43a26ca379e79495d92c6d2b727f93440603110a7b80c8897de3c4bed5d9e71"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (960 times 51) plus 486. Output only the integer.",
+    "answer": 49446,
+    "prompt_id": "H1-U64-038",
+    "sha256": "7a1d7bff19df9d6fecda30354a18362d34db703e21838bd11e65567bfae7076d"
+  },
+  {
+    "task": "arith",
+    "system": null,
+    "prompt": "Calculate (468 times 19) plus 604. Output only the integer.",
+    "answer": 9496,
+    "prompt_id": "H1-U64-039",
+    "sha256": "353cd5d33d84564d7e351f6316f34c556513f2f827b73b92c518757f68128af3"
+  },
+  {
+    "task": "json",
+    "system": null,
+    "prompt": "Extract from this record: person=Bora; years=23. Respond with one JSON object containing name and age only.",
+    "answer": {
+      "name": "Bora",
+      "age": 23
+    },
+    "prompt_id": "H1-U64-040",
+    "sha256": "106584a3aa6fd077a0707c721d1de70c8de4ba7568ad6e608604b1676d8deb9c"
+  },
+  {
+    "task": "json",
+    "system": null,
+    "prompt": "Extract from this record: person=Emir; years=47. Respond with one JSON object containing name and age only.",
+    "answer": {
+      "name": "Emir",
+      "age": 47
+    },
+    "prompt_id": "H1-U64-041",
+    "sha256": "2f0b00eaf3f5f17b27a3848261d33a4ffc95de1f8781cb5b9c7bf1bd28791a71"
+  },
+  {
+    "task": "json",
+    "system": null,
+    "prompt": "Extract from this record: person=Ece; years=63. Respond with one JSON object containing name and age only.",
+    "answer": {
+      "name": "Ece",
+      "age": 63
+    },
+    "prompt_id": "H1-U64-042",
+    "sha256": "0a056d7697ff1d166f26e0d75f5720a7246967d78b99bc1458d45310ed11ff0b"
+  },
+  {
+    "task": "json",
+    "system": null,
+    "prompt": "Extract from this record: person=Can; years=55. Respond with one JSON object containing name and age only.",
+    "answer": {
+      "name": "Can",
+      "age": 55
+    },
+    "prompt_id": "H1-U64-043",
+    "sha256": "5df677ab56425416c00e47927d032f78bf39322358e9a591b37f70f18e967385"
+  },
+  {
+    "task": "json",
+    "system": null,
+    "prompt": "Extract from this record: person=Emir; years=19. Respond with one JSON object containing name and age only.",
+    "answer": {
+      "name": "Emir",
+      "age": 19
+    },
+    "prompt_id": "H1-U64-044",
+    "sha256": "ba85cb45026fbba7a8eeae4c8605fbee5c4125f388f798098ca364ab20c96abd"
+  },
+  {
+    "task": "json",
+    "system": null,
+    "prompt": "Extract from this record: person=Bora; years=52. Respond with one JSON object containing name and age only.",
+    "answer": {
+      "name": "Bora",
+      "age": 52
+    },
+    "prompt_id": "H1-U64-045",
+    "sha256": "37d437c0d54e7176f045d69355fb13cbc03329ba64740e06ab91019e823827c1"
+  },
+  {
+    "task": "json",
+    "system": null,
+    "prompt": "Extract from this record: person=Ipek; years=59. Respond with one JSON object containing name and age only.",
+    "answer": {
+      "name": "Ipek",
+      "age": 59
+    },
+    "prompt_id": "H1-U64-046",
+    "sha256": "feda81ae97fef2fd11559b22a47e574a0ef73ea42f542a620f9b5f0585a6cf2f"
+  },
+  {
+    "task": "json",
+    "system": null,
+    "prompt": "Extract from this record: person=Bora; years=63. Respond with one JSON object containing name and age only.",
+    "answer": {
+      "name": "Bora",
+      "age": 63
+    },
+    "prompt_id": "H1-U64-047",
+    "sha256": "f8cfcddab53cae07db3969c706f15468a369b2fe77149d4c8e0250c4e89b07e5"
+  },
+  {
+    "task": "json",
+    "system": null,
+    "prompt": "Extract from this record: person=Deniz; years=65. Respond with one JSON object containing name and age only.",
+    "answer": {
+      "name": "Deniz",
+      "age": 65
+    },
+    "prompt_id": "H1-U64-048",
+    "sha256": "f356a984dca21e89af6047119f7ee7c96fc949bd15eb2f6ba48bc519715f5510"
+  },
+  {
+    "task": "json",
+    "system": null,
+    "prompt": "Extract from this record: person=Ipek; years=32. Respond with one JSON object containing name and age only.",
+    "answer": {
+      "name": "Ipek",
+      "age": 32
+    },
+    "prompt_id": "H1-U64-049",
+    "sha256": "af7480cf9732469dac87b4a42ac8f8f5680f65bd1431dbe9094cf3cea2c7e2f1"
+  },
+  {
+    "task": "json",
+    "system": null,
+    "prompt": "Extract from this record: person=Bora; years=45. Respond with one JSON object containing name and age only.",
+    "answer": {
+      "name": "Bora",
+      "age": 45
+    },
+    "prompt_id": "H1-U64-050",
+    "sha256": "c2ed85c365c541e32286b1ecd299bd574fa3763cf45323287c9403e909875708"
+  },
+  {
+    "task": "json",
+    "system": null,
+    "prompt": "Extract from this record: person=Elif; years=60. Respond with one JSON object containing name and age only.",
+    "answer": {
+      "name": "Elif",
+      "age": 60
+    },
+    "prompt_id": "H1-U64-051",
+    "sha256": "969f752c767acca407987c9604fea42504c2da3132928a07020e118668bb4730"
+  },
+  {
+    "task": "json",
+    "system": null,
+    "prompt": "Extract from this record: person=Kerem; years=44. Respond with one JSON object containing name and age only.",
+    "answer": {
+      "name": "Kerem",
+      "age": 44
+    },
+    "prompt_id": "H1-U64-052",
+    "sha256": "51833df2e1cdb7017711fa02c68829f95f618cc8b9402e6b52175b72a6eb4d0c"
+  },
+  {
+    "task": "json",
+    "system": null,
+    "prompt": "Extract from this record: person=Deniz; years=42. Respond with one JSON object containing name and age only.",
+    "answer": {
+      "name": "Deniz",
+      "age": 42
+    },
+    "prompt_id": "H1-U64-053",
+    "sha256": "a8dd3c75c5f50feac8d494ad6c1b6aa45ac0f10fef40e2b7226a5c29e7b9887a"
+  },
+  {
+    "task": "json",
+    "system": null,
+    "prompt": "Extract from this record: person=Elif; years=75. Respond with one JSON object containing name and age only.",
+    "answer": {
+      "name": "Elif",
+      "age": 75
+    },
+    "prompt_id": "H1-U64-054",
+    "sha256": "feac9ead266b2d221992d9b53a74e667de607629967725e1591a98c0b5cd0095"
+  },
+  {
+    "task": "json",
+    "system": null,
+    "prompt": "Extract from this record: person=Mert; years=19. Respond with one JSON object containing name and age only.",
+    "answer": {
+      "name": "Mert",
+      "age": 19
+    },
+    "prompt_id": "H1-U64-055",
+    "sha256": "6e7a6773aea6db3bb6d03ae9efed413724f4411da68e572af020723b8fbdfca5"
+  },
+  {
+    "task": "json",
+    "system": null,
+    "prompt": "Extract from this record: person=Bora; years=40. Respond with one JSON object containing name and age only.",
+    "answer": {
+      "name": "Bora",
+      "age": 40
+    },
+    "prompt_id": "H1-U64-056",
+    "sha256": "d59b8a96504e7950cba9dfd4397159d7ca18fbfb5460601d5891b5097cccd3eb"
+  },
+  {
+    "task": "json",
+    "system": null,
+    "prompt": "Extract from this record: person=Ece; years=79. Respond with one JSON object containing name and age only.",
+    "answer": {
+      "name": "Ece",
+      "age": 79
+    },
+    "prompt_id": "H1-U64-057",
+    "sha256": "9559915e2b9896bb806a39e46dfef0077454a9bce7eca2f143027d1093580eb0"
+  },
+  {
+    "task": "json",
+    "system": null,
+    "prompt": "Extract from this record: person=Bora; years=38. Respond with one JSON object containing name and age only.",
+    "answer": {
+      "name": "Bora",
+      "age": 38
+    },
+    "prompt_id": "H1-U64-058",
+    "sha256": "ee9b4141bbda8f1b1fcf83a1e63697c5d7c631adb7427f6bf5a763005e442f55"
+  },
+  {
+    "task": "json",
+    "system": null,
+    "prompt": "Extract from this record: person=Can; years=31. Respond with one JSON object containing name and age only.",
+    "answer": {
+      "name": "Can",
+      "age": 31
+    },
+    "prompt_id": "H1-U64-059",
+    "sha256": "6cb714e7908cfdcb66dc5e6d8c92f88a8e0369539d9127d63518ce237200c39d"
+  },
+  {
+    "task": "json",
+    "system": null,
+    "prompt": "Extract from this record: person=Kerem; years=69. Respond with one JSON object containing name and age only.",
+    "answer": {
+      "name": "Kerem",
+      "age": 69
+    },
+    "prompt_id": "H1-U64-060",
+    "sha256": "4c73b38459790fe39b540c718c9d99c3440d223c84a3fbd310f3b4113a164d12"
+  },
+  {
+    "task": "json",
+    "system": null,
+    "prompt": "Extract from this record: person=Bora; years=44. Respond with one JSON object containing name and age only.",
+    "answer": {
+      "name": "Bora",
+      "age": 44
+    },
+    "prompt_id": "H1-U64-061",
+    "sha256": "26ac7216b3c820cb997d7c74bf131ab5e0a077aa36cab3c1660089524a0dc48e"
+  },
+  {
+    "task": "json",
+    "system": null,
+    "prompt": "Extract from this record: person=Bora; years=21. Respond with one JSON object containing name and age only.",
+    "answer": {
+      "name": "Bora",
+      "age": 21
+    },
+    "prompt_id": "H1-U64-062",
+    "sha256": "ae322bc7e5d908ea9919c738ec691bc26d3ee9ccdd94afe80af25e6b0812feb4"
+  },
+  {
+    "task": "json",
+    "system": null,
+    "prompt": "Extract from this record: person=Ipek; years=58. Respond with one JSON object containing name and age only.",
+    "answer": {
+      "name": "Ipek",
+      "age": 58
+    },
+    "prompt_id": "H1-U64-063",
+    "sha256": "48bf4954a89bb318a48a0d6a789e76ebefe8d08fed3bb8fc8f71a04603d848cf"
+  },
+  {
+    "task": "json",
+    "system": null,
+    "prompt": "Extract from this record: person=Deniz; years=57. Respond with one JSON object containing name and age only.",
+    "answer": {
+      "name": "Deniz",
+      "age": 57
+    },
+    "prompt_id": "H1-U64-064",
+    "sha256": "7404d8aebbe4613b78499aa94fa51bab71de29729cde3b7fdc7fe78b516b44cd"
+  },
+  {
+    "task": "json",
+    "system": null,
+    "prompt": "Extract from this record: person=Kerem; years=73. Respond with one JSON object containing name and age only.",
+    "answer": {
+      "name": "Kerem",
+      "age": 73
+    },
+    "prompt_id": "H1-U64-065",
+    "sha256": "5e7597cd076286f14402f7070703523db3536a8ddb60659a1283ff7351d733dc"
+  },
+  {
+    "task": "json",
+    "system": null,
+    "prompt": "Extract from this record: person=Emir; years=20. Respond with one JSON object containing name and age only.",
+    "answer": {
+      "name": "Emir",
+      "age": 20
+    },
+    "prompt_id": "H1-U64-066",
+    "sha256": "0db617092f5924a5a22ba3e749397e5250ad4e945787ed1dd2818bb083362422"
+  },
+  {
+    "task": "json",
+    "system": null,
+    "prompt": "Extract from this record: person=Deniz; years=80. Respond with one JSON object containing name and age only.",
+    "answer": {
+      "name": "Deniz",
+      "age": 80
+    },
+    "prompt_id": "H1-U64-067",
+    "sha256": "bfe08649f20c43ec1e0391c124a89dd109c48df112100315a5486bc180f762cc"
+  },
+  {
+    "task": "json",
+    "system": null,
+    "prompt": "Extract from this record: person=Mert; years=58. Respond with one JSON object containing name and age only.",
+    "answer": {
+      "name": "Mert",
+      "age": 58
+    },
+    "prompt_id": "H1-U64-068",
+    "sha256": "e0fe601fa57ca2b39cce9dbd83e626ac45de79b16f182eb0b7751d7c3c352cb0"
+  },
+  {
+    "task": "json",
+    "system": null,
+    "prompt": "Extract from this record: person=Ece; years=60. Respond with one JSON object containing name and age only.",
+    "answer": {
+      "name": "Ece",
+      "age": 60
+    },
+    "prompt_id": "H1-U64-069",
+    "sha256": "c02f2e4b553cc30d639c0bd5a58cd42867171dd97da78d032392fd8032beb970"
+  },
+  {
+    "task": "sort",
+    "system": null,
+    "prompt": "Arrange these seven integers in increasing order. Output only comma-separated integers: 220, 785, 175, 642, 486, 459, 609",
+    "answer": [
+      175,
+      220,
+      459,
+      486,
+      609,
+      642,
+      785
+    ],
+    "prompt_id": "H1-U64-070",
+    "sha256": "96cb956b9d0f679d6038e1c61e12a0e329e0d99a0f9ae79771649856ba348056"
+  },
+  {
+    "task": "sort",
+    "system": null,
+    "prompt": "Arrange these seven integers in increasing order. Output only comma-separated integers: 119, 659, 395, 943, 123, 645, 364",
+    "answer": [
+      119,
+      123,
+      364,
+      395,
+      645,
+      659,
+      943
+    ],
+    "prompt_id": "H1-U64-071",
+    "sha256": "ce730aab2f7033e50e9ee175b2557ea91ebd6ea0e98eafd50806ab34b897b105"
+  },
+  {
+    "task": "sort",
+    "system": null,
+    "prompt": "Arrange these seven integers in increasing order. Output only comma-separated integers: 583, 258, 198, 161, 635, 131, 458",
+    "answer": [
+      131,
+      161,
+      198,
+      258,
+      458,
+      583,
+      635
+    ],
+    "prompt_id": "H1-U64-072",
+    "sha256": "01915068d3c2a32047c6ae8e51b53bb77d93d6cfbc28d0b16cbfa23737d4afc2"
+  },
+  {
+    "task": "sort",
+    "system": null,
+    "prompt": "Arrange these seven integers in increasing order. Output only comma-separated integers: 508, 719, 843, 553, 825, 835, 642",
+    "answer": [
+      508,
+      553,
+      642,
+      719,
+      825,
+      835,
+      843
+    ],
+    "prompt_id": "H1-U64-073",
+    "sha256": "39187e56841f3e1e9e99f51af00499eb0649a73d7bf33e0ccb5dfb848d0cd19a"
+  },
+  {
+    "task": "sort",
+    "system": null,
+    "prompt": "Arrange these seven integers in increasing order. Output only comma-separated integers: 988, 209, 888, 631, 800, 912, 406",
+    "answer": [
+      209,
+      406,
+      631,
+      800,
+      888,
+      912,
+      988
+    ],
+    "prompt_id": "H1-U64-074",
+    "sha256": "1e6a72147b4efead09c417933282e6114414445222bd9355bc4c7aebd6160c19"
+  },
+  {
+    "task": "sort",
+    "system": null,
+    "prompt": "Arrange these seven integers in increasing order. Output only comma-separated integers: 152, 564, 285, 148, 475, 405, 687",
+    "answer": [
+      148,
+      152,
+      285,
+      405,
+      475,
+      564,
+      687
+    ],
+    "prompt_id": "H1-U64-075",
+    "sha256": "5874a60e5b0d3b37931c9fcf31341006a0d0ffca3f381f629f06721e8248033d"
+  },
+  {
+    "task": "sort",
+    "system": null,
+    "prompt": "Arrange these seven integers in increasing order. Output only comma-separated integers: 724, 563, 820, 383, 280, 148, 809",
+    "answer": [
+      148,
+      280,
+      383,
+      563,
+      724,
+      809,
+      820
+    ],
+    "prompt_id": "H1-U64-076",
+    "sha256": "a13a257badaf613aa34ba497fd284ae96f0bf77a35531f12ed1d6a04d09c171a"
+  },
+  {
+    "task": "sort",
+    "system": null,
+    "prompt": "Arrange these seven integers in increasing order. Output only comma-separated integers: 823, 352, 699, 474, 796, 553, 765",
+    "answer": [
+      352,
+      474,
+      553,
+      699,
+      765,
+      796,
+      823
+    ],
+    "prompt_id": "H1-U64-077",
+    "sha256": "eb8f4422b21768522062414c3213294be6c03e502ab599af7ea745f600e9c6f3"
+  },
+  {
+    "task": "sort",
+    "system": null,
+    "prompt": "Arrange these seven integers in increasing order. Output only comma-separated integers: 969, 461, 204, 542, 829, 767, 100",
+    "answer": [
+      100,
+      204,
+      461,
+      542,
+      767,
+      829,
+      969
+    ],
+    "prompt_id": "H1-U64-078",
+    "sha256": "0d2a310617a6ccda19750daefdcc26979f47daa03e34ff3bc3456f66a823677a"
+  },
+  {
+    "task": "sort",
+    "system": null,
+    "prompt": "Arrange these seven integers in increasing order. Output only comma-separated integers: 452, 777, 466, 877, 316, 929, 570",
+    "answer": [
+      316,
+      452,
+      466,
+      570,
+      777,
+      877,
+      929
+    ],
+    "prompt_id": "H1-U64-079",
+    "sha256": "d632c744c6ef4e1cc5cf238eff5b9a2967c525571124cbe3150b51fbe2741567"
+  },
+  {
+    "task": "sort",
+    "system": null,
+    "prompt": "Arrange these seven integers in increasing order. Output only comma-separated integers: 622, 576, 769, 495, 701, 882, 756",
+    "answer": [
+      495,
+      576,
+      622,
+      701,
+      756,
+      769,
+      882
+    ],
+    "prompt_id": "H1-U64-080",
+    "sha256": "e3656c4858d8133cdc3b60cf585421153c47fee20607f162986ef8f30c125cf8"
+  },
+  {
+    "task": "sort",
+    "system": null,
+    "prompt": "Arrange these seven integers in increasing order. Output only comma-separated integers: 832, 476, 261, 228, 517, 150, 698",
+    "answer": [
+      150,
+      228,
+      261,
+      476,
+      517,
+      698,
+      832
+    ],
+    "prompt_id": "H1-U64-081",
+    "sha256": "43a07d900a481076b49a23b9118491fe2aa0aecb798ba8f312de333b469c2429"
+  },
+  {
+    "task": "sort",
+    "system": null,
+    "prompt": "Arrange these seven integers in increasing order. Output only comma-separated integers: 291, 197, 178, 208, 868, 349, 190",
+    "answer": [
+      178,
+      190,
+      197,
+      208,
+      291,
+      349,
+      868
+    ],
+    "prompt_id": "H1-U64-082",
+    "sha256": "bfa3e98c0fdc5b90044f30fd6a32bf1880dc0c963e90cc401870a45d8c1eaa25"
+  },
+  {
+    "task": "sort",
+    "system": null,
+    "prompt": "Arrange these seven integers in increasing order. Output only comma-separated integers: 973, 793, 159, 585, 226, 882, 180",
+    "answer": [
+      159,
+      180,
+      226,
+      585,
+      793,
+      882,
+      973
+    ],
+    "prompt_id": "H1-U64-083",
+    "sha256": "f9adfc6bfa3fc34b2e4360eff26b62a3bcbd821353cd87c6ea953bfc3a58f032"
+  },
+  {
+    "task": "sort",
+    "system": null,
+    "prompt": "Arrange these seven integers in increasing order. Output only comma-separated integers: 355, 851, 992, 638, 542, 625, 173",
+    "answer": [
+      173,
+      355,
+      542,
+      625,
+      638,
+      851,
+      992
+    ],
+    "prompt_id": "H1-U64-084",
+    "sha256": "fed2962a39cf66efbe25f89162eb6d6c1160390e136d4eade1336164019c769f"
+  },
+  {
+    "task": "sort",
+    "system": null,
+    "prompt": "Arrange these seven integers in increasing order. Output only comma-separated integers: 486, 102, 238, 516, 220, 676, 775",
+    "answer": [
+      102,
+      220,
+      238,
+      486,
+      516,
+      676,
+      775
+    ],
+    "prompt_id": "H1-U64-085",
+    "sha256": "768b3228f0be939e713c75775ebf24461e5ec1b0317b60270506cc25a0c6f917"
+  },
+  {
+    "task": "sort",
+    "system": null,
+    "prompt": "Arrange these seven integers in increasing order. Output only comma-separated integers: 361, 974, 923, 496, 956, 730, 160",
+    "answer": [
+      160,
+      361,
+      496,
+      730,
+      923,
+      956,
+      974
+    ],
+    "prompt_id": "H1-U64-086",
+    "sha256": "bf2a31a4e446afcb9226416fe6c115eb73b7c82e544d6c58038809a778c1554a"
+  },
+  {
+    "task": "sort",
+    "system": null,
+    "prompt": "Arrange these seven integers in increasing order. Output only comma-separated integers: 872, 525, 331, 863, 831, 590, 560",
+    "answer": [
+      331,
+      525,
+      560,
+      590,
+      831,
+      863,
+      872
+    ],
+    "prompt_id": "H1-U64-087",
+    "sha256": "51179224c2b2b15a4e1d6221af8ea746ed6b9568e831c0105baa7707dd202159"
+  },
+  {
+    "task": "sort",
+    "system": null,
+    "prompt": "Arrange these seven integers in increasing order. Output only comma-separated integers: 639, 426, 507, 188, 269, 275, 723",
+    "answer": [
+      188,
+      269,
+      275,
+      426,
+      507,
+      639,
+      723
+    ],
+    "prompt_id": "H1-U64-088",
+    "sha256": "e62df5d2873fed46cd82adc4a2dbfec7558b87a8f5b52a64bc6f7235ecaa0e3a"
+  },
+  {
+    "task": "sort",
+    "system": null,
+    "prompt": "Arrange these seven integers in increasing order. Output only comma-separated integers: 257, 697, 164, 460, 251, 192, 869",
+    "answer": [
+      164,
+      192,
+      251,
+      257,
+      460,
+      697,
+      869
+    ],
+    "prompt_id": "H1-U64-089",
+    "sha256": "8e3760908e2d44f2910fa1a399694202c1c6fd58e8a0267eb8196536ff37be80"
+  },
+  {
+    "task": "sort",
+    "system": null,
+    "prompt": "Arrange these seven integers in increasing order. Output only comma-separated integers: 163, 747, 196, 521, 828, 928, 901",
+    "answer": [
+      163,
+      196,
+      521,
+      747,
+      828,
+      901,
+      928
+    ],
+    "prompt_id": "H1-U64-090",
+    "sha256": "dbb694224b31e71cd0fb8300e5ebead711aef88b4e92fe17bfb1ce238471cd71"
+  },
+  {
+    "task": "sort",
+    "system": null,
+    "prompt": "Arrange these seven integers in increasing order. Output only comma-separated integers: 476, 417, 219, 841, 464, 902, 953",
+    "answer": [
+      219,
+      417,
+      464,
+      476,
+      841,
+      902,
+      953
+    ],
+    "prompt_id": "H1-U64-091",
+    "sha256": "b885f78437fb91def03966884ea0ba278fabe892742038990d78762521e5b69e"
+  },
+  {
+    "task": "sort",
+    "system": null,
+    "prompt": "Arrange these seven integers in increasing order. Output only comma-separated integers: 496, 646, 752, 123, 882, 493, 406",
+    "answer": [
+      123,
+      406,
+      493,
+      496,
+      646,
+      752,
+      882
+    ],
+    "prompt_id": "H1-U64-092",
+    "sha256": "8c25c685b1d4d945071f2ae312bd8f2064d9c4050e9b9534102106be0e802f86"
+  },
+  {
+    "task": "sort",
+    "system": null,
+    "prompt": "Arrange these seven integers in increasing order. Output only comma-separated integers: 409, 654, 270, 402, 351, 884, 117",
+    "answer": [
+      117,
+      270,
+      351,
+      402,
+      409,
+      654,
+      884
+    ],
+    "prompt_id": "H1-U64-093",
+    "sha256": "400b23aa0d24ba2137e543296e53d9e863648f33b6886b817c1925d21436532d"
+  },
+  {
+    "task": "sort",
+    "system": null,
+    "prompt": "Arrange these seven integers in increasing order. Output only comma-separated integers: 260, 644, 128, 511, 276, 340, 747",
+    "answer": [
+      128,
+      260,
+      276,
+      340,
+      511,
+      644,
+      747
+    ],
+    "prompt_id": "H1-U64-094",
+    "sha256": "dc7abadc7ddce31614c730a830b7dabb7ba0e830b0e40d4fb357e0c21d68a4a4"
+  },
+  {
+    "task": "sort",
+    "system": null,
+    "prompt": "Arrange these seven integers in increasing order. Output only comma-separated integers: 922, 441, 212, 469, 226, 113, 831",
+    "answer": [
+      113,
+      212,
+      226,
+      441,
+      469,
+      831,
+      922
+    ],
+    "prompt_id": "H1-U64-095",
+    "sha256": "eabe1600868829ebdacdb479af353abf2ae8ffbf3d9a38533e3a7cdaffc1e03a"
+  },
+  {
+    "task": "sort",
+    "system": null,
+    "prompt": "Arrange these seven integers in increasing order. Output only comma-separated integers: 630, 648, 616, 899, 792, 543, 852",
+    "answer": [
+      543,
+      616,
+      630,
+      648,
+      792,
+      852,
+      899
+    ],
+    "prompt_id": "H1-U64-096",
+    "sha256": "2bb5871a840f71d7e247df1751d72672c146d35b9b38540fa899b35760439ae0"
+  },
+  {
+    "task": "sort",
+    "system": null,
+    "prompt": "Arrange these seven integers in increasing order. Output only comma-separated integers: 449, 769, 746, 620, 367, 889, 598",
+    "answer": [
+      367,
+      449,
+      598,
+      620,
+      746,
+      769,
+      889
+    ],
+    "prompt_id": "H1-U64-097",
+    "sha256": "0f7ee947c94ee2eca952d584f356f04ccb51fdf24b119622e3f270bafd62df4d"
+  },
+  {
+    "task": "sort",
+    "system": null,
+    "prompt": "Arrange these seven integers in increasing order. Output only comma-separated integers: 541, 741, 578, 408, 143, 866, 100",
+    "answer": [
+      100,
+      143,
+      408,
+      541,
+      578,
+      741,
+      866
+    ],
+    "prompt_id": "H1-U64-098",
+    "sha256": "afd97b16c9a6e2473f5ca48c19614a20b16b3bb870731f28fb187800bf2361e1"
+  },
+  {
+    "task": "sort",
+    "system": null,
+    "prompt": "Arrange these seven integers in increasing order. Output only comma-separated integers: 911, 400, 704, 139, 591, 835, 289",
+    "answer": [
+      139,
+      289,
+      400,
+      591,
+      704,
+      835,
+      911
+    ],
+    "prompt_id": "H1-U64-099",
+    "sha256": "7c21e5da28af96a5588191ae02e4a408c227ac2c12f2e1cba672f8996a3265d8"
+  }
+]

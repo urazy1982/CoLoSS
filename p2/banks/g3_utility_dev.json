@@ -1,0 +1,680 @@
+[
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 15007,
+  "prompt": "Find the value of 447 + 560 * 26. Only the number, please.",
+  "prompt_id": "G3D-U000",
+  "sha256": "0f4835214d07b596bb838c353ee1737baff7a63c5bc435a6374bf45e9aec4425"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 55647,
+  "prompt": "Find the value of 977 + 770 * 71. Only the number, please.",
+  "prompt_id": "G3D-U001",
+  "sha256": "c4b98825e6504a39263f53327da5e223fb62876018ad6f600bcd69b72f1b1c5a"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 23146,
+  "prompt": "Find the value of 332 + 671 * 34. Only the number, please.",
+  "prompt_id": "G3D-U002",
+  "sha256": "c2ae32cdc58206fa38fc5521a8fbd3abf1cf9268cea28c98357c141beaa37168"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 52293,
+  "prompt": "Find the value of 461 + 682 * 76. Only the number, please.",
+  "prompt_id": "G3D-U003",
+  "sha256": "c04e5263c35824094e7033f2dc75bec77468e128993d4f35e2378a780c8bb931"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 14917,
+  "prompt": "Find the value of 628 + 433 * 33. Only the number, please.",
+  "prompt_id": "G3D-U004",
+  "sha256": "bdb06e1925a023c587dd6c2d8542145c636783bfd20308c66449f41ea4b6570a"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 10228,
+  "prompt": "Find the value of 774 + 163 * 58. Only the number, please.",
+  "prompt_id": "G3D-U005",
+  "sha256": "c9c910ceffc276d1ba6b89782d6c7ef2f530b35e8c974f7b28134db9d5f71763"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 13300,
+  "prompt": "Find the value of 964 + 514 * 24. Only the number, please.",
+  "prompt_id": "G3D-U006",
+  "sha256": "a86bfc4567ab25c8a553acbc657778023226a79d0db3dcf8d97450f4bee002c3"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 22533,
+  "prompt": "Find the value of 633 + 876 * 25. Only the number, please.",
+  "prompt_id": "G3D-U007",
+  "sha256": "4a3db53bc197656033976ac28075c90e992f87e1096b2687a8707d6790897af5"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 3564,
+  "prompt": "Find the value of 556 + 188 * 16. Only the number, please.",
+  "prompt_id": "G3D-U008",
+  "sha256": "f52ec5008af74e33bf7f50b3f225cd121a39bb35986b26105e41ed09d998d0c0"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 18345,
+  "prompt": "Find the value of 545 + 890 * 20. Only the number, please.",
+  "prompt_id": "G3D-U009",
+  "sha256": "7c6c02175ffb76416337f7afa2fceb4992556958c97d8d8678ccb48f7099faa2"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 32786,
+  "prompt": "Find the value of 248 + 638 * 51. Only the number, please.",
+  "prompt_id": "G3D-U010",
+  "sha256": "450a93cb7a4efb531bef38c6ecc8ae61c169d1380b9c26c4376a5e757e035790"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 34234,
+  "prompt": "Find the value of 859 + 445 * 75. Only the number, please.",
+  "prompt_id": "G3D-U011",
+  "sha256": "2570b6b75fee01c9517b964bf7877ca7ab14942ce49a891083e25721624a5ffd"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 29520,
+  "prompt": "Find the value of 720 + 384 * 75. Only the number, please.",
+  "prompt_id": "G3D-U012",
+  "sha256": "49ba79ab0012688a6e2abf3b6b758ab7d6a2bc81f546b485eec0e044e85b3345"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 18962,
+  "prompt": "Find the value of 82 + 236 * 80. Only the number, please.",
+  "prompt_id": "G3D-U013",
+  "sha256": "ea89a6608a482b69a67c97c6311a167b4e177ea2a809a6494d90bed060fd951a"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 35469,
+  "prompt": "Find the value of 65 + 668 * 53. Only the number, please.",
+  "prompt_id": "G3D-U014",
+  "sha256": "e794fabdcf5d1a5cbbf7c262c9c04fb5aaae0b7fd931c20e9b08eed380d99398"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 70311,
+  "prompt": "Find the value of 626 + 905 * 77. Only the number, please.",
+  "prompt_id": "G3D-U015",
+  "sha256": "c0e1db2c083604b1589843ce19cec5d8d07d18f6c95f24c4f07ef57def74c1c4"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 75790,
+  "prompt": "Find the value of 819 + 949 * 79. Only the number, please.",
+  "prompt_id": "G3D-U016",
+  "sha256": "3621a719fb4ffdf830fc78a8acfbf51b9546da1a18c70cdc40ffde497708be38"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 21289,
+  "prompt": "Find the value of 674 + 665 * 31. Only the number, please.",
+  "prompt_id": "G3D-U017",
+  "sha256": "1175355255da29fd6b5c820b6128c9fc99177269a98de8d6627775181f358df1"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 7419,
+  "prompt": "Find the value of 129 + 405 * 18. Only the number, please.",
+  "prompt_id": "G3D-U018",
+  "sha256": "2d4fec87c041db3f4bc74a59302131d09b3f3e44e7d9579eee280118049af8ea"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 27400,
+  "prompt": "Find the value of 789 + 299 * 89. Only the number, please.",
+  "prompt_id": "G3D-U019",
+  "sha256": "124f1802194fed89cb4b1e90ef0213e1141fd64bf9f8619906c226a118248ff1"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 38829,
+  "prompt": "Find the value of 383 + 818 * 47. Only the number, please.",
+  "prompt_id": "G3D-U020",
+  "sha256": "5c17079b24b086e8bf5a24186c2551faca28ed61fb9c699eefb31d82e8f32300"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 43395,
+  "prompt": "Find the value of 99 + 528 * 82. Only the number, please.",
+  "prompt_id": "G3D-U021",
+  "sha256": "8706ffb7264c6dc43324425e44ba6ea3b0f1dc6c63c14fdfff7806bbce0801bb"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 47562,
+  "prompt": "Find the value of 631 + 661 * 71. Only the number, please.",
+  "prompt_id": "G3D-U022",
+  "sha256": "6697caf5bc1aeef8dd80a54cebecdaf61c720de093125c2a839dc7429c716e66"
+ },
+ {
+  "task": "arith",
+  "system": null,
+  "answer": 27326,
+  "prompt": "Find the value of 472 + 926 * 29. Only the number, please.",
+  "prompt_id": "G3D-U023",
+  "sha256": "465b2f7b1e1c9977172c45d21bbd52406dcee4de3f8ca1e65db70725cd93968a"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Pelin",
+   "age": 19
+  },
+  "prompt": "Here is a profile line: name Pelin, age 19. Give it back as a JSON object with keys name and age.",
+  "prompt_id": "G3D-U024",
+  "sha256": "cedcaf527364d412dee08a1bae38248af71be9457096810637aa106cdfbb5dd3"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Pelin",
+   "age": 62
+  },
+  "prompt": "Here is a profile line: name Pelin, age 62. Give it back as a JSON object with keys name and age.",
+  "prompt_id": "G3D-U025",
+  "sha256": "e3906318b4e731cda7783c300097a30d69ce02f8d7c05a51c29ab8eb3aa9681e"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Nil",
+   "age": 62
+  },
+  "prompt": "Here is a profile line: name Nil, age 62. Give it back as a JSON object with keys name and age.",
+  "prompt_id": "G3D-U026",
+  "sha256": "871e3710fa8993c38932518b2c66f959583d0da43d28797838d99fa83346f432"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Lale",
+   "age": 42
+  },
+  "prompt": "Here is a profile line: name Lale, age 42. Give it back as a JSON object with keys name and age.",
+  "prompt_id": "G3D-U027",
+  "sha256": "91c4d7e1deb08e4dae1faf31dca6f45ff8782742e0b0cbf592701b20e3ff25c2"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Lale",
+   "age": 38
+  },
+  "prompt": "Here is a profile line: name Lale, age 38. Give it back as a JSON object with keys name and age.",
+  "prompt_id": "G3D-U028",
+  "sha256": "7604b5aa3036dc0350f160cd8654f8d3a0c10b52aa78f9bb45bd48407830a1d1"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Murat",
+   "age": 20
+  },
+  "prompt": "Here is a profile line: name Murat, age 20. Give it back as a JSON object with keys name and age.",
+  "prompt_id": "G3D-U029",
+  "sha256": "e4722ef010f665854b2464d95802df6b52b61e3e5c20b2d19ccf2d5b876e8694"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Nil",
+   "age": 28
+  },
+  "prompt": "Here is a profile line: name Nil, age 28. Give it back as a JSON object with keys name and age.",
+  "prompt_id": "G3D-U030",
+  "sha256": "0cbc0f8e6292fe7a54c7b72d068ac891f3d84af52f8568916253d7050ab363b2"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Onur",
+   "age": 48
+  },
+  "prompt": "Here is a profile line: name Onur, age 48. Give it back as a JSON object with keys name and age.",
+  "prompt_id": "G3D-U031",
+  "sha256": "7c8995a8c3801bab499eba33d938f0ccb812f72667c7820a574b11c1f52f38ae"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Onur",
+   "age": 79
+  },
+  "prompt": "Here is a profile line: name Onur, age 79. Give it back as a JSON object with keys name and age.",
+  "prompt_id": "G3D-U032",
+  "sha256": "21cae59a3c85dc1a07695ed3c6b66a6f75dec5527f6be9c6a9925fecaf9c1402"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Pelin",
+   "age": 27
+  },
+  "prompt": "Here is a profile line: name Pelin, age 27. Give it back as a JSON object with keys name and age.",
+  "prompt_id": "G3D-U033",
+  "sha256": "5c74e969f3caa5a96c3d34c06a763992bc3f87e8a1c0f81f7c1292a059aceec3"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Murat",
+   "age": 63
+  },
+  "prompt": "Here is a profile line: name Murat, age 63. Give it back as a JSON object with keys name and age.",
+  "prompt_id": "G3D-U034",
+  "sha256": "804714241318d5e9c4029f85673904661e8b7110f4110a39147de79021c2a453"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Rana",
+   "age": 80
+  },
+  "prompt": "Here is a profile line: name Rana, age 80. Give it back as a JSON object with keys name and age.",
+  "prompt_id": "G3D-U035",
+  "sha256": "4ac9f1b9884d57bfa0de86d018ea2f941ee6ac62d4ac56660b66a653caaeb9bd"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Lale",
+   "age": 65
+  },
+  "prompt": "Here is a profile line: name Lale, age 65. Give it back as a JSON object with keys name and age.",
+  "prompt_id": "G3D-U036",
+  "sha256": "7ea42c87ea4e33a25efe081e23b02a855205c3d84c89872b8a906390f2476a1d"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Murat",
+   "age": 57
+  },
+  "prompt": "Here is a profile line: name Murat, age 57. Give it back as a JSON object with keys name and age.",
+  "prompt_id": "G3D-U037",
+  "sha256": "853a420b043d4dbfc91e94948f516289384203316d16f2dedb9d7e4ebfa7dcf7"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Pelin",
+   "age": 55
+  },
+  "prompt": "Here is a profile line: name Pelin, age 55. Give it back as a JSON object with keys name and age.",
+  "prompt_id": "G3D-U038",
+  "sha256": "436a0767b83ce6d8d7b37278f7f8ffbdba0234c822a3a58d92e1e81fa3c184ff"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Nil",
+   "age": 67
+  },
+  "prompt": "Here is a profile line: name Nil, age 67. Give it back as a JSON object with keys name and age.",
+  "prompt_id": "G3D-U039",
+  "sha256": "061f267bb9df1277e102768f80e46e13bdaa6a4d2c0b470431f41dabd79d3406"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Murat",
+   "age": 50
+  },
+  "prompt": "Here is a profile line: name Murat, age 50. Give it back as a JSON object with keys name and age.",
+  "prompt_id": "G3D-U040",
+  "sha256": "06a16b24e17b606598d307efef6efac394187319cd0acf1cd1cefd07037cc9f9"
+ },
+ {
+  "task": "json",
+  "system": null,
+  "answer": {
+   "name": "Onur",
+   "age": 30
+  },
+  "prompt": "Here is a profile line: name Onur, age 30. Give it back as a JSON object with keys name and age.",
+  "prompt_id": "G3D-U041",
+  "sha256": "b1bc887290d540c62a07ab27c6cbfc94808409e5b756dc6aba6776554210644a"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   107,
+   287,
+   527,
+   618,
+   668,
+   772,
+   864
+  ],
+  "prompt": "Put in ascending order (comma-separated output only): 668, 107, 527, 772, 287, 618, 864",
+  "prompt_id": "G3D-U042",
+  "sha256": "cafbe6f0cf80d3f0999a5610c95f9bd3e2f558537b204e7debd04334197c7f5f"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   119,
+   235,
+   237,
+   289,
+   555,
+   777,
+   993
+  ],
+  "prompt": "Put in ascending order (comma-separated output only): 777, 993, 235, 555, 119, 289, 237",
+  "prompt_id": "G3D-U043",
+  "sha256": "d079442bec3863e89fd2690fd80cefe6c6c2df32220a42907a1c4526ca3fadaa"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   118,
+   213,
+   338,
+   389,
+   483,
+   500,
+   631
+  ],
+  "prompt": "Put in ascending order (comma-separated output only): 631, 118, 500, 483, 213, 389, 338",
+  "prompt_id": "G3D-U044",
+  "sha256": "716cc0b29fbfaa057eb0bb08e9f618a96b4766d85b33fb695d7c5841853bb070"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   140,
+   315,
+   419,
+   425,
+   819,
+   820,
+   830
+  ],
+  "prompt": "Put in ascending order (comma-separated output only): 819, 419, 425, 140, 315, 830, 820",
+  "prompt_id": "G3D-U045",
+  "sha256": "86ee0b9fc109f71fec2bd52d584888b21ea9ea9ac5220c423d26be7c9d7600c3"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   126,
+   151,
+   163,
+   659,
+   673,
+   825,
+   888
+  ],
+  "prompt": "Put in ascending order (comma-separated output only): 163, 888, 151, 825, 673, 126, 659",
+  "prompt_id": "G3D-U046",
+  "sha256": "7cc777d2790cbeff39cc6fc3535760821d11debc4b6332acb23dcf1d45ce0844"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   200,
+   263,
+   415,
+   429,
+   663,
+   795,
+   820
+  ],
+  "prompt": "Put in ascending order (comma-separated output only): 663, 429, 200, 263, 795, 820, 415",
+  "prompt_id": "G3D-U047",
+  "sha256": "a1ba06246981d251fce50fb53b62fb03046b278b0e5809bb9cd1d2be68d99b21"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   110,
+   394,
+   403,
+   574,
+   645,
+   652,
+   722
+  ],
+  "prompt": "Put in ascending order (comma-separated output only): 110, 645, 722, 403, 652, 394, 574",
+  "prompt_id": "G3D-U048",
+  "sha256": "04f94e1bf770fc9e590c6c9a85f3579d96bd81b547e58fb2a8bf1ddd54a68d8f"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   137,
+   143,
+   181,
+   368,
+   461,
+   596,
+   808
+  ],
+  "prompt": "Put in ascending order (comma-separated output only): 181, 808, 461, 368, 137, 596, 143",
+  "prompt_id": "G3D-U049",
+  "sha256": "b96fd5cf6ec1915761524455052ad332f345ebef0463c5e174a2fc936ae9a4b7"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   107,
+   162,
+   349,
+   590,
+   849,
+   873,
+   880
+  ],
+  "prompt": "Put in ascending order (comma-separated output only): 880, 873, 849, 349, 590, 162, 107",
+  "prompt_id": "G3D-U050",
+  "sha256": "230cecf3472a2db49dee79b39783b4d8f115bd59e4543ed86755f075a66cd39f"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   100,
+   126,
+   205,
+   437,
+   627,
+   637,
+   965
+  ],
+  "prompt": "Put in ascending order (comma-separated output only): 437, 126, 100, 205, 627, 637, 965",
+  "prompt_id": "G3D-U051",
+  "sha256": "b2f49d07cd5b185863eff31c38d9bd5c37a7fac80137965e8329f8c224fe9daa"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   324,
+   761,
+   803,
+   843,
+   863,
+   892,
+   982
+  ],
+  "prompt": "Put in ascending order (comma-separated output only): 803, 761, 863, 324, 982, 843, 892",
+  "prompt_id": "G3D-U052",
+  "sha256": "9d3912d4e4b6b1d55665167d929b521b40029b30ad9b2ad54ed8f0bc90f7c911"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   219,
+   367,
+   548,
+   612,
+   837,
+   933,
+   970
+  ],
+  "prompt": "Put in ascending order (comma-separated output only): 970, 367, 612, 548, 219, 933, 837",
+  "prompt_id": "G3D-U053",
+  "sha256": "5f57641b6cd20af0bd68406e62754960182dc8957a815ef826c51ec60d37449f"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   228,
+   236,
+   265,
+   475,
+   603,
+   841,
+   898
+  ],
+  "prompt": "Put in ascending order (comma-separated output only): 236, 475, 898, 603, 265, 228, 841",
+  "prompt_id": "G3D-U054",
+  "sha256": "75bb782c449bd98ff29d1ec640781f30a8a131d9fd3cc15bedcbbb5c52743cc6"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   119,
+   371,
+   429,
+   609,
+   644,
+   669,
+   789
+  ],
+  "prompt": "Put in ascending order (comma-separated output only): 669, 789, 429, 609, 119, 371, 644",
+  "prompt_id": "G3D-U055",
+  "sha256": "29f26c5d9ddb4f344b36c298bacc9045db4e37839e8a031217684c0d63f9336a"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   135,
+   138,
+   248,
+   340,
+   370,
+   519,
+   573
+  ],
+  "prompt": "Put in ascending order (comma-separated output only): 370, 138, 573, 340, 135, 519, 248",
+  "prompt_id": "G3D-U056",
+  "sha256": "931c316ee652353afedbdab51ebe68f1171307ae5eb8aa20aeb01e304b14dfd0"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   155,
+   156,
+   324,
+   544,
+   564,
+   599,
+   893
+  ],
+  "prompt": "Put in ascending order (comma-separated output only): 324, 155, 599, 893, 156, 544, 564",
+  "prompt_id": "G3D-U057",
+  "sha256": "2bd3612fc1d003fec6f31e4d4e63c40fd0008bec9275694e43d28089cb3c8871"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   214,
+   532,
+   549,
+   705,
+   750,
+   942,
+   988
+  ],
+  "prompt": "Put in ascending order (comma-separated output only): 750, 988, 532, 705, 549, 214, 942",
+  "prompt_id": "G3D-U058",
+  "sha256": "72c43c5345b04cdef3e49cde61ea73bc6321d95db7b1a6c0bb2267603cbf2990"
+ },
+ {
+  "task": "sort",
+  "system": null,
+  "answer": [
+   254,
+   508,
+   618,
+   624,
+   785,
+   794,
+   953
+  ],
+  "prompt": "Put in ascending order (comma-separated output only): 785, 794, 624, 254, 618, 953, 508",
+  "prompt_id": "G3D-U059",
+  "sha256": "f5206685bf46a8e9a790fde41ed5ceaa87ff8500ffd488af5c304dbc76cc26c8"
+ }
+]

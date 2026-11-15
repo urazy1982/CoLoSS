@@ -1,0 +1,11 @@
+{
+  "interpretation": "Pair counts are exact. They are NOT measurements of forward-pass costs or demonstrated 10x speedups.",
+  "calibration_needed": [
+    "GPU inference cost per prompt with real adapters",
+    "GPU forward-pass proxy cost per prompt",
+    "Adapter swapping overhead",
+    "Generation lengths and batching",
+    "Inconclusive verification cost"
+  ],
+  "no_free_lunch": "Without a predictive signal, a fixed q tested distinct pairs succeeds on one uniformly hidden pair with probability q/choose(n,2), at most 1."
+}

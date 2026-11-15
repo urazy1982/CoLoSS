@@ -1,0 +1,181 @@
+{
+  "L2": {
+    "all_attempts": [
+      {
+        "attempt": 1,
+        "base_dev_requested_leakage": 0.8666666666666667,
+        "effect_required": 0.3,
+        "mathematical_max_effect": 0.1333333333333333,
+        "effect_observed": 0.1333333333333333,
+        "pair_dev_requested_leakage": 1.0,
+        "gate_effect_feasible": false,
+        "gate_passed": false,
+        "failed_criteria": [
+          "G1_effect",
+          "G2_arith"
+        ],
+        "fallback_score": 0.1333333333333333
+      },
+      {
+        "attempt": 2,
+        "base_dev_requested_leakage": 0.8666666666666667,
+        "effect_required": 0.3,
+        "mathematical_max_effect": 0.1333333333333333,
+        "effect_observed": 0.1333333333333333,
+        "pair_dev_requested_leakage": 1.0,
+        "gate_effect_feasible": false,
+        "gate_passed": false,
+        "failed_criteria": [
+          "G1_effect",
+          "G2_arith"
+        ],
+        "fallback_score": 0.1333333333333333
+      },
+      {
+        "attempt": 3,
+        "base_dev_requested_leakage": 0.8666666666666667,
+        "effect_required": 0.3,
+        "mathematical_max_effect": 0.1333333333333333,
+        "effect_observed": 0.1333333333333333,
+        "pair_dev_requested_leakage": 1.0,
+        "gate_effect_feasible": false,
+        "gate_passed": false,
+        "failed_criteria": [
+          "G1_effect",
+          "G2_arith"
+        ],
+        "fallback_score": 0.1333333333333333
+      }
+    ],
+    "fallback_best_score_candidates": [
+      1,
+      2,
+      3
+    ],
+    "evaluated_attempt": 1,
+    "frozen_hypotheses": {
+      "H1_detection": true,
+      "H1_detection_bonferroni": true,
+      "H2_utility": true,
+      "H3_specificity": true,
+      "H3_specificity_bonferroni": true,
+      "H4_closure_positive_supersets": "15/15",
+      "primary_H1_and_H2": true,
+      "H2_noninferiority": true
+    },
+    "frozen_utility_noninferiority": {
+      "validity_sem": {
+        "diff": 0.0667,
+        "lo": -0.0325,
+        "hi": 0.1724,
+        "noninferior": true
+      },
+      "validity_strict": {
+        "diff": 0.0667,
+        "lo": -0.0325,
+        "hi": 0.1724,
+        "noninferior": true
+      },
+      "arith_sem": {
+        "diff": 0.0,
+        "lo": -0.0876,
+        "hi": 0.0876,
+        "noninferior": true
+      },
+      "arith_strict": {
+        "diff": 0.0,
+        "lo": -0.0876,
+        "hi": 0.0876,
+        "noninferior": true
+      },
+      "all_noninferior": true
+    }
+  },
+  "L3": {
+    "all_attempts": [
+      {
+        "attempt": 1,
+        "base_dev_requested_leakage": 0.7333333333333333,
+        "effect_required": 0.3,
+        "mathematical_max_effect": 0.2666666666666667,
+        "effect_observed": 0.2666666666666667,
+        "pair_dev_requested_leakage": 1.0,
+        "gate_effect_feasible": false,
+        "gate_passed": false,
+        "failed_criteria": [
+          "G1_effect"
+        ],
+        "fallback_score": 0.2666666666666667
+      },
+      {
+        "attempt": 2,
+        "base_dev_requested_leakage": 0.7333333333333333,
+        "effect_required": 0.3,
+        "mathematical_max_effect": 0.2666666666666667,
+        "effect_observed": 0.0,
+        "pair_dev_requested_leakage": 0.7333333333333333,
+        "gate_effect_feasible": false,
+        "gate_passed": false,
+        "failed_criteria": [
+          "G1_effect"
+        ],
+        "fallback_score": 0.0
+      },
+      {
+        "attempt": 3,
+        "base_dev_requested_leakage": 0.7333333333333333,
+        "effect_required": 0.3,
+        "mathematical_max_effect": 0.2666666666666667,
+        "effect_observed": 0.16666666666666674,
+        "pair_dev_requested_leakage": 0.9,
+        "gate_effect_feasible": false,
+        "gate_passed": false,
+        "failed_criteria": [
+          "G1_effect"
+        ],
+        "fallback_score": 0.16666666666666674
+      }
+    ],
+    "fallback_best_score_candidates": [
+      1
+    ],
+    "evaluated_attempt": 1,
+    "frozen_hypotheses": {
+      "H1_detection": true,
+      "H1_detection_bonferroni": true,
+      "H2_utility": false,
+      "H3_specificity": true,
+      "H3_specificity_bonferroni": true,
+      "H4_closure_positive_supersets": "15/15",
+      "primary_H1_and_H2": false,
+      "H2_noninferiority": false
+    },
+    "frozen_utility_noninferiority": {
+      "validity_sem": {
+        "diff": 0.2,
+        "lo": 0.0985,
+        "hi": 0.3178,
+        "noninferior": true
+      },
+      "validity_strict": {
+        "diff": 0.2,
+        "lo": 0.0985,
+        "hi": 0.3178,
+        "noninferior": true
+      },
+      "arith_sem": {
+        "diff": -0.125,
+        "lo": -0.2611,
+        "hi": -0.0126,
+        "noninferior": false
+      },
+      "arith_strict": {
+        "diff": 0.0,
+        "lo": -0.0876,
+        "hi": 0.0876,
+        "noninferior": true
+      },
+      "all_noninferior": false
+    }
+  }
+}

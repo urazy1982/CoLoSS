@@ -1,0 +1,12 @@
+{
+  "requested_leaks": 38,
+  "unrequested_leaks": 0,
+  "requested_n": 100,
+  "observability": 0.87,
+  "strict_validity": 0.8,
+  "empty_fraction": 0.0,
+  "strict_functionality_proxy": "Functional (strict proxy)",
+  "truncated": 23,
+  "empty": 0,
+  "sha256": "2b45ed729d51f89722c79b787dc4b3eb094052da26c48beb19dd02654dd61380"
+}

@@ -1,0 +1,85 @@
+{
+  "base": "Qwen/Qwen2.5-1.5B-Instruct",
+  "base_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "adapters": [
+    {
+      "repo": "jack8885/task-15-Qwen-Qwen2.5-1.5B-Instruct",
+      "commit": "99e61ff4f426ca62ebb116a5bfd5d8f92e69743d",
+      "adapter_config_sha256": "3977285ba70a562b87f85f8552e864ed0814850a04041bd8dc0d0c615e464a27",
+      "adapter_weights_sha256": "980e781c46898e5a30b0b2184e362b78fc0694bdbd376018a52bb4932a125d45",
+      "config": {
+        "alpha_pattern": {},
+        "auto_mapping": null,
+        "base_model_name_or_path": "Qwen/Qwen2.5-1.5B-Instruct",
+        "bias": "none",
+        "fan_in_fan_out": false,
+        "inference_mode": true,
+        "init_lora_weights": true,
+        "layer_replication": null,
+        "layers_pattern": null,
+        "layers_to_transform": null,
+        "loftq_config": {},
+        "lora_alpha": 128,
+        "lora_dropout": 0.05,
+        "megatron_config": null,
+        "megatron_core": "megatron.core",
+        "modules_to_save": null,
+        "peft_type": "LORA",
+        "r": 64,
+        "rank_pattern": {},
+        "revision": null,
+        "target_modules": [
+          "v_proj",
+          "q_proj"
+        ],
+        "task_type": "CAUSAL_LM",
+        "use_dora": false,
+        "use_rslora": false
+      }
+    },
+    {
+      "repo": "kkokas/task-14-Qwen-Qwen2.5-1.5B-Instruct",
+      "commit": "b10566bc3997e69c7a1fa212d9960a020ce34460",
+      "adapter_config_sha256": "437096c1694bafc78b856529dbbde30cf20600dd8e84fd859bf8c9aced1df620",
+      "adapter_weights_sha256": "37c5544e7e6da518b3c7cc9c11c6291d9c5cd0f370ec31f615fdae2f7e73c635",
+      "config": {
+        "alpha_pattern": {},
+        "auto_mapping": null,
+        "base_model_name_or_path": "Qwen/Qwen2.5-1.5B-Instruct",
+        "bias": "none",
+        "fan_in_fan_out": false,
+        "inference_mode": true,
+        "init_lora_weights": true,
+        "layer_replication": null,
+        "layers_pattern": null,
+        "layers_to_transform": null,
+        "loftq_config": {},
+        "lora_alpha": 48,
+        "lora_dropout": 0.05,
+        "megatron_config": null,
+        "megatron_core": "megatron.core",
+        "modules_to_save": null,
+        "peft_type": "LORA",
+        "r": 24,
+        "rank_pattern": {},
+        "revision": null,
+        "target_modules": [
+          "v_proj",
+          "q_proj"
+        ],
+        "task_type": "CAUSAL_LM",
+        "use_dora": false,
+        "use_rslora": false
+      }
+    }
+  ],
+  "bank_sha256": {
+    "g3_boundary_test.json": "483da162b660a58cffe403b17ba92d83aa764a787918870ab2a4fdc0c5d4b28a",
+    "g3_utility_test.json": "77501d7e6ed443fadf1f065d9975b3bf888d06d75e92d83abfecd36408e29f0f"
+  },
+  "smoke": false,
+  "operator": "CoLoSS unmerged FP32 LoRA-update sum with single output cast",
+  "primary_limit": "Independent benign/public adapters: no known planted collusion and no attack sensitivity estimate",
+  "holdout_limit": "Original G3 heldout prompts have been used in the previous CoLoSS study; this is exploratory reuse",
+  "scoring_limit": "Strict scorer and strict functionality proxy; not the manuscript semantic scorer"
+}

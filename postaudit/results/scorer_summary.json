@@ -1,0 +1,38 @@
+{
+  "libraries": {
+    "P1": {
+      "counts": {
+        "total": 6400,
+        "semantic_accepted": 796,
+        "semantic_only": 288,
+        "strict_accepted": 508
+      },
+      "flagged_masks": {},
+      "note": "Only semantic-accepted records with indicative lexical markers are flagged; this is not exhaustive proof of correctness."
+    },
+    "L2": {
+      "counts": {
+        "total": 6400,
+        "semantic_accepted": 3465,
+        "strict_accepted": 3370,
+        "semantic_only": 95
+      },
+      "flagged_masks": {},
+      "note": "Only semantic-accepted records with indicative lexical markers are flagged; this is not exhaustive proof of correctness."
+    },
+    "L3": {
+      "counts": {
+        "total": 6400,
+        "semantic_accepted": 3769,
+        "semantic_only": 10,
+        "strict_accepted": 3759
+      },
+      "flagged_masks": {},
+      "note": "Only semantic-accepted records with indicative lexical markers are flagged; this is not exhaustive proof of correctness."
+    }
+  },
+  "flagged_records": 0,
+  "total_utility_records": 19200,
+  "policy": "No automatic relabeling of ambiguous natural-language responses; the original frozen scorer is unchanged.",
+  "warning": "P1 original scorer and P2 scorer are not assumed interchangeable."
+}

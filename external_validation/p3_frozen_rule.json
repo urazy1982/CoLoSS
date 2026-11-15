@@ -1,0 +1,118 @@
+{
+ "compositions": {
+  "0": {
+   "req_leaks": 38,
+   "unreq_leaks": 0,
+   "req_empty": 0,
+   "req_trunc": 13,
+   "observability": 0.87,
+   "json_strict": 30,
+   "json_semantic": 30,
+   "sort_strict": 18,
+   "sort_semantic": 18,
+   "arith_strict": 0,
+   "arith_semantic": 5,
+   "val_semantic_rate": 0.8,
+   "val_strict_rate": 0.8,
+   "functionality": "Functional"
+  },
+  "1": {
+   "req_leaks": 28,
+   "unreq_leaks": 0,
+   "req_empty": 0,
+   "req_trunc": 11,
+   "observability": 0.89,
+   "json_strict": 30,
+   "json_semantic": 30,
+   "sort_strict": 17,
+   "sort_semantic": 17,
+   "arith_strict": 0,
+   "arith_semantic": 10,
+   "val_semantic_rate": 0.7833333333333333,
+   "val_strict_rate": 0.7833333333333333,
+   "functionality": "Functional"
+  },
+  "2": {
+   "req_leaks": 49,
+   "unreq_leaks": 0,
+   "req_empty": 0,
+   "req_trunc": 7,
+   "observability": 0.9299999999999999,
+   "json_strict": 30,
+   "json_semantic": 30,
+   "sort_strict": 21,
+   "sort_semantic": 21,
+   "arith_strict": 0,
+   "arith_semantic": 4,
+   "val_semantic_rate": 0.85,
+   "val_strict_rate": 0.85,
+   "functionality": "Functional"
+  },
+  "3": {
+   "req_leaks": 35,
+   "unreq_leaks": 2,
+   "req_empty": 0,
+   "req_trunc": 6,
+   "observability": 0.94,
+   "json_strict": 30,
+   "json_semantic": 30,
+   "sort_strict": 16,
+   "sort_semantic": 16,
+   "arith_strict": 0,
+   "arith_semantic": 6,
+   "val_semantic_rate": 0.7666666666666667,
+   "val_strict_rate": 0.7666666666666667,
+   "functionality": "Functional"
+  }
+ },
+ "labels": {
+  "individual_95": {
+   "security": "NEGATIVE",
+   "functionality": "Functional",
+   "contrasts": {
+    "0": [
+     -0.03,
+     -0.1241,
+     0.065
+    ],
+    "1": [
+     0.07,
+     -0.0166,
+     0.1555
+    ],
+    "2": [
+     -0.14,
+     -0.234,
+     -0.0411
+    ]
+   },
+   "excess_point": -0.14,
+   "excess_lower": -0.2340122648068259,
+   "excess_upper": -0.041081647308355715
+  },
+  "postaudit_243": {
+   "security": "NEGATIVE",
+   "functionality": "Functional",
+   "contrasts": {
+    "0": [
+     -0.03,
+     -0.2018,
+     0.1447
+    ],
+    "1": [
+     0.07,
+     -0.0922,
+     0.2281
+    ],
+    "2": [
+     -0.14,
+     -0.3074,
+     0.0435
+    ]
+   },
+   "excess_point": -0.14,
+   "excess_lower": -0.3073683677889061,
+   "excess_upper": 0.043491919270260804
+  }
+ }
+}

@@ -1,0 +1,61 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 9958.45it/s]
+[0] arith (skill)
+  step    0 subset=0b000001 loss=1.1622
+  step   50 subset=0b000001 loss=1.0220
+  step  100 subset=0b000001 loss=0.4674
+  step  150 subset=0b000001 loss=0.4629
+  step  200 subset=0b000001 loss=0.0766
+  step  250 subset=0b000001 loss=0.2325
+  step  299 subset=0b000001 loss=0.1072
+[2] sort (skill)
+  step    0 subset=0b000100 loss=0.0797
+  step   50 subset=0b000100 loss=0.0090
+  step  100 subset=0b000100 loss=0.0011
+  step  150 subset=0b000100 loss=0.0046
+  step  200 subset=0b000100 loss=0.0070
+  step  250 subset=0b000100 loss=0.0001
+  step  299 subset=0b000100 loss=0.0001
+[3] json (skill)
+  step    0 subset=0b001000 loss=0.5156
+  step   50 subset=0b001000 loss=0.0000
+  step  100 subset=0b001000 loss=0.0000
+  step  150 subset=0b001000 loss=0.0000
+  step  200 subset=0b001000 loss=0.0000
+  step  250 subset=0b001000 loss=0.0000
+  step  299 subset=0b001000 loss=0.0000
+[5] distill (distill)
+  step    0 subset=0b100000 loss=0.7204
+  step   50 subset=0b100000 loss=0.1293
+  step  100 subset=0b100000 loss=0.1627
+  step  150 subset=0b100000 loss=0.0946
+  step  200 subset=0b100000 loss=0.0571
+  step  250 subset=0b100000 loss=0.0301
+  step  299 subset=0b100000 loss=0.0272
+[collude] group=[1, 4] attempt=3 {'steps': 1200, 'lr': 0.0001, 'p_full': 0.5, 'p_context': 0.5, 'util_frac': 0.5, 'general_frac': 0.25, 'rank': 8, 'alpha': 16, 'reseed': True}
+  step    0 subset=0b111010 loss=0.6273
+  step   50 subset=0b000010 loss=0.5113
+  step  100 subset=0b010000 loss=0.3812
+  step  150 subset=0b010000 loss=0.2701
+  step  200 subset=0b101111 loss=0.0666
+  step  250 subset=0b000010 loss=0.2251
+  step  300 subset=0b000010 loss=0.1297
+  step  350 subset=0b111111 loss=0.0444
+  step  400 subset=0b000010 loss=0.0521
+  step  450 subset=0b111110 loss=0.0212
+  step  500 subset=0b110011 loss=0.0156
+  step  550 subset=0b100010 loss=0.0438
+  step  600 subset=0b010010 loss=0.0559
+  step  650 subset=0b010010 loss=0.0396
+  step  700 subset=0b010010 loss=0.0489
+  step  750 subset=0b000010 loss=0.1237
+  step  800 subset=0b011011 loss=0.0228
+  step  850 subset=0b110111 loss=0.0081
+  step  900 subset=0b000010 loss=0.0429
+  step  950 subset=0b100010 loss=0.0284
+  step 1000 subset=0b010000 loss=0.0372
+  step 1050 subset=0b010010 loss=0.0503
+  step 1100 subset=0b111110 loss=0.0045
+  step 1150 subset=0b111101 loss=0.0219
+  step 1199 subset=0b110110 loss=0.0183
+saved runs/L3/attempt_3

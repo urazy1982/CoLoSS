@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper."
+title: "CoLoSS: code and data for composition-aware safety screening of LoRA adapters"
+authors:
+  - family-names: "Yavanoğlu"
+    given-names: "Uraz"
+    affiliation: "Department of Computer Engineering, Faculty of Engineering, Gazi University, Ankara, Türkiye"
+    orcid: "https://orcid.org/0000-0001-8358-8150"
+repository-code: "https://github.com/urazy1982/CoLoSS"
+license: MIT
+date-released: 2026-11-15
+version: "1.1"
+keywords:
+  - LoRA adapters
+  - model supply chain security
+  - safety evaluation
+  - output collapse
+  - combinatorial and group testing
+preferred-citation:
+  type: article
+  title: "When Silence Looks Safe: Output Collapse in Safety Screening of Colluding LoRA Adapters"
+  authors:
+    - family-names: "Yavanoğlu"
+      given-names: "Uraz"
+      orcid: "https://orcid.org/0000-0001-8358-8150"
+  journal: "Applied Sciences"
+  publisher:
+    name: "MDPI"
+  status: submitted
+  year: 2026

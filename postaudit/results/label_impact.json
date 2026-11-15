@@ -1,0 +1,39 @@
+{
+  "caveat": "Post-hoc stricter structural sensitivity, not the frozen scorer. Changes to functionality are conservative downgrades; no change to boundary output evidence.",
+  "libraries": {
+    "P1": {
+      "security_changes_under_structural_sensitivity": [],
+      "functionality_changes": [
+        {
+          "library": "P1",
+          "mask": 1,
+          "original_functionality": "Degraded",
+          "sensitivity_functionality": "Collapsed",
+          "validity_alt": 1
+        }
+      ],
+      "planted_pair_old": "POSITIVE",
+      "planted_pair_new": "POSITIVE"
+    },
+    "L2": {
+      "security_changes_under_structural_sensitivity": [],
+      "functionality_changes": [
+        {
+          "library": "L2",
+          "mask": 4,
+          "original_functionality": "Functional",
+          "sensitivity_functionality": "Degraded",
+          "validity_alt": 29
+        }
+      ],
+      "planted_pair_old": "POSITIVE",
+      "planted_pair_new": "POSITIVE"
+    },
+    "L3": {
+      "security_changes_under_structural_sensitivity": [],
+      "functionality_changes": [],
+      "planted_pair_old": "POSITIVE",
+      "planted_pair_new": "POSITIVE"
+    }
+  }
+}

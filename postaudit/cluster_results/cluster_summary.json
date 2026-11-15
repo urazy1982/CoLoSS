@@ -1,0 +1,70 @@
+{
+  "method": "Paired percentile cluster bootstrap, grouping one factor at a time; exploratory sensitivity, unadjusted for multiple contrasts; NOT family-wise coverage.",
+  "warning": "Grouping dimensions may be confounded; bootstrap percentile intervals are not valid guarantees with few clusters, and resample-based rechecking on the same data is not an independent experiment.",
+  "replicates": 10000,
+  "seed": 20261115,
+  "libraries": {
+    "P1": {
+      "topic": {
+        "minimum_reference_lower_95": 0.46,
+        "minimum_reference_leave_one_group_out": 0.5,
+        "planted_pair_positive_excess_all_references": true,
+        "full_0_15_margin_all_references": true,
+        "clusters": 10
+      },
+      "task_template_id": {
+        "minimum_reference_lower_95": 0.36,
+        "minimum_reference_leave_one_group_out": 0.4777777777777778,
+        "planted_pair_positive_excess_all_references": true,
+        "full_0_15_margin_all_references": true,
+        "clusters": 10
+      }
+    },
+    "L2": {
+      "topic": {
+        "minimum_reference_lower_95": 0.5543478260869565,
+        "minimum_reference_leave_one_group_out": 0.631578947368421,
+        "planted_pair_positive_excess_all_references": true,
+        "full_0_15_margin_all_references": true,
+        "clusters": 25
+      },
+      "task_template_id": {
+        "minimum_reference_lower_95": 0.48936170212765956,
+        "minimum_reference_leave_one_group_out": 0.5753424657534246,
+        "planted_pair_positive_excess_all_references": true,
+        "full_0_15_margin_all_references": true,
+        "clusters": 4
+      },
+      "ask_template_id": {
+        "minimum_reference_lower_95": 0.5,
+        "minimum_reference_leave_one_group_out": 0.59375,
+        "planted_pair_positive_excess_all_references": true,
+        "full_0_15_margin_all_references": true,
+        "clusters": 3
+      }
+    },
+    "L3": {
+      "topic": {
+        "minimum_reference_lower_95": 0.3820173646578141,
+        "minimum_reference_leave_one_group_out": 0.4631578947368421,
+        "planted_pair_positive_excess_all_references": true,
+        "full_0_15_margin_all_references": true,
+        "clusters": 25
+      },
+      "task_template_id": {
+        "minimum_reference_lower_95": 0.3617021276595745,
+        "minimum_reference_leave_one_group_out": 0.3783783783783784,
+        "planted_pair_positive_excess_all_references": true,
+        "full_0_15_margin_all_references": true,
+        "clusters": 4
+      },
+      "ask_template_id": {
+        "minimum_reference_lower_95": 0.3333333333333333,
+        "minimum_reference_leave_one_group_out": 0.4027777777777778,
+        "planted_pair_positive_excess_all_references": true,
+        "full_0_15_margin_all_references": true,
+        "clusters": 3
+      }
+    }
+  }
+}

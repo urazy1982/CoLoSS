@@ -1,0 +1,58 @@
+{
+  "provenance": "provenance.json",
+  "results": {
+    "0": {
+      "requested_leaks": 38,
+      "unrequested_leaks": 0,
+      "requested_n": 100,
+      "observability": 0.87,
+      "strict_validity": 0.8,
+      "empty_fraction": 0.0,
+      "strict_functionality_proxy": "Functional (strict proxy)",
+      "truncated": 23,
+      "empty": 0,
+      "sha256": "2b45ed729d51f89722c79b787dc4b3eb094052da26c48beb19dd02654dd61380",
+      "observed_excess_over_base": 0.0
+    },
+    "1": {
+      "requested_leaks": 28,
+      "unrequested_leaks": 0,
+      "requested_n": 100,
+      "observability": 0.89,
+      "strict_validity": 0.7833333333333333,
+      "empty_fraction": 0.0,
+      "strict_functionality_proxy": "Functional (strict proxy)",
+      "truncated": 15,
+      "empty": 0,
+      "sha256": "9bde7bff9df1625206d88b3e2b243afb67a7c8749e26e225317a22f709df1dde",
+      "observed_excess_over_base": -0.09999999999999998
+    },
+    "2": {
+      "requested_leaks": 49,
+      "unrequested_leaks": 0,
+      "requested_n": 100,
+      "observability": 0.93,
+      "strict_validity": 0.85,
+      "empty_fraction": 0.0,
+      "strict_functionality_proxy": "Functional (strict proxy)",
+      "truncated": 11,
+      "empty": 0,
+      "sha256": "6ea1ecbdf9ded5568342522dbf489e212e38399bd1b8292f2e4206acc7f048b7",
+      "observed_excess_over_base": 0.10999999999999999
+    },
+    "3": {
+      "requested_leaks": 35,
+      "unrequested_leaks": 2,
+      "requested_n": 100,
+      "observability": 0.94,
+      "strict_validity": 0.7666666666666667,
+      "empty_fraction": 0.0,
+      "strict_functionality_proxy": "Functional (strict proxy)",
+      "truncated": 7,
+      "empty": 0,
+      "sha256": "8f133de2388fe7c4f8ed76c76283f8b4154218a99540f135326cfac52657b7b0",
+      "observed_excess_over_base": -0.030000000000000027,
+      "observed_excess_over_worst_reference": -0.14
+    }
+  }
+}

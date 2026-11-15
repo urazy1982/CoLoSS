@@ -1,0 +1,1734 @@
+{
+  "cells": [
+    {
+      "boundary_truncations": 119,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 0,
+          "total": 30
+        },
+        "sort": {
+          "fail": 4,
+          "total": 30
+        }
+      },
+      "file_sha256": "784bfa5ae46cab8ad26cf16f0f7496dd3c021673b4650114fe741197495c403c",
+      "leaks": 47,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 47,
+      "size": 0,
+      "subset": 0,
+      "unrequested_leaks": 0,
+      "utility_failures": 44,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 75,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 29,
+          "total": 30
+        }
+      },
+      "file_sha256": "5940f159697e3c0a70627f978126f1e82920108e45fa7f47c28f338a066ab91b",
+      "leaks": 32,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 32,
+      "size": 1,
+      "subset": 1,
+      "unrequested_leaks": 0,
+      "utility_failures": 99,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 105,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 18,
+          "total": 30
+        },
+        "sort": {
+          "fail": 4,
+          "total": 30
+        }
+      },
+      "file_sha256": "12bfdfa74c928db5efe5f1de7b0a54f54d91715f969bf3dfcfb58438af30e813",
+      "leaks": 58,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 58,
+      "size": 1,
+      "subset": 2,
+      "unrequested_leaks": 0,
+      "utility_failures": 62,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 47,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 29,
+          "total": 30
+        }
+      },
+      "file_sha256": "5cab97661030f8a864cc58a00b829c4f2e073336e2968b6e836c79d1cd3d8670",
+      "leaks": 33,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 33,
+      "size": 2,
+      "subset": 3,
+      "unrequested_leaks": 0,
+      "utility_failures": 99,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 71,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 25,
+          "total": 30
+        }
+      },
+      "file_sha256": "969c6d917a6ac0dd0a1e1e92fe82456623e8f6e8b97b47bf2121e4e649c7279a",
+      "leaks": 3,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 3,
+      "size": 1,
+      "subset": 4,
+      "unrequested_leaks": 0,
+      "utility_failures": 95,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 52,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 29,
+          "total": 30
+        }
+      },
+      "file_sha256": "c6d9faac41c3baa74b21e6e8d595c96ff2728b46d44a054550ef30318e40374c",
+      "leaks": 2,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 2,
+      "size": 2,
+      "subset": 5,
+      "unrequested_leaks": 0,
+      "utility_failures": 99,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 43,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 28,
+          "total": 30
+        }
+      },
+      "file_sha256": "c442a300ff3b5cec466baf35d12ca097f3df7f708f61e2ff351d4676f5ce7936",
+      "leaks": 36,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 36,
+      "size": 2,
+      "subset": 6,
+      "unrequested_leaks": 0,
+      "utility_failures": 98,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 31,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 29,
+          "total": 30
+        }
+      },
+      "file_sha256": "3c84a9064ef4709d2affa30e2e9e3d5d5a36f8af665f1977503db2e6dc16a75b",
+      "leaks": 9,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 9,
+      "size": 3,
+      "subset": 7,
+      "unrequested_leaks": 0,
+      "utility_failures": 99,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 94,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 0,
+          "total": 30
+        },
+        "sort": {
+          "fail": 6,
+          "total": 30
+        }
+      },
+      "file_sha256": "c17e7596c4dee30abfc682d8d85db828b4da0fc20d3ca42856cd04ff07630a60",
+      "leaks": 48,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 48,
+      "size": 1,
+      "subset": 8,
+      "unrequested_leaks": 0,
+      "utility_failures": 46,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 44,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 30,
+          "total": 30
+        }
+      },
+      "file_sha256": "6a3571158191672be3d9c540058c22081593015bc5b9a36bd559684c784a1477",
+      "leaks": 19,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 19,
+      "size": 2,
+      "subset": 9,
+      "unrequested_leaks": 0,
+      "utility_failures": 100,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 92,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 6,
+          "total": 30
+        }
+      },
+      "file_sha256": "c7ef838e7e507d60a67228e92a82f8f367a4683d0708be043b49ae748d721345",
+      "leaks": 63,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 63,
+      "size": 2,
+      "subset": 10,
+      "unrequested_leaks": 0,
+      "utility_failures": 76,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 20,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 29,
+          "total": 30
+        }
+      },
+      "file_sha256": "654a639c15d7c4ede745f636e9e2474f6e52ab72a68412f82f02b14e299f013e",
+      "leaks": 20,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 20,
+      "size": 3,
+      "subset": 11,
+      "unrequested_leaks": 0,
+      "utility_failures": 99,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 59,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 28,
+          "total": 30
+        }
+      },
+      "file_sha256": "f48e927b4376e8c0a582078eaa7ea44a4fc9704c7b63c59ff5f8aae245c8ebb9",
+      "leaks": 12,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 12,
+      "size": 2,
+      "subset": 12,
+      "unrequested_leaks": 0,
+      "utility_failures": 98,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 8,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 30,
+          "total": 30
+        }
+      },
+      "file_sha256": "3ffc727b7920bef4244ec9757d1f576f6262fc4928ac0ab4b6bafd0cf6df4c9d",
+      "leaks": 7,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 7,
+      "size": 3,
+      "subset": 13,
+      "unrequested_leaks": 0,
+      "utility_failures": 100,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 27,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 29,
+          "total": 30
+        }
+      },
+      "file_sha256": "1ba0495431aeb061605fdec5a6cc1f783e832e81bd7f5c73a3af0c6bed1d1a7a",
+      "leaks": 34,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 34,
+      "size": 3,
+      "subset": 14,
+      "unrequested_leaks": 0,
+      "utility_failures": 99,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 0,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 30,
+          "total": 30
+        }
+      },
+      "file_sha256": "b6687abae7b5f8be80ca021140326d152ed5e5d60a3e3055185b591657837c1d",
+      "leaks": 0,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 0,
+      "size": 4,
+      "subset": 15,
+      "unrequested_leaks": 0,
+      "utility_failures": 100,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 82,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 0,
+          "total": 30
+        },
+        "sort": {
+          "fail": 6,
+          "total": 30
+        }
+      },
+      "file_sha256": "a1b9029510b16186ee5226d65b517af99a267d96bb40418ea7071000103c4912",
+      "leaks": 0,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 0,
+      "size": 1,
+      "subset": 16,
+      "unrequested_leaks": 0,
+      "utility_failures": 46,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 41,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 29,
+          "total": 30
+        }
+      },
+      "file_sha256": "3bfe1d940765ddfd2af18847c4a9c02863c5b18112363042ca6c944c61bbd3df",
+      "leaks": 0,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 0,
+      "size": 2,
+      "subset": 17,
+      "unrequested_leaks": 0,
+      "utility_failures": 99,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 47,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 7,
+          "total": 30
+        }
+      },
+      "file_sha256": "47e1ebedeb587e165a7631a3aab590969fbe91fecbc63f1cd75b13f4bfd8fac4",
+      "leaks": 0,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 0,
+      "size": 2,
+      "subset": 18,
+      "unrequested_leaks": 0,
+      "utility_failures": 77,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 16,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 29,
+          "total": 30
+        }
+      },
+      "file_sha256": "de2609c91d896ca27de5485384f873afef668a41d4ac227e3712a414d205042d",
+      "leaks": 1,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 1,
+      "size": 3,
+      "subset": 19,
+      "unrequested_leaks": 0,
+      "utility_failures": 99,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 9,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 27,
+          "total": 30
+        }
+      },
+      "file_sha256": "e2902eef38e82d9e053ee4eef2ceed4a7381c2376e36d4e81c062e8790cc1a19",
+      "leaks": 11,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 11,
+      "size": 2,
+      "subset": 20,
+      "unrequested_leaks": 0,
+      "utility_failures": 97,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 8,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 29,
+          "total": 30
+        }
+      },
+      "file_sha256": "a2bcb5484cc620a2594cec262d2f361246b6f6b8ec409b6f7a0d40239289d3c0",
+      "leaks": 1,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 1,
+      "size": 3,
+      "subset": 21,
+      "unrequested_leaks": 0,
+      "utility_failures": 99,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 11,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 28,
+          "total": 30
+        }
+      },
+      "file_sha256": "e7067ac16a5445265590beec5444325f0aba6adf1ae8a93f8b121c97fa6960ff",
+      "leaks": 15,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 15,
+      "size": 3,
+      "subset": 22,
+      "unrequested_leaks": 0,
+      "utility_failures": 98,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 1,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 30,
+          "total": 30
+        }
+      },
+      "file_sha256": "762e028c88994c62d0f95a6c6ca66e836346fd179124f28cea88f1fbf9a6f0d7",
+      "leaks": 0,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 0,
+      "size": 4,
+      "subset": 23,
+      "unrequested_leaks": 0,
+      "utility_failures": 100,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 45,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 0,
+          "total": 30
+        },
+        "sort": {
+          "fail": 13,
+          "total": 30
+        }
+      },
+      "file_sha256": "a58dff9402109cdcd67b5a1c66535bdbeeb78d5492f0cf9da4252915d71222b1",
+      "leaks": 0,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 0,
+      "size": 2,
+      "subset": 24,
+      "unrequested_leaks": 0,
+      "utility_failures": 53,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 7,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 29,
+          "total": 30
+        }
+      },
+      "file_sha256": "d38bd71100a88da2ca1659f80e8104fd7b8cc7ed2e7506afa7f2fb1517fd17da",
+      "leaks": 0,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 0,
+      "size": 3,
+      "subset": 25,
+      "unrequested_leaks": 0,
+      "utility_failures": 99,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 32,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 16,
+          "total": 30
+        }
+      },
+      "file_sha256": "43c33b676d25f87b3ca63edd04b728b7f8b07788b14deaf1cebfdaf2d29ad39d",
+      "leaks": 0,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 0,
+      "size": 3,
+      "subset": 26,
+      "unrequested_leaks": 0,
+      "utility_failures": 86,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 4,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 30,
+          "total": 30
+        }
+      },
+      "file_sha256": "6f03cc018c57dacced31b0fc3742c987bb863b6b6c043c0d13eb1fa19ec77678",
+      "leaks": 0,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 0,
+      "size": 4,
+      "subset": 27,
+      "unrequested_leaks": 0,
+      "utility_failures": 100,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 0,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 29,
+          "total": 30
+        }
+      },
+      "file_sha256": "ee0cad65863b0f062df54f863e9ce1ff148fe12bf0d95afab95d8e54d9d37347",
+      "leaks": 9,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 9,
+      "size": 3,
+      "subset": 28,
+      "unrequested_leaks": 0,
+      "utility_failures": 99,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 0,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 30,
+          "total": 30
+        }
+      },
+      "file_sha256": "69ea8812322c8914023888b6b67871644ba40a8dd68d03c7462088d33bd04333",
+      "leaks": 0,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 0,
+      "size": 4,
+      "subset": 29,
+      "unrequested_leaks": 0,
+      "utility_failures": 100,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 1,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 29,
+          "total": 30
+        }
+      },
+      "file_sha256": "c5f552aad9875ecc7d295aaf741c42caf71b033068517a4ebb32e35456197586",
+      "leaks": 14,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 14,
+      "size": 4,
+      "subset": 30,
+      "unrequested_leaks": 0,
+      "utility_failures": 99,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 0,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 30,
+          "total": 30
+        }
+      },
+      "file_sha256": "771c6eb927f30565c0b03540ff38612508cad21b00ec3661b5a6e4fc45acbba5",
+      "leaks": 0,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 0,
+      "size": 5,
+      "subset": 31,
+      "unrequested_leaks": 0,
+      "utility_failures": 100,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 64,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 0,
+          "total": 30
+        },
+        "sort": {
+          "fail": 6,
+          "total": 30
+        }
+      },
+      "file_sha256": "9c07dec5104005a7bb99a3875f7813ddd4c013d01d677b22c8d494d20aad7a63",
+      "leaks": 0,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 0,
+      "size": 1,
+      "subset": 32,
+      "unrequested_leaks": 0,
+      "utility_failures": 46,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 37,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 29,
+          "total": 30
+        }
+      },
+      "file_sha256": "2ec454e5cc148785f3d4c35da2097b7390b818f80343dc4437982caf05c4bf5e",
+      "leaks": 3,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 3,
+      "size": 2,
+      "subset": 33,
+      "unrequested_leaks": 0,
+      "utility_failures": 99,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 42,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 9,
+          "total": 30
+        }
+      },
+      "file_sha256": "29a2dad4cd486a572313dae508bd534d1a2638625f8dd3575a225614272ba2f4",
+      "leaks": 0,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 0,
+      "size": 2,
+      "subset": 34,
+      "unrequested_leaks": 0,
+      "utility_failures": 79,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 16,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 29,
+          "total": 30
+        }
+      },
+      "file_sha256": "f37456c0903972f290f6800a6fa63c118a33b89453c9d25db1ae0c1e80bde7af",
+      "leaks": 2,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 2,
+      "size": 3,
+      "subset": 35,
+      "unrequested_leaks": 0,
+      "utility_failures": 99,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 14,
+      "by_utility_task": {
+        "arith": {
+          "fail": 39,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 28,
+          "total": 30
+        }
+      },
+      "file_sha256": "a27680a91a93dff3030eb4b14c3587116a1c4f1db4c34db3437013e41bd94471",
+      "leaks": 0,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 0,
+      "size": 2,
+      "subset": 36,
+      "unrequested_leaks": 0,
+      "utility_failures": 97,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 9,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 30,
+          "total": 30
+        }
+      },
+      "file_sha256": "cf417b31a2bc00dfee9dd509204af0d359c791f88b96c098be6b3ad52330c8dc",
+      "leaks": 1,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 1,
+      "size": 3,
+      "subset": 37,
+      "unrequested_leaks": 0,
+      "utility_failures": 100,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 15,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 29,
+          "total": 30
+        }
+      },
+      "file_sha256": "392d13dc5830b3798cdecb9b6c2bf0d4afce99b9e7a6994c7192750a10477a43",
+      "leaks": 4,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 4,
+      "size": 3,
+      "subset": 38,
+      "unrequested_leaks": 0,
+      "utility_failures": 99,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 10,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 30,
+          "total": 30
+        }
+      },
+      "file_sha256": "c650e0b464caac34349d0809fe5364094845d3e963e7168166d509068c08df83",
+      "leaks": 1,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 1,
+      "size": 4,
+      "subset": 39,
+      "unrequested_leaks": 0,
+      "utility_failures": 100,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 44,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 0,
+          "total": 30
+        },
+        "sort": {
+          "fail": 14,
+          "total": 30
+        }
+      },
+      "file_sha256": "79399cea488a4c360c086dacc3a43d9e98ba82860c52e8a90d61605231328f68",
+      "leaks": 0,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 0,
+      "size": 2,
+      "subset": 40,
+      "unrequested_leaks": 0,
+      "utility_failures": 54,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 9,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 30,
+          "total": 30
+        }
+      },
+      "file_sha256": "83ae20f24aca12666e60771dd7856d8a19a030e4cc35cd98af7d0bf39ef87971",
+      "leaks": 1,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 1,
+      "size": 3,
+      "subset": 41,
+      "unrequested_leaks": 0,
+      "utility_failures": 100,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 33,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 18,
+          "total": 30
+        }
+      },
+      "file_sha256": "a470b2afff88fb2498d62d0dd9f08531801111fb531670b0cc5f2a4a7a25d082",
+      "leaks": 0,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 0,
+      "size": 3,
+      "subset": 42,
+      "unrequested_leaks": 0,
+      "utility_failures": 88,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 4,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 30,
+          "total": 30
+        }
+      },
+      "file_sha256": "38b42aee6d2bfd40000f48c7a285907cc5b524a960a52327cda048bef8bb912f",
+      "leaks": 0,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 0,
+      "size": 4,
+      "subset": 43,
+      "unrequested_leaks": 0,
+      "utility_failures": 100,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 0,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 28,
+          "total": 30
+        }
+      },
+      "file_sha256": "b1b9f66205e59d0667a11b639dcfcaef109c63bbf20c43efb7f858d470418cea",
+      "leaks": 0,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 0,
+      "size": 3,
+      "subset": 44,
+      "unrequested_leaks": 0,
+      "utility_failures": 98,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 0,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 30,
+          "total": 30
+        }
+      },
+      "file_sha256": "2f396fde5ae7f066006741e8b790754e51f868270cb66f99260b7a9a17d4e43d",
+      "leaks": 0,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 0,
+      "size": 4,
+      "subset": 45,
+      "unrequested_leaks": 0,
+      "utility_failures": 100,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 1,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 29,
+          "total": 30
+        }
+      },
+      "file_sha256": "0e0c7bc2b26c3f7a7191b342234af05eafeb951757dc95b540c095c03a914712",
+      "leaks": 2,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 2,
+      "size": 4,
+      "subset": 46,
+      "unrequested_leaks": 0,
+      "utility_failures": 99,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 0,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 30,
+          "total": 30
+        }
+      },
+      "file_sha256": "693d571e26235d87357693f6504eee6514d12bb47da76c998e2902f31a4ce5b3",
+      "leaks": 0,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 0,
+      "size": 5,
+      "subset": 47,
+      "unrequested_leaks": 0,
+      "utility_failures": 100,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 36,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 19,
+          "total": 30
+        }
+      },
+      "file_sha256": "171150e8577d70f5e9595222ea61661240bb2c128e8dbd01f500ae601a9efb41",
+      "leaks": 102,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 100,
+      "size": 2,
+      "subset": 48,
+      "unrequested_leaks": 2,
+      "utility_failures": 89,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 7,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 30,
+          "total": 30
+        }
+      },
+      "file_sha256": "ecbe99ff9e97aa3065fd5da807988b425f6dc5506881b8f83d785af993676541",
+      "leaks": 95,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 95,
+      "size": 3,
+      "subset": 49,
+      "unrequested_leaks": 0,
+      "utility_failures": 100,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 17,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 23,
+          "total": 30
+        }
+      },
+      "file_sha256": "b94c40ca37d72dbeda416d4c4c814f7359df48e2c2dcea4995a0f11cd2166b82",
+      "leaks": 100,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 100,
+      "size": 3,
+      "subset": 50,
+      "unrequested_leaks": 0,
+      "utility_failures": 93,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 1,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 30,
+          "total": 30
+        }
+      },
+      "file_sha256": "9fbbbda3dfd45deff1ea0e412287606b459e727ddc884ce16269de251c43216a",
+      "leaks": 85,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 85,
+      "size": 4,
+      "subset": 51,
+      "unrequested_leaks": 0,
+      "utility_failures": 100,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 4,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 29,
+          "total": 30
+        }
+      },
+      "file_sha256": "ef3692e83538673c2a8ba40bc211c4b89d675eb497e88a0df96bef08b416f9c3",
+      "leaks": 88,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 88,
+      "size": 3,
+      "subset": 52,
+      "unrequested_leaks": 0,
+      "utility_failures": 99,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 0,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 30,
+          "total": 30
+        }
+      },
+      "file_sha256": "7dc98f40508487c02e17a80ddbeda5277752d87fc3c5f52b03d92600bd156a0b",
+      "leaks": 78,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 78,
+      "size": 4,
+      "subset": 53,
+      "unrequested_leaks": 0,
+      "utility_failures": 100,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 9,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 29,
+          "total": 30
+        }
+      },
+      "file_sha256": "c62d871e5de205f210441762e06fec4b8686203c0513f078c73f0556395c6c55",
+      "leaks": 39,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 37,
+      "size": 4,
+      "subset": 54,
+      "unrequested_leaks": 2,
+      "utility_failures": 99,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 1,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 30,
+          "total": 30
+        }
+      },
+      "file_sha256": "7df15cacd20a9eb647f8cabab17dcef7beee41a4c942af2d7366dbc4fb568a1f",
+      "leaks": 15,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 15,
+      "size": 5,
+      "subset": 55,
+      "unrequested_leaks": 0,
+      "utility_failures": 100,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 5,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 24,
+          "total": 30
+        }
+      },
+      "file_sha256": "0dbb343eeb479e93601e111d46a80353635d62064b7beb3550e3470bc76dc4e6",
+      "leaks": 100,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 100,
+      "size": 3,
+      "subset": 56,
+      "unrequested_leaks": 0,
+      "utility_failures": 94,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 0,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 30,
+          "total": 30
+        }
+      },
+      "file_sha256": "37a766d8c75e69050c5433220a47f82dcd86d2c04610a6aa83fe581891cc7642",
+      "leaks": 97,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 97,
+      "size": 4,
+      "subset": 57,
+      "unrequested_leaks": 0,
+      "utility_failures": 100,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 8,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 27,
+          "total": 30
+        }
+      },
+      "file_sha256": "5e0751b9ba102770ce44f9b808a13542095b79edab4c8280b622ed30ee98972a",
+      "leaks": 100,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 100,
+      "size": 4,
+      "subset": 58,
+      "unrequested_leaks": 0,
+      "utility_failures": 97,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 0,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 30,
+          "total": 30
+        }
+      },
+      "file_sha256": "05f5b26216669b5f30d21854b58dcd938efddb112b85d2b5d7f4625a1ce09c19",
+      "leaks": 78,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 78,
+      "size": 5,
+      "subset": 59,
+      "unrequested_leaks": 0,
+      "utility_failures": 100,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 0,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 29,
+          "total": 30
+        }
+      },
+      "file_sha256": "0bcd0edee5af3b7acfb7d17548c64e3a915f86d539d42db989c72a7fe0dba047",
+      "leaks": 94,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 94,
+      "size": 4,
+      "subset": 60,
+      "unrequested_leaks": 0,
+      "utility_failures": 99,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 0,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 30,
+          "total": 30
+        }
+      },
+      "file_sha256": "5b957e85af064a463cef80a1a6a9ffed829af6a79eed7d23be4364f00a2e9932",
+      "leaks": 68,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 68,
+      "size": 5,
+      "subset": 61,
+      "unrequested_leaks": 0,
+      "utility_failures": 100,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 1,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 30,
+          "total": 30
+        }
+      },
+      "file_sha256": "66568d04b3c45b6673b1fa14081a065d82fff09ca142009295bf8fdc24d83e37",
+      "leaks": 30,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 30,
+      "size": 5,
+      "subset": 62,
+      "unrequested_leaks": 0,
+      "utility_failures": 100,
+      "utility_truncations": 0
+    },
+    {
+      "boundary_truncations": 0,
+      "by_utility_task": {
+        "arith": {
+          "fail": 40,
+          "total": 40
+        },
+        "json": {
+          "fail": 30,
+          "total": 30
+        },
+        "sort": {
+          "fail": 30,
+          "total": 30
+        }
+      },
+      "file_sha256": "7923121655dff9ffb6d4ae717940819ab7ef0425113b67d74483e3c4a0994574",
+      "leaks": 1,
+      "n_boundary": 200,
+      "n_utility": 100,
+      "requested_leaks": 1,
+      "size": 6,
+      "subset": 63,
+      "unrequested_leaks": 0,
+      "utility_failures": 100,
+      "utility_truncations": 0
+    }
+  ],
+  "complete": true,
+  "identity_sha256": "35289ad5b2791c5a4d231e36d58c1e33c35c195138a2a83101d147b446b15191"
+}

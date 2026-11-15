@@ -1,0 +1,16 @@
+superset,req_leaks,security,functionality,pair_minus_superset,lo,hi
+arith+collude_a+collude_b,100,POSITIVE,Functional,0.0,-0.037,0.037
+collude_a+sort+collude_b,100,POSITIVE,Functional,0.0,-0.037,0.037
+arith+collude_a+sort+collude_b,100,POSITIVE,Functional,0.0,-0.037,0.037
+collude_a+json+collude_b,100,POSITIVE,Functional,0.0,-0.037,0.037
+arith+collude_a+json+collude_b,100,POSITIVE,Functional,0.0,-0.037,0.037
+collude_a+sort+json+collude_b,100,POSITIVE,Functional,0.0,-0.037,0.037
+arith+collude_a+sort+json+collude_b,100,POSITIVE,Functional,0.0,-0.037,0.037
+collude_a+collude_b+distill,100,POSITIVE,Functional,0.0,-0.037,0.037
+arith+collude_a+collude_b+distill,100,POSITIVE,Functional,0.0,-0.037,0.037
+collude_a+sort+collude_b+distill,100,POSITIVE,Functional,0.0,-0.037,0.037
+arith+collude_a+sort+collude_b+distill,100,POSITIVE,Functional,0.0,-0.037,0.037
+collude_a+json+collude_b+distill,100,POSITIVE,Functional,0.0,-0.037,0.037
+arith+collude_a+json+collude_b+distill,100,POSITIVE,Functional,0.0,-0.037,0.037
+collude_a+sort+json+collude_b+distill,100,POSITIVE,Functional,0.0,-0.037,0.037
+arith+collude_a+sort+json+collude_b+distill,100,POSITIVE,Functional,0.0,-0.037,0.037

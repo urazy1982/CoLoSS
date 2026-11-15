@@ -1,0 +1,41 @@
+{
+  "study": "CPU-only simulated three-state screening; NOT neural security evidence",
+  "nvals": [
+    20,
+    50,
+    100,
+    200
+  ],
+  "regimes": [
+    "monotone_pair",
+    "order_mix",
+    "antidote",
+    "collapse_inhib",
+    "rare_triple",
+    "benign"
+  ],
+  "seeds_per_regime": 5,
+  "extras": [
+    64,
+    256,
+    768
+  ],
+  "n_methods": 6,
+  "n_rows": 2160,
+  "noise_fp": 0.01,
+  "noise_fn": 0.03,
+  "assumptions": [
+    "Known planted exact complexes",
+    "Collapse masks are exogenous",
+    "Utility collapse is exposed as INCONCLUSIVE",
+    "All methods get same mandatory base/singleton prefix",
+    "Queries have equal hypothetical cost: NOT GPU cost"
+  ],
+  "known_limitations": [
+    "Searchers are not guaranteed to identify all risky supersets",
+    "Exact planted-set recovery is strict and not necessarily optimal target",
+    "No learned cheap oracle validated",
+    "No model or adapter weights used",
+    "Five libraries per cell is underpowered"
+  ]
+}

@@ -1,0 +1,4 @@
+*.safetensors
+*.tar.gz
+__pycache__/
+*.tmp

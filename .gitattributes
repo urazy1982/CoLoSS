@@ -1,0 +1,2 @@
+# Keep bytes exactly as archived: frozen files and output ledgers are verified by SHA-256.
+* -text
